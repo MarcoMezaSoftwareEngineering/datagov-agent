@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtualenv
+.venv/
+venv/
+env/
+
+# Env / secrets
+.env
+
+# Data: keep structure & synthetic inputs, ignore generated artifacts
+data/processed/
+data/raw/*
+!data/raw/.gitkeep
+
+# Reports generated at runtime
+data/processed/reports/
+
+# Milvus / Docker volumes
+volumes/
+milvus_data/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor / tooling
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+
+# Notebooks
+.ipynb_checkpoints/

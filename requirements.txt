@@ -1,0 +1,38 @@
+# ===== Core data & validation =====
+pandas>=2.1,<3.0
+numpy>=1.26,<2.2
+openpyxl>=3.1
+pydantic>=2.6,<3.0
+pydantic-settings>=2.2
+python-dotenv>=1.0
+
+# ===== LLM / Agents / RAG =====
+langchain>=0.2,<0.4
+langchain-community>=0.2,<0.4
+langchain-ollama>=0.1.3
+langgraph>=0.1,<0.4
+pymilvus>=2.4,<2.6
+
+# ===== Backend / Frontend =====
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+streamlit>=1.33
+requests>=2.31
+
+# ===== Data quality / MDM helpers =====
+scikit-learn>=1.4
+rapidfuzz>=3.6
+faker>=24.0
+
+# ===== Documents & reports =====
+pypdf>=4.0
+python-docx>=1.1
+markdown>=3.6
+xhtml2pdf>=0.2.13
+plotly>=5.20
+
+# ===== Tooling / tests =====
+pytest>=8.0
+ruff>=0.4
+black>=24.0

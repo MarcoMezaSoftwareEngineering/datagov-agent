@@ -1,0 +1,61 @@
+producto_id,sku,nombre_producto,categoria,marca,precio,moneda,estado_producto,fecha_alta,proveedor_id
+P001,SKU-5505,Curso oro,Deportes,Farmaceútica Guzmán S.Coop.,166.18,USD,descontinuado,2025-03-17,PRV017
+P002,SKU-2874,Estuvo ocho,deportes,Anaya y asociados S.L.N.E,593.32,PEN,descontinuado,2026-03-03,PRV008
+P003,SKU-2557,Decir administración,Hogar,Transportes Inteligentes S.A.,830.56,USD,descontinuado,2025-08-26,PRV016
+P004,SKU-2874,Tres vez,deportes,Hotel Avanzadas S.Coop.,138.93,PEN,activo,2024-07-14,PRV018
+P005,SKU-7929,Buena concepto,deportes,Desarrollo Internacionales S.L.,1125.56,,descontinuado,2024-06-15,PRV012
+P006,SKU-8900,Unidad señora,electrónica,Barranco & Asociados S.A.,211.68,USD,descontinuado,2026-05-29,PRV009
+P007,SKU-1430,Concepto decir,Deportes,Promociones TW S.Com.,1150.33,USD,activo,2025-12-14,PRV010
+P008,SKU-3347,Internacional propio,Deportes,Cerezo & Asociados S.L.,1843.47,PEN,activo,2024-09-01,PRV001
+P009,SKU-8432,Local bastante,Hogar,Florencia Molins Dávila S.L.,188.06,USD,descontinuado,2025-05-20,PRV019
+P010,SKU-1815,Espera ii,deportes,Godoy & Asociados S.Com.,1194.47,,descontinuado,2025-08-25,PRV016
+P011,SKU-9394,Santa manos,Electronica,Farmaceútica Abellán S.L.N.E,1216.12,PEN,descontinuado,2026-01-06,PRV019
+P012,SKU-1897,Estoy tribunal,Electronica,Grupo Monreal S.L.N.E,975.83,PEN,activo,2026-08-15,PRV010
+P013,SKU-3878,Importante bastante,electrónica,Transportes RE S.Com.,-659.6,PEN,descontinuado,2025-10-02,
+P014,SKU-6129,Personas encima,Deportes,Manufacturas AKK S.Com.,-1724.22,USD,descontinuado,2026-07-05,PRV013
+P015,SKU-8538,General finalmente,deportes,Familia Polo S.Com.,46.61,PEN,descontinuado,2026-02-16,PRV008
+P016,SKU-6083,Niveles partido,deportes,Ureña y Pinedo S.Com.,874.17,USD,activo,2025-05-06,
+P017,SKU-6724,Estado parís,Hogar,Modesta Gomis Cánovas S.Coop.,1268.28,PEN,activo,2025-04-02,PRV009
+P018,SKU-2234,Santiago entre,electrónica,Banca Privada Montalbán y asociados S.L.N.E,398.56,USD,descontinuado,2026-02-25,PRV019
+P019,SKU-6295,Ahí pueden,deportes,Cuevas y Benavides S.Coop.,900.57,USD,activo,2024-08-11,PRV999
+P020,SKU-2215,Sido esas,Hogar,Julie Anguita Rosado S.L.N.E,609.13,PEN,activo,2026-08-29,PRV010
+P021,SKU-9307,Parecía esfuerzo,Oficina,Crespo y Baeza S.A.,158.08,PEN,descontinuado,2024-10-21,PRV019
+P022,SKU-3471,Términos muchos,Electronica,Lara y Lucena S.Com.,1305.42,USD,activo,2024-11-21,PRV006
+P023,SKU-9586,Mi dio,Deportes,Fabio Ballester Palomo S.A.,83.09,USD,descontinuado,2024-08-28,PRV013
+P024,SKU-6482,Manos exterior,Electronica,Heraclio Caballero Amigó S.A.D,820.49,USD,descontinuado,2024-08-22,PRV020
+P025,SKU-3317,Dicho hace,Hogar,Rafaela Carlos Mendez S.L.,1747.19,USD,activo,2025-10-23,PRV003
+P026,SKU-3093,Economía asimismo,deportes,Compañía Ponce & Asociados S.Com.,622.62,PEN,descontinuado,2025-06-15,PRV001
+P027,SKU-8967,Interior sistema,electrónica,Arsenio Lago Sabater S.Coop.,728.38,PEN,activo,2025-04-07,
+P028,SKU-9626,Puso muchas,Electronica,Grupo Caballero S.A.,1689.63,PEN,descontinuado,2024-12-07,PRV006
+P029,SKU-3712,Técnica voy,deportes,Gordillo y Barrera S.L.L.,1663.53,USD,descontinuado,2025-03-09,PRV008
+P030,SKU-8355,Menor empresas,electrónica,Constanza Gutiérrez Tamayo S.Com.,1939.33,USD,descontinuado,2026-03-12,PRV007
+P031,SKU-8564,Particular militares,Hogar,Grupo Carreño S.L.N.E,738.84,USD,activo,2025-04-17,PRV020
+P032,SKU-7081,Nueva aquellas,Deportes,Fábrica Fernández S.A.,281.11,PEN,descontinuado,2025-05-29,
+P033,SKU-8167,Aunque i,Electronica,Franch y Coloma S.L.L.,324.82,PEN,descontinuado,2025-05-09,PRV001
+P034,SKU-7326,Mil corte,Electronica,Compañía CCS S.Coop.,832.72,PEN,descontinuado,2025-01-01,PRV999
+P035,SKU-8740,Cama por,deportes,Capdevila y Ribas S.A.,673.9,USD,descontinuado,2026-10-10,PRV003
+P036,SKU-9647,Productos rey,Oficina,Construcción OOTT S.L.N.E,42.91,USD,activo,2025-08-29,PRV002
+P037,SKU-2029,Tema américa,Electronica,Concha Suárez Arcos S.A.,480.69,USD,activo,2025-01-06,PRV019
+P038,SKU-6780,Entonces económico,electrónica,Arias y Priego S.L.N.E,487.67,PEN,activo,2025-04-23,PRV012
+P039,SKU-9316,Río unas,Deportes,Hnos Leiva S.L.N.E,140.02,,descontinuado,2025-02-27,
+P040,SKU-6850,Van aumento,Electronica,Inversiones Lozano y asociados S.L.L.,776.83,PEN,descontinuado,2024-06-30,PRV012
+P041,SKU-8612,Mundo n,deportes,Desarrollo Inteligentes S.L.N.E,1094.3,PEN,activo,2025-11-28,
+P042,SKU-1717,Cuadro u,electrónica,Leon y asociados S.Coop.,1553.5,USD,descontinuado,2025-05-25,PRV018
+P043,SKU-5687,Será grupos,Hogar,Soluciones del Sur S.L.,-949.43,PEN,descontinuado,2024-08-23,PRV012
+P044,SKU-7334,Vista consumo,Hogar,Grupo Bastida S.Com.,876.72,USD,descontinuado,2026-04-19,PRV017
+P045,SKU-8055,Idea lugar,Deportes,Grupo Fernández S.L.N.E,537.11,PEN,descontinuado,2025-07-13,PRV003
+P046,SKU-7981,Puso todos,electrónica,Banco del Norte S.A.,659.2,USD,descontinuado,2024-11-17,
+P047,SKU-5498,Quedó cualquier,deportes,Promociones Simó y asociados S.L.,1740.72,PEN,activo,2025-03-21,PRV013
+P048,SKU-1510,Derecha sobre,electrónica,Promociones del Sur S.Coop.,729.81,USD,activo,2024-09-19,PRV008
+P049,SKU-1530,Líder área,Deportes,Delia Olmo Ocaña S.A.,1558.14,USD,descontinuado,2024-10-30,PRV003
+P050,SKU-5566,Nombre materia,electrónica,Instalaciones UI S.Coop.,1149.97,PEN,activo,2026-05-10,PRV013
+P051,SKU-8311,Sectores importante,electrónica,Fábrica Integrales S.L.,1827.52,USD,descontinuado,2024-11-28,PRV005
+P052,SKU-8292,Lo tendrá,Electronica,Hnos Catalán S.L.,1706.39,USD,descontinuado,2025-07-18,PRV018
+P053,SKU-3852,Informe se,Hogar,Infraestructuras Inteligentes S.L.,1086.63,PEN,activo,2025-09-24,PRV008
+P054,SKU-7044,Amigos da,Oficina,Peñas y Oller S.Coop.,-1581.79,PEN,activo,2025-12-17,
+P055,SKU-7730,Estaban propio,Oficina,Calatayud y Aguilera S.Coop.,799.33,PEN,activo,2024-12-01,PRV999
+P056,SKU-3102,Torno entrar,Deportes,Lumbreras y asociados S.L.,152.96,PEN,activo,2025-11-11,PRV002
+P057,SKU-3653,Él internacional,Hogar,Logística Lluch y asociados S.L.,1663.62,PEN,descontinuado,2025-06-24,PRV017
+P058,SKU-5496,Existencia largo,electrónica,Despacho Ibéricos S.L.N.E,1790.38,PEN,activo,2026-05-09,PRV019
+P059,SKU-6531,Sectores unidad,Deportes,Montenegro y Chaves S.L.,312.62,,activo,2026-03-02,
+P060,SKU-4453,Cabo nivel,Deportes,Soluciones Quiroga y asociados S.L.,1897.35,PEN,descontinuado,2025-11-06,PRV018

@@ -1,0 +1,301 @@
+venta_id,cliente_id,producto_id,fecha_venta,cantidad,precio_unitario,total,canal,sucursal,vendedor
+V0001,C038,P042,2026-01-27,8,493.53,3948.24,Web,Miraflores,Sabina Falcó-Novoa
+V0002,C057,P027,2026-03-24,4,683.68,2734.72,Call Center,Trujillo,Olegario del Palmer
+V0003,C017,P049,2025-12-29,9,216.84,1951.56,Tienda,Lima Centro,Telmo Che Escrivá Marin
+V0004,C007,P019,2025-07-22,10,839.18,8391.8,Call Center,Miraflores,Belen Jordán España
+V0005,C098,P011,2026-03-05,9,936.3,8426.7,Marketplace,Trujillo,Morena Borrell Girón
+V0006,C031,P014,2025-10-30,1,105.83,105.83,Marketplace,Arequipa,Ramón del Rivero
+V0007,C069,P001,2026-04-17,7,272.2,1905.4,Web,Trujillo,Florencia Juliá Mariscal
+V0008,C007,P037,2025-12-12,6,1108.68,6703.0,Web,Miraflores,Joel Baeza Belda
+V0009,C013,P026,2025-12-15,6,1117.87,6707.22,Marketplace,Lima Centro,Josué Carretero
+V0010,C006,P003,2026-05-17,6,1608.91,9653.46,Tienda,Arequipa,Luisa Martín Reyes
+V0011,C120,P040,2025-07-05,7,1981.28,13868.96,Marketplace,Arequipa,Bruno Fonseca Noriega
+V0012,C061,P053,2025-11-20,0,665.82,0.0,Web,Trujillo,Virginia Seco-Clemente
+V0013,C034,P042,2025-10-15,10,1157.38,11573.8,Marketplace,Miraflores,Roque Berrocal Torrent
+V0014,C106,P044,2026-07-11,10,1896.67,18966.7,Marketplace,Miraflores,Faustino Barco Acuña
+V0015,C053,P033,2025-12-07,8,1746.27,13970.16,Tienda,Arequipa,Cruz Domingo-Cuadrado
+V0016,C085,P031,2025-12-22,6,1913.59,11481.54,Call Center,Trujillo,Berto Roura Román
+V0017,C025,P016,2025-11-18,5,453.61,2268.05,Tienda,Trujillo,Judith Pla Acuña
+V0018,C041,P031,2025-06-29,5,579.14,2895.7,Marketplace,Arequipa,Chus del Alcalá
+V0019,C099,P052,2026-05-27,1,578.82,578.82,Call Center,Trujillo,Prudencia Farré Alemán
+V0020,C028,P013,2026-03-04,5,1866.38,9331.9,Tienda,Miraflores,Matías Ibarra Gonzalo
+V0021,C007,P043,2026-03-11,4,1277.7,5152.72,Tienda,Lima Centro,Esperanza Castelló Calderon
+V0022,C071,P060,2025-11-10,8,957.51,7660.08,Web,Lima Centro,Marita Maza
+V0023,C084,P037,2025-08-18,1,1826.89,1826.89,Web,Trujillo,Sergio Arroyo Martí
+V0024,C101,P032,2025-10-05,5,1754.1,8827.73,Call Center,Trujillo,Pascuala Viña Zamora
+V0025,C083,P035,2025-10-24,3,1702.86,5108.58,Tienda,Trujillo,Victoria Cañete Noriega
+V0026,C083,P017,2026-05-31,1,1474.55,1474.55,Tienda,Trujillo,Felisa Fabra Cózar
+V0027,C106,P028,2026-06-02,2,804.66,1609.32,Tienda,Lima Centro,Agustina Gracia Gomez
+V0028,C034,P025,2026-03-24,5,1908.3,9541.5,,Arequipa,Curro Almeida Vargas
+V0029,C089,P016,2025-08-19,2,933.46,1866.92,Call Center,Lima Centro,Gervasio Arcos Perez
+V0030,C082,P059,2026-05-21,6,1231.18,7387.08,Call Center,Trujillo,Rogelio Atienza-Asensio
+V0031,C090,P036,2026-02-27,9,1604.98,14444.82,Web,Trujillo,Nacho Aller Asensio
+V0032,C068,P046,2026-03-09,10,228.86,2288.6,Tienda,Miraflores,Horacio Saldaña Pinto
+V0033,C042,P055,2025-08-01,2,1362.19,2724.38,Marketplace,Lima Centro,Dolores del Coronado
+V0034,C059,P009,2025-09-02,8,1130.0,9040.0,Web,Trujillo,Eutropio Rivero Cabrero
+V0035,C033,P053,2026-02-27,0,439.71,42.95,Web,Lima Centro,Elba Cerro
+V0036,C120,P031,2025-11-24,0,820.69,0.0,Marketplace,Arequipa,José Mari Carranza Lumbreras
+V0037,C115,P025,2025-07-29,7,754.41,5280.87,Call Center,Lima Centro,Jose Ramón Fiol Folch
+V0038,C023,P035,2026-06-22,3,1457.08,4371.24,Marketplace,Trujillo,Severo Zabala-Franch
+V0039,C069,P025,2025-11-01,4,923.95,3695.8,Web,Lima Centro,Emiliana Cueto Ariza
+V0040,C104,P043,2026-01-13,1,485.13,544.93,Web,Miraflores,Zaida Galiano Terrón
+V0041,C095,P003,2025-10-21,4,1081.82,4327.28,Call Center,Miraflores,Abel de Borrell
+V0042,C105,P059,2026-06-02,6,1157.06,6942.36,Tienda,Miraflores,Silvestre Uribe Company
+V0043,C053,P020,2025-07-19,9,1897.3,17075.7,Marketplace,Trujillo,Angelita Cadenas
+V0044,C007,P023,2026-06-01,7,1572.68,11008.76,Marketplace,Miraflores,Modesto Guardia-Saura
+V0045,C097,P035,2025-10-07,4,604.97,2419.88,Marketplace,Trujillo,Jesús Ayllón-Cabo
+V0046,C072,P034,2026-04-26,4,513.72,2054.88,Call Center,Lima Centro,Ulises Ariza Manso
+V0047,C069,P047,2025-11-01,1,540.58,540.58,Tienda,Miraflores,Inmaculada Carmona Bustamante
+V0048,C062,P014,2026-05-11,6,609.86,3659.16,Web,Trujillo,Adalberto Chacón Donaire
+V0049,C118,P016,2025-10-20,4,796.28,3185.12,Marketplace,Arequipa,Virginia Río Ledesma
+V0050,C040,P017,2026-05-22,8,934.68,7477.44,Call Center,Miraflores,Gilberto Noriega España
+V0051,C048,P021,2026-07-26,10,1728.85,17288.5,Marketplace,Arequipa,Gloria Sastre Llabrés
+V0052,C020,P013,2026-05-05,7,1141.73,7992.11,Call Center,Arequipa,Nuria Tejera Robles
+V0053,C098,P053,2026-02-21,8,924.35,7394.8,Marketplace,Miraflores,Basilio Cazorla Barral
+V0054,C118,P057,2026-05-08,1,1050.27,1050.27,Web,Lima Centro,Baldomero Rico Tolosa
+V0055,C053,P009,2026-04-22,4,140.6,562.4,Web,Trujillo,Nidia Ríos-Escudero
+V0056,C085,P032,2026-08-06,0,1066.76,0.0,Call Center,Lima Centro,Reyes Palmer Andres
+V0057,C065,P053,2026-05-15,7,1613.3,11293.1,Tienda,Miraflores,Jose Antonio Torrents Carbajo
+V0058,C025,P040,2026-05-25,6,538.31,3229.86,Tienda,Miraflores,Isabela Arteaga Barroso
+V0059,C039,P044,2025-09-24,2,1309.2,2618.4,Marketplace,Trujillo,Adora Zamorano Goicoechea
+V0060,C071,P031,2026-03-02,1,1407.18,1407.18,Call Center,Lima Centro,Lorenza Zabala Bustos
+V0061,C115,P034,2025-11-30,4,426.78,1707.12,Web,Lima Centro,Jose Angel del Plaza
+V0062,C088,P060,2025-08-11,9,1129.2,10255.75,Tienda,Trujillo,Violeta de Alberdi
+V0063,C119,P005,2026-02-19,10,484.74,4847.4,Call Center,Trujillo,José Antonio Soria Valcárcel
+V0064,C097,P048,2026-05-18,2,1004.08,2008.16,Web,Arequipa,Anselmo Tur Montes
+V0065,C078,P050,2026-07-08,10,796.42,7964.2,Marketplace,Trujillo,Eligia Ayuso Vendrell
+V0066,C030,P023,2025-09-09,7,866.54,6065.78,Call Center,Miraflores,Milagros del Quintana
+V0067,C092,P005,2026-04-28,3,763.1,2289.3,Call Center,Lima Centro,Aníbal del Saldaña
+V0068,C012,P001,2026-04-22,8,723.04,5784.32,Marketplace,Trujillo,Jacinta Borja-Valentín
+V0069,C014,P002,2025-12-05,9,190.66,1715.94,Call Center,Trujillo,Azahara Valencia Alemán
+V0070,C050,P050,2025-07-24,9,1810.89,16298.01,Marketplace,Miraflores,Haydée Araujo Abad
+V0071,C018,P018,2026-05-01,8,296.14,2369.12,Web,Arequipa,Ruy Mayo Verdugo
+V0072,C033,P999,2026-01-19,8,1189.64,9517.12,Marketplace,Arequipa,Nacio Sastre
+V0073,C108,P040,2025-10-25,6,883.24,5299.44,Tienda,Arequipa,Sara Ballester Gisbert
+V0074,C042,P039,2026-05-08,4,960.62,3842.48,Marketplace,Miraflores,Eusebia Suárez Parra
+V0075,C042,P025,2026-03-20,7,733.21,5132.47,Tienda,Lima Centro,Aurora Cabanillas Girona
+V0076,C999,P047,2025-06-15,4,879.72,3518.88,Marketplace,Trujillo,Felicidad Manzanares Yuste
+V0077,C018,P041,2025-11-07,5,1319.03,6595.15,Marketplace,Trujillo,Alonso Córdoba Ugarte
+V0078,C069,P033,2025-08-08,7,1089.57,7626.99,Web,Lima Centro,Ascensión Izquierdo Ferrández
+V0079,C099,P016,2025-08-26,6,336.85,2021.1,Marketplace,Arequipa,Teodosio Pozo Garriga
+V0080,C102,P028,2025-12-09,2,521.18,1042.36,Tienda,Trujillo,Pepito Neira
+V0081,C048,P026,2025-07-26,10,1382.42,13824.2,Call Center,Trujillo,Amalia Casal Sanjuan
+V0082,C118,P006,2025-12-09,3,699.92,2099.76,Call Center,Trujillo,Ligia Cañizares-Valenzuela
+V0083,C013,P029,2025-06-16,8,641.22,5129.76,Call Center,Lima Centro,Paulina Atienza
+V0084,C087,P052,2026-01-15,4,1034.41,4137.64,Marketplace,Miraflores,Sofía Tomas Verdugo
+V0085,C103,P026,2026-07-30,3,1282.76,3848.28,Marketplace,Trujillo,Osvaldo Durán Castellanos
+V0086,C050,P001,2025-07-25,4,560.3,2241.2,Tienda,Arequipa,Máxima Montserrat Varela
+V0087,C042,P013,2026-05-23,5,1343.05,6715.25,Marketplace,Trujillo,Hortensia Hurtado Llanos
+V0088,C076,P008,2025-11-16,8,1236.64,9893.12,Web,Miraflores,Emilia Santamaría Cañellas
+V0089,C041,P008,2025-08-07,2,370.17,740.34,Tienda,Trujillo,María Cristina Vila Martínez
+V0090,C055,P012,2026-05-08,9,1388.4,12495.6,Marketplace,Arequipa,Teodora del Gelabert
+V0091,C018,P012,2025-09-01,8,1240.72,9925.76,Tienda,Trujillo,Mateo Manso
+V0092,C072,P033,2026-03-08,7,1370.97,9596.79,Web,Lima Centro,Águeda Cazorla Enríquez
+V0093,C102,P049,2025-12-27,1,553.33,553.33,Marketplace,Lima Centro,Nélida del Carlos
+V0094,C074,P008,2026-04-06,9,1647.45,14827.05,,Trujillo,Mar Tenorio Rincón
+V0095,C070,P014,2026-03-03,2,1473.3,2946.6,Web,Trujillo,Eloísa del Alberto
+V0096,C034,P023,2026-01-04,2,880.94,1761.88,Call Center,Trujillo,Albano Piquer Codina
+V0097,C022,P040,2025-07-05,4,1627.99,6511.96,Tienda,Arequipa,Cornelio Lasa Cuevas
+V0098,C091,P019,2025-10-04,5,1905.03,9525.15,Tienda,Trujillo,Camilo Barrios-Marquez
+V0099,C118,P004,2025-09-02,3,1404.35,4213.05,Tienda,Trujillo,Alejandra del Santamaria
+V0100,C063,P010,2025-07-24,5,1257.49,6287.45,Web,Trujillo,Teófila Nereida Gomez Porcel
+V0101,C066,P048,2025-09-15,6,912.12,5472.72,Web,Trujillo,Rita Maestre
+V0102,C082,P043,2026-03-11,2,1592.38,3184.76,Marketplace,Arequipa,Graciano Ponce Riera
+V0103,C042,P054,2026-04-17,9,1157.98,10421.82,Web,Lima Centro,Mamen Balaguer Alberto
+V0104,C013,P041,2026-03-30,8,37.48,299.84,Marketplace,Miraflores,Cosme Salazar-Gomis
+V0105,C089,P059,2026-06-03,5,322.16,1610.8,Call Center,Lima Centro,Priscila Ferrándiz Ferrer
+V0106,C048,P043,2025-10-07,3,108.32,324.96,Marketplace,Lima Centro,Carmen Benavente Estévez
+V0107,C091,P007,2025-08-21,0,956.23,0.0,Web,Lima Centro,Azeneth Pi
+V0108,C090,P022,2025-06-30,7,1389.59,9727.13,Web,Lima Centro,Eligia Lamas Castillo
+V0109,C041,P024,2025-08-16,3,768.53,2305.59,Tienda,Lima Centro,Soraya Jara-Adán
+V0110,C068,P037,2025-10-21,0,1301.79,0.0,Tienda,Trujillo,Olimpia Cortina Ariño
+V0111,C079,P044,2025-08-13,4,177.94,711.76,Marketplace,Arequipa,María Azcona Mascaró
+V0112,C055,P021,2025-12-22,4,557.55,2230.2,Call Center,Lima Centro,Malena Palma-Beltran
+V0113,C109,P055,2026-04-15,5,414.86,2074.3,Web,Miraflores,Lucila Gimeno Espejo
+V0114,C064,P025,2026-07-14,8,1277.97,10312.74,Tienda,Trujillo,Rubén Vazquez Cuervo
+V0115,C111,P054,2025-11-23,6,1094.98,6569.88,Web,Lima Centro,Lupe del Briones
+V0116,C076,P005,2025-10-28,0,435.41,0.0,Call Center,Trujillo,Vasco de Mármol
+V0117,C055,P045,2025-10-21,9,1077.62,9698.58,Tienda,Miraflores,Emilia Gil Taboada
+V0118,C069,P021,2026-01-19,2,623.79,1247.58,Tienda,Lima Centro,Baudelio Oliva Salinas
+V0119,C119,P028,2025-09-16,10,1219.62,12196.2,Web,Lima Centro,Ágata María Ángeles Hervás Ariño
+V0120,C091,P009,2026-03-07,3,995.34,2986.02,Call Center,Miraflores,Francisca Carballo Polo
+V0121,C048,P009,2025-09-22,5,1467.21,7336.05,Marketplace,Arequipa,Paloma del Amat
+V0122,C068,P005,2026-06-03,10,1256.93,12569.3,,Miraflores,Samanta Perera
+V0123,C048,P011,2025-12-31,2,1789.07,3578.14,Web,Lima Centro,Itziar Torrecilla
+V0124,C110,P056,2025-07-02,0,96.73,0.0,Web,Trujillo,Vidal Máximo Fernández Montes
+V0125,C029,P021,2025-12-31,6,546.16,3314.87,Tienda,Miraflores,Atilio Diego Aguilera
+V0126,C103,P034,2026-02-13,7,142.51,997.57,Call Center,Lima Centro,Cruz Garcés Rodrigo
+V0127,C071,P030,2026-05-05,0,405.34,0.0,Marketplace,Arequipa,Cristian Rozas Bello
+V0128,C076,P032,2026-04-01,4,1466.26,5865.04,Marketplace,Lima Centro,Albano Segovia Mármol
+V0129,C030,P035,2025-06-29,1,1902.23,1968.3,Web,Miraflores,Angelino Ballester Enríquez
+V0130,C068,P016,2026-04-19,1,1945.26,1945.26,,Miraflores,León Bejarano-Goñi
+V0131,C115,P055,2026-06-03,6,919.62,5517.72,Marketplace,Lima Centro,Herminio Pons-Sanmartín
+V0132,C076,P037,2026-02-14,3,477.36,1432.08,Call Center,Arequipa,Iris Molina Alegria
+V0133,C058,P018,2025-11-13,4,276.54,1106.16,Marketplace,Trujillo,Juanito Aguado Barroso
+V0134,C041,P027,2026-04-04,6,1929.45,11576.7,Web,Lima Centro,Amalia Belmonte-Pallarès
+V0135,C021,P052,2026-06-10,10,85.46,854.6,Tienda,Arequipa,Ascensión Manjón
+V0136,C051,P033,2026-04-16,0,601.19,0.0,Marketplace,Miraflores,Marcio Armando Lucena Río
+V0137,C013,P030,2025-11-10,3,247.3,820.22,Marketplace,Arequipa,Samanta Anguita Sáez
+V0138,C088,P041,2025-08-14,2,1166.74,2333.48,,Lima Centro,Constanza de Portillo
+V0139,C026,P058,2026-04-20,3,188.5,565.5,Marketplace,Lima Centro,Emiliana de Martí
+V0140,C022,P060,2026-03-05,7,994.77,6963.39,Tienda,Arequipa,Adelina Cid Casal
+V0141,C036,P029,2025-07-01,1,1230.14,1230.14,Marketplace,Lima Centro,Luciano Prado Blázquez
+V0142,C012,P018,2025-10-11,7,402.92,2820.44,Web,Trujillo,Reinaldo Núñez
+V0143,C101,P046,2025-09-05,9,1563.96,14075.64,Call Center,Miraflores,Yolanda Vila Cisneros
+V0144,C004,P021,2025-08-16,1,1792.05,1792.05,Call Center,Miraflores,Dan Iriarte Ferrera
+V0145,C021,P007,2025-07-29,4,536.72,2146.88,,Miraflores,Nico Ballester Serra
+V0146,C074,P055,2026-02-20,7,712.84,4989.88,Call Center,Arequipa,Angelina del Bautista
+V0147,C117,P038,2025-09-20,0,1402.62,0.0,Tienda,Trujillo,Conrado Torrens Muro
+V0148,C070,P020,2025-10-31,1,185.06,185.06,Web,Arequipa,Nico Guitart Cabo
+V0149,C118,P040,2025-10-03,3,684.81,2054.43,Web,Lima Centro,Anastasia Ximena Ferrer Moll
+V0150,C019,P038,2025-12-20,3,1549.86,4649.58,Call Center,Trujillo,Eulalia Maza Corominas
+V0151,C076,P007,2026-01-20,6,277.22,1663.32,Marketplace,Arequipa,Filomena Molina-Romero
+V0152,C023,P046,2025-08-19,10,1575.05,15750.5,Call Center,Arequipa,Faustino Hoz Giralt
+V0153,C017,P012,2026-03-18,10,786.24,7862.4,,Arequipa,Eliana Palomares Cañizares
+V0154,C118,P052,2026-03-05,4,1281.1,5124.4,Web,Miraflores,Valeria Tena Sevillano
+V0155,C045,P021,2025-12-04,2,1644.22,3288.44,Web,Arequipa,Remedios Mayoral Torrens
+V0156,C027,P016,2026-07-15,6,517.03,3102.18,Marketplace,Miraflores,Chucho Bilbao Lozano
+V0157,C114,P027,2026-05-14,7,705.71,4939.97,Tienda,Miraflores,Victor Manuel Ferrándiz Lago
+V0158,C058,P005,2026-03-26,1,593.34,593.34,Tienda,Trujillo,Prudencio Benet Alfonso
+V0159,C021,P047,2026-05-10,2,679.21,1358.42,Marketplace,Miraflores,Melania Anguita
+V0160,C078,P057,2026-04-26,1,207.01,207.01,Call Center,Arequipa,Marina Quirós-Garcia
+V0161,C039,P016,2026-06-01,7,1145.68,8019.76,Marketplace,Lima Centro,Leoncio Juliá Suarez
+V0162,C038,P053,2026-02-23,10,963.26,9632.6,Web,Trujillo,Gervasio Poza Godoy
+V0163,C109,P008,2026-05-27,7,944.53,6611.71,Marketplace,Miraflores,Paula Manso-Cañete
+V0164,C048,P057,2025-12-12,3,894.32,2682.96,Call Center,Lima Centro,Lina Botella
+V0165,C020,P049,2025-11-16,2,175.99,351.98,Tienda,Lima Centro,Lidia Alarcón Haro
+V0166,C108,P025,2026-05-10,7,1931.43,13520.01,Tienda,Trujillo,Noa Caridad Vilaplana Checa
+V0167,C039,P006,2025-12-05,1,1006.69,1006.69,Tienda,Lima Centro,Chuy Coll Tomás
+V0168,C999,P049,2026-06-14,3,1944.47,5833.41,Marketplace,Miraflores,Almudena Gilabert Torrent
+V0169,C106,P041,2025-09-13,10,519.48,5194.8,,Trujillo,Eligio Peiró Guillén
+V0170,C072,P026,2026-08-04,5,1041.78,5208.9,Marketplace,Lima Centro,Juan Antonio Paniagua
+V0171,C054,P010,2025-11-12,10,1167.44,11674.4,Web,Arequipa,África Sanz Artigas
+V0172,C112,P035,2025-06-30,7,531.95,3723.65,Tienda,Arequipa,Aroa Vázquez Llanos
+V0173,C052,P010,2026-05-05,7,82.37,576.59,Marketplace,Arequipa,Luis Miguel Dávila-Peñas
+V0174,C115,P024,2026-02-23,0,1635.68,0.0,Web,Miraflores,Flavia Bermejo Villanueva
+V0175,C018,P020,2025-09-20,8,1549.19,12393.52,Web,Miraflores,Yésica Gisbert Villalonga
+V0176,C057,P014,2025-11-19,7,1483.18,10382.26,Tienda,Lima Centro,Salomé Ochoa Torrens
+V0177,C040,P046,2026-04-18,3,1562.13,4686.39,Tienda,Lima Centro,Victoria Agudo Valls
+V0178,C032,P003,2026-05-23,6,1410.74,8464.44,Web,Lima Centro,Isidro Daza Grau
+V0179,C031,P024,2025-07-14,8,359.28,2874.24,Tienda,Arequipa,Milagros Lucas
+V0180,C096,P054,2025-09-05,5,59.76,384.33,Tienda,Miraflores,Ciro Criado Paredes
+V0181,C087,P014,2026-02-03,7,1029.0,7203.0,Marketplace,Miraflores,Natalio Grau Ribera
+V0182,C083,P012,2026-04-26,1,451.42,451.42,Call Center,Trujillo,Pacífica Carballo Tirado
+V0183,C115,P025,2026-03-04,8,507.74,4061.92,Marketplace,Lima Centro,Julia Galvez Cuéllar
+V0184,C001,P033,2026-02-21,6,1125.11,6750.66,Marketplace,Lima Centro,Ainoa Hervás Aroca
+V0185,C044,P018,2025-08-03,5,525.99,2629.95,Tienda,Miraflores,Martina Cuevas-Cañizares
+V0186,C116,P004,2026-02-14,10,811.18,8111.8,,Trujillo,Almudena Collado
+V0187,C038,P017,2025-07-06,7,779.61,5528.37,Tienda,Trujillo,Efraín Escolano Villanueva
+V0188,C117,P999,2025-11-19,9,603.89,5435.01,Call Center,Lima Centro,Marcela Merche Alfonso Luque
+V0189,C061,P009,2025-07-18,9,1527.02,13743.18,Web,Miraflores,Jacobo Soto
+V0190,C046,P015,2026-05-17,5,843.84,4219.2,Marketplace,Lima Centro,Carlota Gimenez Reig
+V0191,C061,P004,2026-02-03,10,1162.72,11627.2,Web,Trujillo,Régulo Espada Vicente
+V0192,C068,P020,2025-09-25,3,279.04,837.12,Marketplace,Miraflores,Porfirio Noriega Santana
+V0193,C041,P056,2026-02-01,2,977.72,1955.44,Web,Trujillo,Anastasia Gras-Pineda
+V0194,C036,P014,2025-11-11,3,1154.68,3464.04,Tienda,Trujillo,Baltasar Alegre Francisco
+V0195,C082,P028,2026-01-04,8,769.72,6178.5,,Arequipa,Noa Rivas
+V0196,C097,P054,2026-05-01,1,1355.11,1355.11,Call Center,Arequipa,Marcio Bárcena Elías
+V0197,C017,P007,2025-12-16,10,615.7,6162.53,Call Center,Trujillo,María Carmen Alma Vaquero Carpio
+V0198,C114,P044,2025-07-21,6,1992.3,11953.8,Marketplace,Lima Centro,Mónica Castillo Abella
+V0199,C030,P015,2026-05-29,3,426.32,1329.92,Web,Trujillo,Lourdes Rivero Pellicer
+V0200,C113,P041,2026-06-27,9,1248.15,11233.35,Web,Lima Centro,Paco Romeu Grande
+V0201,C089,P008,2026-06-14,7,251.57,1760.99,Web,Arequipa,Rosa Piquer Ordóñez
+V0202,C054,P043,2026-01-29,9,543.6,4892.4,Web,Lima Centro,Ariel Roig-Cañete
+V0203,C037,P008,2025-09-21,8,401.3,3210.4,Tienda,Arequipa,Raquel Guerrero Blanes
+V0204,C091,P027,2025-10-03,1,1098.54,1098.54,Tienda,Lima Centro,Valentina Macaria Real Jiménez
+V0205,C002,P043,2025-08-27,2,1671.29,3342.58,Web,Lima Centro,Pedro Aguilar Yáñez
+V0206,C116,P017,2025-07-30,8,1977.39,15819.12,Tienda,Lima Centro,Adelaida Perez
+V0207,C110,P019,2026-02-24,6,854.86,5129.16,Web,Miraflores,Omar Moles
+V0208,C085,P042,2025-11-20,6,1789.58,10737.48,Call Center,Arequipa,Ascensión Cortes Rojas
+V0209,C024,P008,2026-02-23,8,547.31,4378.48,Tienda,Lima Centro,Dolores Jurado-Roda
+V0210,C017,P045,2026-01-20,3,211.91,635.73,Marketplace,Miraflores,María José Llorens Puerta
+V0211,C079,P025,2026-04-04,10,62.49,624.9,Tienda,Trujillo,Hilario Tolosa
+V0212,C118,P032,2026-08-15,7,884.17,6255.03,Tienda,Arequipa,Manuelita Tomás Izaguirre
+V0213,C067,P034,2025-10-12,10,195.01,1950.1,Marketplace,Miraflores,Fabiola Puig-Cervera
+V0214,C108,P053,2026-05-13,10,113.86,1138.6,Marketplace,Miraflores,Raúl Gras Salom
+V0215,C010,P049,2026-04-15,4,665.14,2660.56,Marketplace,Trujillo,Aureliano Garmendia Verdugo
+V0216,C105,P016,2025-11-17,8,1603.52,12828.16,Web,Trujillo,Rosario Azorin Cuevas
+V0217,C096,P042,2025-11-13,0,809.86,55.36,Call Center,Miraflores,Samu Bou Codina
+V0218,C084,P043,2025-12-15,6,729.87,4402.29,Marketplace,Arequipa,Irma Anunciación Baró Jódar
+V0219,C092,P029,2025-09-09,4,9.38,37.52,Call Center,Lima Centro,Ani Arellano Planas
+V0220,C006,P058,2026-06-11,3,1644.57,4933.71,Tienda,Miraflores,María Luisa Vázquez Macías
+V0221,C016,P060,2026-03-18,4,916.81,3667.24,Marketplace,Lima Centro,Amparo Remedios Díez Urrutia
+V0222,C119,P041,2025-12-02,10,250.82,2508.2,Tienda,Trujillo,Cosme Villegas Macias
+V0223,C001,P034,2025-08-29,9,1870.94,16838.46,Tienda,Miraflores,Ruben Vicens Villalobos
+V0224,C094,P053,2026-03-13,7,1316.76,9217.32,Marketplace,Miraflores,Marino de Araujo
+V0225,C036,P026,2025-11-01,5,908.43,4542.15,Call Center,Arequipa,Nacio de Criado
+V0226,C092,P048,2025-07-18,4,405.77,1623.08,Tienda,Miraflores,Rosario Pulido-Osuna
+V0227,C065,P035,2026-03-02,6,1422.15,8532.9,Marketplace,Arequipa,Graciela Fonseca Villaverde
+V0228,C113,P055,2025-06-20,1,1047.85,1063.24,Tienda,Arequipa,Ángel Bosch Luís
+V0229,C088,P017,2026-03-24,1,1382.74,1382.74,,Trujillo,Zoraida del Olivera
+V0230,C014,P040,2026-04-27,9,1730.36,15573.24,Call Center,Lima Centro,Daniel Ferreras-Sanz
+V0231,C119,P025,2026-06-11,6,1931.84,11665.66,Marketplace,Miraflores,Maricela Acuña Julián
+V0232,C117,P041,2025-08-21,6,1511.44,9068.64,Tienda,Arequipa,Lilia Campillo Belmonte
+V0233,C058,P012,2025-12-27,2,378.02,756.04,Marketplace,Arequipa,Francisco Bautista Vilanova Jiménez
+V0234,C072,P017,2026-05-21,10,1692.8,16975.17,,Arequipa,Ruth del Salas
+V0235,C077,P004,2025-11-08,10,1687.06,16870.6,Web,Arequipa,Julie Hervia-Nicolás
+V0236,C068,P015,2026-04-12,9,141.01,1269.09,Web,Arequipa,Nieves Serna Amorós
+V0237,C029,P057,2025-12-19,6,665.48,3992.88,Marketplace,Lima Centro,Efraín Bauzà Piñeiro
+V0238,C015,P043,2026-02-16,4,1809.47,7237.88,Call Center,Trujillo,Nilo de Moles
+V0239,C118,P051,2026-07-24,7,516.9,3618.3,Call Center,Trujillo,Lorena Agustí Lago
+V0240,C063,P003,2025-09-19,4,644.02,2576.08,Web,Lima Centro,Arturo Heraclio Nogués Benitez
+V0241,C027,P043,2026-01-16,4,1730.58,6922.32,Marketplace,Lima Centro,Jordán Mir Otero
+V0242,C096,P044,2025-09-07,8,1435.15,11489.45,Web,Miraflores,Edelmira España-Falcón
+V0243,C117,P017,2026-08-03,8,1262.28,10098.24,Web,Lima Centro,Desiderio Herranz
+V0244,C097,P048,2026-05-19,2,718.61,1437.22,Web,Arequipa,Cristian Grande-Franco
+V0245,C098,P060,2026-05-05,7,1645.13,11532.39,Call Center,Miraflores,Silvio del Costa
+V0246,C039,P044,2026-04-13,6,1915.0,11577.6,,Trujillo,Benito Bermudez Ugarte
+V0247,C069,P036,2026-02-08,5,424.06,2120.3,Tienda,Miraflores,Roberto Arnal Toledo
+V0248,C024,P015,2025-11-06,5,392.68,1963.4,Marketplace,Lima Centro,Estela Leire Llobet Tudela
+V0249,C038,P043,2025-08-25,2,398.85,797.7,Tienda,Lima Centro,Elisa Puga
+V0250,C037,P040,2025-09-09,4,638.98,2555.92,Tienda,Arequipa,Belen Balaguer-Zaragoza
+V0251,C104,P021,2026-04-21,3,14.64,43.92,Marketplace,Arequipa,Judith Antúnez Valverde
+V0252,C108,P024,2025-10-27,6,1756.38,10538.28,Web,Miraflores,Teodora Díaz Sebastián
+V0253,C083,P039,2025-07-31,5,1718.13,8590.65,Web,Lima Centro,Jimena Moles
+V0254,C115,P002,2026-03-09,1,1626.22,1626.22,Web,Arequipa,Adolfo Galvez Pino
+V0255,C070,P058,2026-01-26,8,1309.55,10476.4,Call Center,Miraflores,Fermín Pardo Jover
+V0256,C060,P033,2025-08-26,7,730.91,5141.02,Tienda,Miraflores,Dorotea de Leon
+V0257,C058,P011,2025-12-15,10,1320.53,13205.3,Call Center,Lima Centro,Fabiana Flavia Espejo Valenzuela
+V0258,C029,P049,2025-11-26,2,532.39,1064.78,Call Center,Trujillo,Hugo Perales
+V0259,C061,P059,2025-11-03,1,84.61,84.61,Call Center,Arequipa,Elisa Sanmartín Escolano
+V0260,C075,P035,2026-01-22,7,1309.08,9163.56,Call Center,Trujillo,Lucio Granados Cabo
+V0261,C117,P015,2026-03-21,6,1635.39,9812.34,Web,Miraflores,Samu Gutiérrez-Rosell
+V0262,C057,P011,2026-05-13,9,1288.74,11598.66,Web,Miraflores,Chelo Coello Conde
+V0263,C054,P052,2025-12-15,2,965.63,1931.26,Marketplace,Lima Centro,Chus Robles Valero
+V0264,C032,P003,2026-07-27,10,326.45,3264.5,Tienda,Arequipa,Luna Moles
+V0265,C119,P012,2026-08-06,7,1200.72,8405.04,Call Center,Lima Centro,Emperatriz Iglesia Asenjo
+V0266,C028,P029,2025-11-16,8,1735.27,13882.16,Tienda,Arequipa,Onofre Cárdenas Barreda
+V0267,C022,P047,2025-09-06,8,1195.08,9599.08,,Trujillo,Jordán Bárcena-Sandoval
+V0268,C106,P010,2026-08-10,3,954.36,2863.08,Web,Lima Centro,Dorita Paniagua Palomino
+V0269,C062,P043,2026-01-18,10,1080.88,10902.64,Marketplace,Arequipa,Úrsula del Núñez
+V0270,C112,P003,2025-06-22,7,462.83,3239.81,Web,Trujillo,Azucena Ortega Flor
+V0271,C018,P017,2026-01-25,4,1820.62,7282.48,Call Center,Miraflores,Mirta Díaz-Luís
+V0272,C001,P046,2026-08-01,1,1158.08,1158.08,Call Center,Trujillo,Nerea Vicens Torrent
+V0273,C047,P007,2026-04-11,10,511.0,5110.0,Call Center,Trujillo,Vilma Bermudez Piquer
+V0274,C097,P014,2026-02-08,9,967.52,8707.68,Call Center,Arequipa,Jesús Maximiano Coca Diez
+V0275,C100,P046,2026-02-18,3,1710.72,5132.16,Tienda,Lima Centro,Ignacia Quiroga Bellido
+V0276,C028,P033,2025-07-15,6,1602.7,9616.2,,Trujillo,Francisco Javier Gracia Mir
+V0277,C082,P001,2025-10-16,3,945.98,2837.94,Call Center,Lima Centro,Pedro Eliseo Prats Linares
+V0278,C078,P003,2026-05-25,7,1229.86,8609.02,Tienda,Trujillo,Reyna Parejo Viñas
+V0279,C057,P001,2025-12-06,9,575.58,5240.57,Tienda,Lima Centro,Carina Espejo Alvarado
+V0280,C047,P016,2025-08-02,3,178.25,534.75,Marketplace,Miraflores,Natalio del Bernal
+V0281,C067,P001,2025-09-04,2,1838.76,3677.52,Call Center,Arequipa,Heliodoro Calderon Bustos
+V0282,C105,P018,2026-07-02,4,912.24,3648.96,Web,Lima Centro,Maite Balaguer Amo
+V0283,C065,P019,2026-04-10,2,1606.87,3213.74,Call Center,Trujillo,Luciana Blanco Calleja
+V0284,C049,P037,2025-09-24,4,1516.16,6064.64,Web,Trujillo,Calixta Anselma Porta Mendoza
+V0285,C015,P017,2025-09-12,4,1355.44,5421.76,Web,Arequipa,Rafa del Salazar
+V0286,C032,P019,2026-02-13,6,156.68,940.08,Call Center,Miraflores,Blas Zurita Donaire
+V0287,C999,P048,2025-06-26,4,1000.5,4002.0,Tienda,Miraflores,Natanael Palacios Morell
+V0288,C026,P054,2026-05-16,10,715.27,7152.7,Marketplace,Lima Centro,Josefina Lladó Salgado
+V0289,C098,P055,2025-08-06,1,1696.78,1696.78,Call Center,Trujillo,Carmen del Royo
+V0290,C024,P049,2026-01-04,5,798.77,3993.85,Marketplace,Trujillo,Esmeralda del Tirado
+V0291,C201,P035,2026-01-10,0,697.84,0.0,Web,Trujillo,Samuel de Sala
+V0292,C041,P045,2025-10-12,0,1349.84,0.0,Call Center,Miraflores,Haydée Juan Cortés
+V0293,C071,P017,2025-10-10,8,1917.26,15338.08,Marketplace,Arequipa,Aarón Zabala Cerezo
+V0294,C047,P055,2025-10-26,8,363.88,2911.04,Web,Arequipa,Joel Juanito Aguirre Téllez
+V0295,C103,P016,2026-04-04,7,396.15,2773.05,Web,Miraflores,Emperatriz Agullo Ros
+V0296,C054,P032,2026-04-20,9,1070.3,9632.7,Web,Trujillo,Marc David Aguilar Pereira
+V0297,C013,P045,2025-08-27,4,1628.57,6514.28,Call Center,Arequipa,Vera Ruiz Prat
+V0298,C047,P024,2025-09-20,5,691.56,3457.8,Tienda,Miraflores,Pepito Porta Pineda
+V0299,C100,P019,2025-09-08,9,977.55,8797.95,Call Center,Trujillo,Aníbal Roca-Heras
+V0300,C081,P010,2026-01-01,6,846.52,5079.12,Web,Miraflores,Roxana Nélida Llabrés López

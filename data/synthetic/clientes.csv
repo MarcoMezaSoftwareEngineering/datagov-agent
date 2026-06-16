@@ -1,0 +1,122 @@
+cliente_id,nombre,apellido,dni,ruc,correo,telefono,direccion,distrito,pais,fecha_registro,estado_cliente,segmento
+C001,Luisina,Mir,22201654,10271779360,luisina.mir@email.com,981693406,Avenida de Graciana Murillo 551 Puerta 4 ,Guadalajara,Chile,2025-03-02,inactivo,
+C002,Josefina,Marqués,61220073,10694021782,josefina.marqués@email.com,366299468,Pasaje de Vasco Salamanca 88 Puerta 2 ,Girona,Peru,2025-08-24,inactivo,Pyme
+C003,Gracia,Naranjo,96028436,10103484630,gracia.naranjo@email.com,343320037,Cuesta de Salomón Hervás 20,Ceuta,Ecuador,2024-03-15,Activo,Corporativo
+C004,Nilda,Villaverde,96028436,10786066793,nilda.villaverde@email.com,083172788,Rambla de Mar Taboada 44 Puerta 4 ,Santa Cruz de Tenerife,Perú,2024-06-21,activo,Corporativo
+C005,Leonardo,Sabater,82394227,,leonardo.sabater@email.com,434558122,Ronda de Natalio Solano 40,Jaén,Chile,2025-12-09,activo,
+C006,Josefa,Aller,58718453,,josefa.aller@email.com,,Plaza de Pastor Martín 96 Puerta 8 ,Madrid,Colombia,2024-05-21,activo,
+C007,Leandro,Ruano,75228535,,leandro.ruano@email.com,,C. Nicodemo Quiroga 37 Puerta 8 ,La Coruña,Ecuador,2025-12-21,Activo,Corporativo
+C008,Cintia,Amores,45575298,,cintia.amores@email.com,627204653,Callejón de Perlita Bilbao 90 Apt. 53 ,Vizcaya,Ecuador,2026-03-24,inactivo,Pyme
+C009,Apolinar,Anguita,63551839,,apolinar.anguita@email.com,309232719,Rambla María Campoy 704,Teruel,Peru,2024-04-19,activo,Pyme
+C010,Carlos,Herrero,12823170,10176228245,carlos.herrero@email.com,491905865,Via de Toribio Paredes 72 Apt. 84 ,Lleida,Peru,2025-04-22,activo,
+C011,Paola,Ledesma,14216175,10818309417,paolaledesma#email,314737996,Glorieta de Pedro Jordán 54,Melilla,Colombia,2024-04-07,activo,Premium
+C012,Che,Hernández,42614537,10204078666,che.hernández@email.com,783777014,Paseo de Bernarda Núñez 68 Piso 7 ,Granada,PE,2024-07-10,Activo,Retail
+C013,Jerónimo,Carrillo,97705310,,jerónimocarrillo#email,518233749,Urbanización de Poncio Escobar 90,Cuenca,Peru,2023-08-25,activo,Premium
+C014,Baltasar,Manzano,28814949,10180943908,baltasar.manzano@email.com,710947775,C. Amparo Benavent 302,Ávila,Colombia,2024-07-05,activo,
+C015,Diego,Rico,82556484,,diego.rico@email.com,867749649,Callejón Gertrudis Bertrán 33,Cáceres,Perú,2023-06-20,Activo,Corporativo
+C016,Sebastian,Sanjuan,63826716,10519212169,sebastian.sanjuan@email.com,403447134,Callejón Pascuala Cisneros 1,Zamora,Chile,2024-10-05,Activo,Premium
+C017,Dulce,Malo,30776478,10889991777,dulce.malo@email.com,174648877,Plaza de Ciriaco Granados 590 Puerta 0 ,Lugo,Ecuador,2025-08-30,Activo,
+C018,Florinda,Salamanca,88406989,,florinda.salamanca@email.com,,Camino Tristán Téllez 8 Piso 6 ,Guadalajara,Colombia,2026-04-22,activo,Retail
+C019,Cruz,Cuevas,346629,,cruz.cuevas@email.com,674680715,Ronda de Baltasar Expósito 859,Valladolid,Colombia,2023-09-04,inactivo,
+C020,Herminio,Lasa,21003626,,herminio.lasa@email.com,477109324,Via Íñigo Carpio 57,La Rioja,Perú,2025-07-04,inactivo,Corporativo
+C021,Agustina,Hervás,45650176,10439492674,agustina.hervás@email.com,826398214,Cañada de Pilar Tovar 97,Huelva,Peru,2024-11-13,activo,Retail
+C022,Carmina,Pi,19832887,10474745382,carmina.pi@email.com,533963605,Vial Ani Mármol 8 Apt. 87 ,Toledo,Perú,2024-01-25,Activo,Premium
+C023,Sebastián,Cortes,82909480,,sebastián.cortes@email.com,745961586,Cañada Javi Botella 21,Cáceres,Peru,2026-05-29,inactivo,Pyme
+C024,Marcelino,Andres,99038526,10214929002,marcelino.andres@email.com,504556238,C. Estefanía Hernando 39,Lleida,Perú,2026-03-02,Activo,Corporativo
+C025,José Manuel,Segura,56020613,10624557080,josé manuel.segura@email.com,074821759,C. Reyna Tomas 4 Piso 9 ,Ourense,Peru,2024-09-17,activo,Pyme
+C026,Juana,Marquez,908577,,juana.marquez@email.com,,Callejón de Adán Avilés 474,Ceuta,Chile,2026-02-28,inactivo,Retail
+C027,Goyo,Iglesia,824586,,goyo.iglesia@email.com,104709521,Paseo Sarita Paz 384,Lugo,Colombia,2024-09-16,inactivo,
+C028,Margarita,Nevado,482364,,margarita.nevado@email.com,712368516,Callejón de Daniela Piquer 41 Piso 0 ,Salamanca,PE,2024-05-24,activo,Retail
+C029,Flora,Barroso,57469942,,flora.barroso@email.com,461200471,Acceso de Herminia Rius 226 Piso 9 ,Cuenca,Perú,2023-08-05,activo,Corporativo
+C030,Jenny,Pellicer,872343,,jenny.pellicer@email.com,773515850,Glorieta Felisa Almazán 6 Apt. 29 ,Asturias,Ecuador,2025-10-23,inactivo,Pyme
+C031,Hipólito,Garzón,31367172,,hipólitogarzón#email,529042284,Urbanización de Dionisia Morante 3,Almería,Perú,2023-12-29,activo,Premium
+C032,Manuela,Robledo,56930359,10125409494,manuela.robledo@email.com,177589178,Plaza de Benjamín Tejero 26 Piso 7 ,Ávila,Chile,2024-10-28,Activo,Retail
+C033,Ema,Colomer,47463522,,ema.colomer@email.com,249985698,Via Reyna Garrido 47 Piso 5 ,La Coruña,PE,2025-03-23,activo,
+C034,Luna,Bustamante,45059710,10216396351,luna.bustamante@email.com,654527111,Camino Chita Murcia 7,Sevilla,PE,2025-04-03,inactivo,Premium
+C035,Rufina,Aznar,91363974,,rufinaaznar#email,945198327,Callejón Consuela Gonzalo 98 Apt. 94 ,Cádiz,Peru,2024-08-13,inactivo,Corporativo
+C036,Julia,Mendizábal,58884978,,julia.mendizábal@email.com,502296120,Alameda de Fausto Pelayo 25 Apt. 22 ,Soria,Ecuador,2023-10-20,activo,Pyme
+C037,Lalo,Salazar,78064830,,lalo.salazar@email.com,797643815,Calle de Isidro Prats 400 Piso 3 ,Valladolid,Perú,2024-07-16,activo,Premium
+C038,Luis Miguel,Mosquera,33357554,,luis miguel.mosquera@email.com,,Cuesta Margarita Ros 72,Málaga,PE,2025-10-30,activo,Pyme
+C039,Perla,Pablo,72409658,,perla.pablo@email.com,606071596,Plaza de Moreno Duarte 275,Badajoz,Ecuador,2024-06-27,activo,Pyme
+C040,Tristán,Pérez,79182797,10906528433,tristán.pérez@email.com,645352181,Urbanización Cristian Coll 33 Puerta 2 ,Cádiz,PE,2026-02-15,activo,Corporativo
+C041,Ana,Simó,598216,,ana.simó@email.com,995527177,Cañada Íñigo Sans 1 Piso 4 ,Segovia,Ecuador,2023-11-03,inactivo,Premium
+C042,Encarnacion,Vendrell,76354180,,encarnacion.vendrell@email.com,798079359,Alameda Lidia Blasco 420 Puerta 7 ,Melilla,Peru,2025-09-05,Activo,Premium
+C043,Emilia,Cuenca,16740197,10243171768,emilia.cuenca@email.com,546659051,Vial de Nazario Bertrán 525 Puerta 6 ,Pontevedra,Ecuador,2023-10-25,inactivo,Pyme
+C044,Martín,Peñas,69401199,,martín.peñas@email.com,281685054,Vial Fabián Berenguer 91,Sevilla,Colombia,2024-11-20,Activo,Premium
+C045,Sarita,Castro,70407340,,sarita.castro@email.com,222927065,Paseo Jorge Mendoza 63 Puerta 9 ,Lleida,Colombia,2024-08-26,Activo,Pyme
+C046,Mayte,Piña,399607,,mayte.piña@email.com,239240758,Callejón Vinicio Vilanova 26,León,Peru,2024-12-10,activo,Premium
+C047,Amando,Ribera,30509175,,amandoribera#email,685361530,Cañada Yéssica Sureda 87,Ávila,Chile,2023-07-15,activo,Premium
+C048,José María,Garriga,62274692,,josé maría.garriga@email.com,898614341,Via Piedad Valero 980 Puerta 3 ,Girona,Colombia,2025-04-12,Activo,Pyme
+C049,Abel,Osorio,50079111,,abel.osorio@email.com,962185188,Calle de Fabiola Pombo 14 Piso 1 ,Ciudad,Ecuador,2026-04-01,inactivo,Corporativo
+C050,Eusebia,Calleja,75529051,10460916347,eusebia.calleja@email.com,205852772,Calle Máxima Flores 6 Piso 8 ,Murcia,Chile,2025-06-20,inactivo,Premium
+C051,José Luis,Arce,27129912,,josé luis.arce@email.com,450541566,Acceso de Ámbar Vives 71 Apt. 69 ,Murcia,Ecuador,2024-09-14,activo,
+C052,Miguel Ángel,Calderon,67527432,10507059676,miguel ángel.calderon@email.com,544796275,Calle de Carlito Ramis 38 Apt. 29 ,Alicante,Chile,2023-12-29,Activo,Premium
+C053,Bonifacio,Guzman,47346970,10187946147,bonifacio.guzman@email.com,569092755,Alameda de Florentina Lopez 11 Puerta 2 ,Melilla,Ecuador,2025-02-06,inactivo,
+C054,Xiomara,Carranza,56970882,,xiomaracarranza#email,,Pasaje de Iker Machado 23 Apt. 17 ,Teruel,Peru,2025-05-07,activo,Retail
+C055,Chucho,Montenegro,93394260,,chucho.montenegro@email.com,188442258,Plaza de Poncio Peinado 38,Asturias,Perú,2024-10-08,Activo,Pyme
+C056,Rómulo,Tejero,32520277,,rómulo.tejero@email.com,691251778,Ronda Ani Baquero 9,Granada,Perú,2024-02-26,Activo,
+C057,Felix,Mora,13446499,,felix.mora@email.com,584143842,Rambla Genoveva Nebot 200,Segovia,Ecuador,2025-11-27,activo,
+C058,Juan Manuel,Galvez,94187049,,juan manuel.galvez@email.com,907844736,Ronda de Alondra Sobrino 35,Teruel,Peru,2024-10-24,inactivo,Pyme
+C059,Macarena,Ojeda,81503856,,macarena.ojeda@email.com,258815371,Cañada Rodrigo Ripoll 62,Cantabria,Chile,2024-02-18,Activo,
+C060,Andrea,Villa,58612055,,andrea.villa@email.com,747016873,Cuesta de Edelmira Sosa 18,Las Palmas,Ecuador,2024-01-10,inactivo,Pyme
+C061,Sofía,Lamas,92666356,,sofía.lamas@email.com,650609835,Via de Eduardo Caballero 65 Puerta 5 ,Cantabria,Ecuador,2026-01-06,inactivo,Corporativo
+C062,Araceli,Querol,21631697,,araceli.querol@email.com,002578729,C. Encarnita Martínez 958 Puerta 7 ,Lugo,Ecuador,2023-07-11,Activo,Premium
+C063,Rafa,Muñoz,53622663,,rafa.muñoz@email.com,694097499,Vial de Paca Herrera 2,Albacete,Colombia,2025-05-01,inactivo,Retail
+C064,Mauricio,Riquelme,79340535,,mauricioriquelme#email,636897028,Rambla de Ángel Noriega 854 Apt. 34 ,Ceuta,Perú,2024-09-20,inactivo,Premium
+C065,María Manuela,Malo,70152969,10842800803,maría manuelamalo#email,757584419,Calle de Lucio Bermúdez 57,Castellón,Ecuador,2024-04-24,inactivo,Pyme
+C066,Pastora,Linares,67110154,,pastora.linares@email.com,219933083,Via de Isa Cervantes 9 Apt. 67 ,Segovia,PE,2024-04-20,Activo,Corporativo
+C067,Maristela,Madrigal,52352128,,maristela.madrigal@email.com,401938026,Calle de Agapito Martín 691,Lleida,Perú,2026-03-08,inactivo,Pyme
+C068,Candelaria,Zamora,23492385,,candelaria.zamora@email.com,287431527,Rambla Emiliana Ramirez 68 Apt. 61 ,Barcelona,Ecuador,2025-06-26,inactivo,
+C069,Moisés,Hurtado,16109013,,moisés.hurtado@email.com,,C. de Jonatan Salom 55,Córdoba,Chile,2026-03-27,activo,Pyme
+C070,Plácido,Guzman,73001391,,plácido.guzman@email.com,174268414,Vial de Wálter Pereira 88,Valladolid,Chile,2024-07-04,activo,Premium
+C071,Irma,Bilbao,760021,10970957171,irma.bilbao@email.com,851910883,Via de Irma Fuertes 971 Piso 0 ,Barcelona,PE,2025-08-21,activo,Retail
+C072,Severo,Saura,84903294,,severo.saura@email.com,874064039,Avenida Agustina Angulo 36,Vizcaya,Colombia,2026-03-08,Activo,Premium
+C073,Luisina,Rivera,49910061,,luisina.rivera@email.com,676618251,Plaza Maristela Alsina 97,Murcia,Colombia,2025-01-25,inactivo,
+C074,Palmira,Gras,37888820,10357553274,palmira.gras@email.com,,Acceso de Fabián Llorens 11,Salamanca,Peru,2023-07-10,activo,
+C075,Jose Angel,Fábregas,70465583,10409350265,jose angel.fábregas@email.com,190790306,Pasadizo Luis Miguel Guillén 659,Granada,Ecuador,2024-01-24,Activo,
+C076,Gertrudis,Vázquez,41329612,,gertrudis.vázquez@email.com,644089268,Ronda de Eustaquio Marín 92 Piso 3 ,Granada,Perú,2024-01-26,Activo,
+C077,Noelia,Sierra,40173413,,noelia.sierra@email.com,,Ronda de Cecilia Cañete 53,Guipúzcoa,Perú,2026-03-16,Activo,Pyme
+C078,Cayetano,Sandoval,68942178,,cayetano.sandoval@email.com,183046990,Glorieta de Ruth Méndez 40,Valencia,Colombia,2023-12-15,inactivo,Retail
+C079,Margarita,Tejero,553014,,margarita.tejero@email.com,,C. Yolanda Heras 754,Murcia,Perú,2026-03-19,inactivo,Retail
+C080,Plinio,Mendez,46173157,10657233178,plinio.mendez@email.com,587717535,Plaza Juan Carlos Rios 42,Ceuta,PE,2025-01-26,activo,Premium
+C081,Clotilde,Hoyos,95199362,,clotilde.hoyos@email.com,854777252,Avenida Olimpia Atienza 7,Santa Cruz de Tenerife,PE,2024-06-09,inactivo,
+C082,Borja,Corbacho,31585546,10529982328,borja.corbacho@email.com,387509977,Plaza Benita Llobet 940 Puerta 6 ,Badajoz,Colombia,2023-11-12,activo,Pyme
+C083,Azucena,Comas,43876400,,azucena.comas@email.com,398454615,Avenida de Francisca Angulo 7,Jaén,Peru,2025-10-21,inactivo,Premium
+C084,Alba,Barba,643623,,alba.barba@email.com,217659180,Avenida Isaura Lozano 390 Piso 0 ,Palencia,Peru,2024-01-25,activo,Corporativo
+C085,Marina,Puig,48658617,10776481264,marina.puig@email.com,429396856,Ronda Jesús Benitez 79,Albacete,Perú,2026-02-25,inactivo,Retail
+C086,Leandro,Sanjuan,84121929,,leandro.sanjuan@email.com,,Acceso Carolina Perez 72 Apt. 94 ,Teruel,Peru,2023-10-08,inactivo,Premium
+C087,Celestino,Leal,49172995,,celestino.leal@email.com,626551104,Rambla Tomás Sanchez 788,Albacete,Perú,2023-11-02,Activo,Premium
+C088,Paulino,Buendía,35583290,,paulino.buendía@email.com,604661839,Cañada de Julio Ureña 31,Cuenca,PE,2025-03-31,Activo,Pyme
+C089,Marcelino,Tomé,10344303,,marcelino.tomé@email.com,543799371,Alameda de Valerio Nadal 39 Piso 5 ,Lugo,Chile,2024-10-16,activo,Premium
+C090,Galo,Puig,56321751,,galo.puig@email.com,479356465,Pasaje Leandra Gallego 24,Soria,Perú,2025-07-30,inactivo,Premium
+C091,Emilio,Mateo,41348220,,emilio.mateo@email.com,426617979,Paseo de Dorotea Blázquez 4,Cáceres,Chile,2026-03-17,Activo,Corporativo
+C092,Emperatriz,Arregui,76481885,,emperatriz.arregui@email.com,561014388,C. de Abigaíl Vall 15 Piso 1 ,La Rioja,Peru,2023-10-27,Activo,
+C093,David,Cifuentes,251157,,david.cifuentes@email.com,,Alameda de Xavier Gabaldón 875 Apt. 77 ,Asturias,Chile,2024-09-24,Activo,Premium
+C094,Arsenio,Cardona,97219599,,arsenio.cardona@email.com,512382825,Rambla Felicidad Rosell 40 Piso 9 ,Jaén,PE,2023-06-22,inactivo,Premium
+C095,Julie,Garmendia,171744,,julie.garmendia@email.com,419182553,C. de Diana Carbonell 85 Puerta 2 ,Salamanca,Perú,2025-12-18,inactivo,
+C096,Cesar,Cañete,23212812,10278632824,cesar.cañete@email.com,134125286,Rambla de Amanda Duran 527 Apt. 25 ,Salamanca,Peru,2023-09-07,activo,Retail
+C097,Rosenda,Palomar,49375156,10542437192,rosenda.palomar@email.com,723688767,Urbanización Luís Antúnez 93,Cáceres,Perú,2025-05-26,activo,Premium
+C098,Clarisa,Valbuena,93176117,,clarisa.valbuena@email.com,914858078,Pasaje Juan José Olivé 8 Apt. 33 ,Teruel,Ecuador,2026-01-19,Activo,Retail
+C099,Evelia,Roman,72445234,10574303740,evelia.roman@email.com,923309584,Camino de Juanito Vilar 3 Piso 0 ,Segovia,Colombia,2023-12-30,Activo,Premium
+C100,Judith,Cazorla,43567615,,judith.cazorla@email.com,253672946,Acceso de Wálter Torrents 19 Puerta 1 ,Santa Cruz de Tenerife,Peru,2026-04-12,activo,Pyme
+C101,José,Palma,87149951,10991246046,josé.palma@email.com,863637454,Calle de Arturo Cabezas 20 Apt. 77 ,Las Palmas,PE,2024-04-25,activo,Retail
+C102,Jennifer,Catalán,91390501,,jennifer.catalán@email.com,241541520,Plaza Ignacio Tapia 3,Melilla,Perú,2026-05-07,inactivo,Corporativo
+C103,Victor,Agustí,95445405,,victor.agustí@email.com,516271361,C. María Ángeles Cañas 91 Puerta 0 ,León,Ecuador,2024-12-12,activo,Retail
+C104,Lorenza,Garcés,51464269,,lorenzagarcés#email,,Pasaje de Rosalina Gaya 2,Valladolid,PE,2023-12-24,Activo,Corporativo
+C105,Dolores,Plana,36950221,,dolores.plana@email.com,652341389,Pasadizo Elvira Vergara 56 Puerta 0 ,Madrid,PE,2025-02-04,activo,Premium
+C106,Daniel,Hernando,49613214,10180852074,daniel.hernando@email.com,,Pasadizo Tamara Albero 35 Piso 9 ,Huesca,Perú,2025-10-11,inactivo,Premium
+C107,Isabela,Duque,84801233,10676140134,isabela.duque@email.com,,Plaza Diana Bauzà 5 Apt. 00 ,Málaga,PE,2024-09-03,inactivo,Pyme
+C108,Eusebia,Vallejo,88458327,,eusebia.vallejo@email.com,661889241,C. de Delia Batalla 46,Ciudad,Chile,2023-10-27,activo,Pyme
+C109,Ámbar,Rovira,91883846,,ámbarrovira#email,799042102,Acceso Edmundo Leiva 1 Piso 6 ,Melilla,PE,2023-09-23,inactivo,Corporativo
+C110,Juan José,Benítez,16086345,,juan josé.benítez@email.com,,Pasadizo de Plácido Baquero 39 Piso 2 ,Vizcaya,Colombia,2023-11-22,activo,Pyme
+C111,Tere,Carlos,99991136,,tere.carlos@email.com,800030756,Alameda Jose Ramón Rico 24 Puerta 5 ,Málaga,Ecuador,2026-04-26,activo,Retail
+C112,Valeria,Badía,75679047,10841183219,valeria.badía@email.com,380617445,Cañada Cintia Mateu 637 Puerta 7 ,Toledo,Chile,2025-10-12,Activo,Pyme
+C113,Martirio,Higueras,23335151,,martirio.higueras@email.com,060385050,Cuesta de Benito Cisneros 11,Melilla,Peru,2025-03-18,Activo,Retail
+C114,Juanita,Perales,71031132,,juanita.perales@email.com,191826199,Alameda de Ángeles Pozo 85 Piso 3 ,Cantabria,Peru,2024-01-13,Activo,Corporativo
+C115,Melisa,Canales,85776373,,melisa.canales@email.com,127756185,Avenida Fausto Mayo 603 Apt. 13 ,La Coruña,Perú,2025-08-21,Activo,Retail
+C116,Augusto,Martínez,47215199,10369137895,augusto.martínez@email.com,206788317,Vial Hector Pérez 51,Albacete,Peru,2023-09-24,inactivo,Corporativo
+C117,Hector,Salcedo,11994519,,hector.salcedo@email.com,,Alameda Donato Arnau 30,Toledo,PE,2025-02-18,activo,
+C118,Anabel,Andreu,66500369,,anabel.andreu@email.com,625324472,Cuesta de Sergio Tello 2,Jaén,Colombia,2024-01-15,inactivo,
+C119,Simón,Flores,77624084,,simón.flores@email.com,806578759,Alameda Edelmira Gilabert 5,Zaragoza,Ecuador,2025-06-17,inactivo,Retail
+C120,Benita,Pallarès,18163847,,benita.pallarès@email.com,,Via Jose Miguel Hernando 18,Ourense,Ecuador,2025-02-08,Activo,
+C201,Grácia,Naranjo,96028436,10103484630,gracia.naranjo@email.com,343320037,Cuesta de Salomón Hervás 20,Ceuta,Ecuador,2024-03-15,Activo,Corporativo

@@ -1,0 +1,1560 @@
+# Plan de Proyecto: DataGov Agent
+
+## Asistente Agéntico Local para Gobierno, Calidad, MDM y Catalogación de Datos
+
+---
+
+## 1. Nombre del proyecto
+
+**DataGov Agent: Asistente agéntico para gobierno, calidad y catalogación de datos empresariales**
+
+---
+
+## 2. Propósito del proyecto
+
+Desarrollar un sistema local de inteligencia artificial generativa y agéntica que permita analizar datasets empresariales simulados, documentos de gobierno de datos, diccionarios de datos y reglas de negocio, con el objetivo de:
+
+* Detectar problemas de calidad de datos.
+* Clasificar datos críticos y sensibles.
+* Generar reglas de calidad.
+* Identificar duplicados para escenarios MDM.
+* Crear glosarios de negocio.
+* Responder preguntas usando RAG.
+* Generar reportes ejecutivos de gobierno de datos.
+* Proponer acciones de mejora para una estrategia de datos.
+
+El proyecto está diseñado para ejecutarse completamente en una PC local con:
+
+* Procesador Intel i7-10700K.
+* 32 GB de RAM.
+* GPU NVIDIA RTX 3080 de 10 GB VRAM.
+* Sin servicios de pago.
+* Sin APIs comerciales obligatorias.
+* Sin dependencia de datos confidenciales.
+
+---
+
+## 3. Relación con DWConsulware
+
+El proyecto se alinea con el negocio de DWConsulware porque aborda directamente áreas como:
+
+* Gobierno de datos.
+* Data Quality.
+* Data Analytics.
+* MDM.
+* Data Warehouse Modernization.
+* Estrategia de datos.
+* Documentación de metadatos.
+* Modernización cloud simulada.
+* Generación de valor a partir de datos.
+
+El proyecto no se limita a ser un chatbot. Es un sistema agéntico aplicado a problemas reales de consultoría de datos.
+
+---
+
+## 4. Problema que resuelve
+
+En muchas organizaciones, los datos se encuentran dispersos, con baja calidad, sin documentación clara, con campos duplicados, reglas de negocio no formalizadas y ausencia de responsables definidos.
+
+Esto genera problemas como:
+
+* Reportes inconsistentes.
+* Dificultad para confiar en los datos.
+* Duplicidad de clientes, productos o proveedores.
+* Falta de trazabilidad.
+* Riesgo por mal manejo de datos personales.
+* Dificultad para modernizar plataformas analíticas.
+* Baja adopción de iniciativas de gobierno de datos.
+
+**DataGov Agent** busca simular cómo un analista junior de IA generativa puede apoyar a un equipo de innovación o gobierno de datos mediante agentes inteligentes que automaticen análisis, documentación y recomendaciones.
+
+---
+
+## 5. Objetivo general
+
+Desarrollar un sistema local basado en LangChain, LangGraph, Milvus y modelos LLM open-source que permita analizar datos empresariales simulados y documentos de gobierno de datos para generar diagnósticos, reglas de calidad, recomendaciones MDM y respuestas con RAG.
+
+---
+
+## 6. Objetivos específicos
+
+1. Implementar un pipeline de carga y perfilamiento de datos CSV/Excel.
+2. Crear un módulo RAG para consultar políticas y documentos de gobierno de datos.
+3. Implementar una base vectorial local usando Milvus.
+4. Orquestar agentes especializados usando LangGraph.
+5. Integrar un LLM local usando Ollama.
+6. Generar datasets sintéticos con errores controlados.
+7. Crear un dashboard local en Streamlit.
+8. Exponer funcionalidades principales mediante FastAPI.
+9. Generar reportes ejecutivos automáticos.
+10. Documentar el proyecto en GitHub como portafolio profesional.
+
+---
+
+## 7. Alcance del proyecto
+
+### Incluye
+
+* Carga de archivos CSV.
+* Carga de archivos Excel.
+* Carga de documentos PDF o TXT.
+* Análisis de calidad de datos.
+* Detección de nulos.
+* Detección de duplicados.
+* Validación de formatos.
+* Validación de integridad referencial.
+* Identificación de datos sensibles.
+* Clasificación de campos críticos.
+* Generación de reglas de calidad.
+* Generación de glosario de negocio.
+* Consulta documental con RAG.
+* Agente MDM para detectar posibles duplicados.
+* Reporte ejecutivo en Markdown o PDF.
+* Interfaz web local.
+* Backend local.
+* Documentación técnica.
+
+### No incluye
+
+* Conexión real a AWS.
+* Conexión real a sistemas empresariales.
+* Uso de datos privados.
+* Uso obligatorio de OpenAI, Anthropic, Gemini u otras APIs pagadas.
+* Fine-tuning de modelos.
+* Despliegue en nube.
+* Autenticación empresarial avanzada.
+* Procesamiento de millones de registros.
+* Cumplimiento legal real como sistema de producción.
+
+---
+
+## 8. Enfoque técnico
+
+El sistema funcionará completamente en local.
+
+La arquitectura combinará:
+
+* **LangChain** para carga documental, RAG, prompts y conexión con LLM.
+* **LangGraph** para orquestación de agentes.
+* **Milvus Lite** como base vectorial local.
+* **Ollama** para ejecutar modelos LLM locales.
+* **FastAPI** como backend.
+* **Streamlit** como frontend.
+* **Pandas** para análisis de datos.
+* **Pydantic** para validación de esquemas.
+* **SQLite** opcional para almacenar resultados.
+* **Docker Desktop** opcional para levantar servicios locales.
+
+---
+
+## 9. Arquitectura general
+
+```text
+Usuario
+  │
+  ▼
+Streamlit UI
+  │
+  ▼
+FastAPI Backend
+  │
+  ▼
+LangGraph Supervisor
+  ├── Data Profiler Agent
+  ├── Data Quality Agent
+  ├── MDM Agent
+  ├── Metadata Agent
+  ├── RAG Policy Agent
+  ├── Recommendation Agent
+  └── Report Agent
+  │
+  ▼
+LangChain
+  ├── Document Loaders
+  ├── Text Splitters
+  ├── Retriever
+  ├── Prompt Templates
+  └── Output Parsers
+  │
+  ▼
+Milvus Lite
+  │
+  ▼
+Ollama Local LLM
+```
+
+---
+
+## 10. Stack tecnológico gratuito/open-source
+
+| Componente           | Herramienta                                     |
+| -------------------- | ----------------------------------------------- |
+| Lenguaje             | Python 3.11                                     |
+| Agentes              | LangGraph                                       |
+| RAG                  | LangChain                                       |
+| Vector DB            | Milvus Lite                                     |
+| LLM local            | Ollama                                          |
+| Modelo LLM           | Llama 3.1 8B, Qwen2.5 7B, Qwen3 8B o Mistral 7B |
+| Embeddings           | BAAI/bge-m3 o nomic-embed-text                  |
+| Backend              | FastAPI                                         |
+| Frontend             | Streamlit                                       |
+| Análisis de datos    | Pandas, NumPy                                   |
+| Validación           | Pydantic                                        |
+| Visualización        | Plotly o Matplotlib                             |
+| Reportes             | Markdown, WeasyPrint o ReportLab                |
+| Contenedores         | Docker Desktop                                  |
+| Control de versiones | Git + GitHub                                    |
+| Tests                | Pytest                                          |
+| Formateo             | Black, Ruff                                     |
+| Variables de entorno | python-dotenv                                   |
+
+---
+
+## 11. Modelo LLM recomendado
+
+Para tu PC con RTX 3080 de 10 GB VRAM, usaría modelos medianos cuantizados.
+
+### Opción principal
+
+```bash
+ollama pull llama3.1:8b
+```
+
+### Alternativas
+
+```bash
+ollama pull qwen2.5:7b
+```
+
+```bash
+ollama pull qwen3:8b
+```
+
+```bash
+ollama pull mistral:7b
+```
+
+### Modelo de embeddings recomendado
+
+```bash
+ollama pull nomic-embed-text
+```
+
+O usando Sentence Transformers:
+
+```text
+BAAI/bge-m3
+```
+
+### Recomendación práctica
+
+Para la primera versión:
+
+* LLM: `llama3.1:8b`
+* Embeddings: `nomic-embed-text`
+* Vector DB: Milvus Lite
+* UI: Streamlit
+
+Si el rendimiento es lento, cambiar el LLM a un modelo más pequeño.
+
+---
+
+## 12. Módulos del sistema
+
+---
+
+# Módulo 1: Data Ingestion
+
+## Objetivo
+
+Permitir cargar archivos locales y convertirlos en estructuras analizables.
+
+## Entradas
+
+* CSV.
+* Excel.
+* PDF.
+* TXT.
+* Markdown.
+
+## Funciones
+
+* Leer archivos.
+* Validar formato.
+* Extraer texto.
+* Extraer columnas.
+* Guardar metadatos.
+* Registrar fecha de carga.
+* Clasificar tipo documental.
+
+## Salidas
+
+```json
+{
+  "file_name": "clientes.csv",
+  "file_type": "csv",
+  "rows": 1000,
+  "columns": 12,
+  "status": "loaded"
+}
+```
+
+---
+
+# Módulo 2: Data Profiling Agent
+
+## Objetivo
+
+Analizar datasets y generar un perfil técnico.
+
+## Métricas
+
+* Número de filas.
+* Número de columnas.
+* Nulos por campo.
+* Duplicados.
+* Tipos de datos.
+* Valores únicos.
+* Mínimo y máximo.
+* Promedio.
+* Campos constantes.
+* Campos con alta cardinalidad.
+* Campos con posibles identificadores.
+* Campos con posibles datos personales.
+
+## Ejemplo de salida
+
+```json
+{
+  "table": "clientes",
+  "rows": 1000,
+  "columns": 12,
+  "nulls": {
+    "correo": 45,
+    "telefono": 120
+  },
+  "duplicates": {
+    "dni": 18
+  },
+  "possible_sensitive_fields": [
+    "dni",
+    "correo",
+    "telefono"
+  ]
+}
+```
+
+---
+
+# Módulo 3: Data Quality Agent
+
+## Objetivo
+
+Detectar problemas de calidad y proponer reglas.
+
+## Dimensiones de calidad
+
+* Completitud.
+* Unicidad.
+* Validez.
+* Consistencia.
+* Integridad.
+* Exactitud simulada.
+* Oportunidad.
+* Conformidad.
+
+## Reglas de ejemplo
+
+```json
+{
+  "field": "dni",
+  "rule": "Debe tener 8 dígitos numéricos",
+  "dimension": "validez",
+  "severity": "alta"
+}
+```
+
+```json
+{
+  "field": "cliente_id",
+  "rule": "Debe existir en la tabla clientes para cada venta",
+  "dimension": "integridad referencial",
+  "severity": "alta"
+}
+```
+
+## Salida esperada
+
+Una tabla de hallazgos:
+
+| Tabla    | Campo      | Problema            | Severidad | Regla sugerida   |
+| -------- | ---------- | ------------------- | --------- | ---------------- |
+| clientes | dni        | duplicados          | alta      | validar unicidad |
+| clientes | correo     | formato inválido    | media     | regex email      |
+| ventas   | cliente_id | cliente inexistente | alta      | validar FK       |
+
+---
+
+# Módulo 4: MDM Agent
+
+## Objetivo
+
+Identificar registros duplicados o candidatos a consolidación.
+
+## Entidades maestras
+
+* Cliente.
+* Producto.
+* Proveedor.
+* Sucursal.
+
+## Técnicas simples
+
+* Coincidencia exacta por DNI/RUC/SKU.
+* Similaridad de nombres.
+* Similaridad de correos.
+* Normalización de texto.
+* Reglas heurísticas.
+
+## Ejemplo
+
+Entrada:
+
+```text
+Juan Perez, DNI 12345678
+Juan Pérez, DNI 12345678
+J. Perez, correo juan.perez@email.com
+```
+
+Salida:
+
+```json
+{
+  "entity": "cliente",
+  "possible_duplicates": ["C001", "C087", "C144"],
+  "confidence": 0.91,
+  "golden_record": {
+    "nombre": "Juan Pérez",
+    "dni": "12345678",
+    "correo": "juan.perez@email.com"
+  }
+}
+```
+
+---
+
+# Módulo 5: Metadata & Catalog Agent
+
+## Objetivo
+
+Crear un catálogo de datos inicial.
+
+## Entradas
+
+* Diccionario de datos.
+* Perfilamiento.
+* Reglas detectadas.
+* Documentos de política.
+
+## Salidas
+
+* Glosario técnico.
+* Glosario de negocio.
+* Clasificación de datos.
+* Data owner sugerido.
+* Data steward sugerido.
+* Criticidad.
+* Frecuencia de actualización.
+* Reglas aplicables.
+
+## Ejemplo
+
+```json
+{
+  "table": "clientes",
+  "field": "dni",
+  "business_definition": "Documento Nacional de Identidad del cliente",
+  "classification": "dato personal",
+  "criticality": "alta",
+  "data_owner": "Gerencia Comercial",
+  "data_steward": "Analista de Clientes",
+  "quality_rules": [
+    "obligatorio",
+    "8 dígitos",
+    "único"
+  ]
+}
+```
+
+---
+
+# Módulo 6: RAG Policy Agent
+
+## Objetivo
+
+Responder preguntas usando documentos de gobierno de datos.
+
+## Documentos que usará
+
+* Política de gobierno de datos sintética.
+* Manual de calidad de datos.
+* Diccionario de datos.
+* Reglas de negocio.
+* Documento de roles y responsabilidades.
+* Documento de clasificación de datos.
+
+## Preguntas ejemplo
+
+```text
+¿Qué campos deben considerarse datos personales?
+```
+
+```text
+¿Qué rol aprueba cambios sobre datos maestros?
+```
+
+```text
+¿Qué regla aplica para campos críticos?
+```
+
+```text
+¿Cuáles son los criterios para clasificar un dato como sensible?
+```
+
+## Comportamiento esperado
+
+El agente debe:
+
+* Buscar documentos relevantes en Milvus.
+* Recuperar fragmentos.
+* Responder con base en el contexto.
+* No inventar información.
+* Decir cuando no encuentra sustento.
+* Incluir fuentes internas.
+
+---
+
+# Módulo 7: Recommendation Agent
+
+## Objetivo
+
+Generar recomendaciones ejecutivas.
+
+## Salidas
+
+* Priorización de problemas.
+* Riesgos.
+* Acciones sugeridas.
+* Roadmap.
+* KPIs.
+* Próximos pasos.
+
+## Ejemplo
+
+```text
+La tabla clientes debe priorizarse porque concentra datos personales, duplicados y problemas de completitud. Se recomienda implementar validación de DNI, normalización de correos, definición de Data Owner y reglas de unicidad.
+```
+
+---
+
+# Módulo 8: Report Agent
+
+## Objetivo
+
+Generar un reporte final.
+
+## Formatos
+
+* Markdown.
+* HTML.
+* PDF opcional.
+* JSON.
+* Excel opcional.
+
+## Estructura del reporte
+
+1. Resumen ejecutivo.
+2. Datasets analizados.
+3. Principales hallazgos.
+4. Score de calidad.
+5. Campos críticos.
+6. Reglas sugeridas.
+7. Hallazgos MDM.
+8. Riesgos.
+9. Recomendaciones.
+10. Roadmap de mejora.
+
+---
+
+## 13. Diseño del flujo con LangGraph
+
+El flujo principal tendrá esta lógica:
+
+```text
+START
+  ↓
+load_input
+  ↓
+classify_input
+  ↓
+if dataset:
+    profile_data
+    evaluate_quality
+    detect_mdm
+    update_catalog
+    generate_recommendations
+    generate_report
+if document:
+    chunk_document
+    embed_document
+    store_in_milvus
+    enable_rag
+if question:
+    retrieve_context
+    answer_with_rag
+    validate_answer
+END
+```
+
+---
+
+## 14. Agentes del sistema
+
+| Agente               | Responsabilidad                    |
+| -------------------- | ---------------------------------- |
+| Supervisor Agent     | Decide qué agente debe actuar      |
+| Data Profiler Agent  | Analiza estructura de datos        |
+| Data Quality Agent   | Detecta problemas y reglas         |
+| MDM Agent            | Detecta duplicados y golden record |
+| Metadata Agent       | Genera catálogo y glosario         |
+| RAG Policy Agent     | Responde con documentos            |
+| Recommendation Agent | Genera recomendaciones             |
+| Report Agent         | Produce reporte final              |
+
+---
+
+## 15. Prompts principales
+
+---
+
+## Prompt del Supervisor Agent
+
+```text
+Eres el agente supervisor de DataGov Agent.
+Tu tarea es decidir qué flujo ejecutar según la entrada del usuario.
+
+Tipos posibles:
+1. dataset_analysis
+2. document_ingestion
+3. rag_question
+4. mdm_analysis
+5. report_generation
+6. recommendation_request
+
+Responde solo con JSON válido:
+{
+  "route": "...",
+  "reason": "..."
+}
+```
+
+---
+
+## Prompt del Data Quality Agent
+
+```text
+Eres un especialista en calidad de datos.
+Analiza el perfil técnico de la tabla y detecta problemas de calidad.
+
+Evalúa:
+- completitud
+- unicidad
+- validez
+- consistencia
+- integridad referencial
+- conformidad
+
+No inventes datos.
+Usa únicamente las métricas entregadas.
+
+Devuelve JSON con:
+{
+  "findings": [
+    {
+      "table": "",
+      "field": "",
+      "problem": "",
+      "quality_dimension": "",
+      "severity": "",
+      "suggested_rule": ""
+    }
+  ]
+}
+```
+
+---
+
+## Prompt del RAG Policy Agent
+
+```text
+Eres un asistente de gobierno de datos.
+Debes responder únicamente con base en el contexto recuperado.
+
+Si el contexto no contiene información suficiente, responde:
+"No se encontró sustento suficiente en los documentos cargados."
+
+Incluye:
+- respuesta breve
+- fundamento
+- fuente o fragmento usado
+- nivel de confianza
+```
+
+---
+
+## Prompt del Recommendation Agent
+
+```text
+Eres un consultor junior de gobierno de datos.
+Con base en los hallazgos detectados, genera recomendaciones accionables.
+
+Incluye:
+1. prioridad
+2. riesgo
+3. acción sugerida
+4. responsable sugerido
+5. impacto esperado
+6. esfuerzo estimado
+
+No inventes métricas.
+Usa solo los hallazgos disponibles.
+```
+
+---
+
+## 16. Datos del proyecto
+
+---
+
+# Dataset sintético mínimo
+
+## Tabla clientes
+
+Campos:
+
+```text
+cliente_id
+nombre
+apellido
+dni
+ruc
+correo
+telefono
+direccion
+distrito
+pais
+fecha_registro
+estado_cliente
+segmento
+```
+
+Errores incluidos:
+
+* DNI duplicado.
+* DNI con menos de 8 dígitos.
+* Correos inválidos.
+* Teléfonos vacíos.
+* País escrito como Perú, Peru, PE.
+* Clientes duplicados.
+* Segmento vacío.
+
+---
+
+## Tabla productos
+
+Campos:
+
+```text
+producto_id
+sku
+nombre_producto
+categoria
+marca
+precio
+moneda
+estado_producto
+fecha_alta
+proveedor_id
+```
+
+Errores incluidos:
+
+* SKU duplicado.
+* Precio negativo.
+* Moneda vacía.
+* Categorías inconsistentes.
+* Producto sin proveedor.
+* Fecha futura.
+
+---
+
+## Tabla ventas
+
+Campos:
+
+```text
+venta_id
+cliente_id
+producto_id
+fecha_venta
+cantidad
+precio_unitario
+total
+canal
+sucursal
+vendedor
+```
+
+Errores incluidos:
+
+* Cliente inexistente.
+* Producto inexistente.
+* Total mal calculado.
+* Cantidad cero.
+* Fecha futura.
+* Canal vacío.
+
+---
+
+## Tabla proveedores
+
+Campos:
+
+```text
+proveedor_id
+ruc
+razon_social
+correo
+telefono
+pais
+estado
+```
+
+Errores incluidos:
+
+* RUC duplicado.
+* RUC inválido.
+* Proveedor sin correo.
+* País inconsistente.
+
+---
+
+## Documentos sintéticos
+
+1. Política de gobierno de datos.
+2. Manual de calidad de datos.
+3. Glosario de negocio.
+4. Matriz de roles de datos.
+5. Política de datos personales.
+6. Procedimiento de cambios en datos maestros.
+7. Reglas de negocio comercial.
+8. Documento de arquitectura de datos simulada.
+9. Roadmap de gobierno de datos.
+10. Checklist de migración a data warehouse moderno.
+
+---
+
+## 17. Estructura del repositorio
+
+```text
+datagov-agent/
+│
+├── README.md
+├── requirements.txt
+├── pyproject.toml
+├── .env.example
+├── docker-compose.yml
+├── Makefile
+│
+├── app/
+│   ├── main.py
+│   ├── config.py
+│   ├── api/
+│   │   ├── routes_data.py
+│   │   ├── routes_rag.py
+│   │   └── routes_reports.py
+│   │
+│   ├── agents/
+│   │   ├── supervisor.py
+│   │   ├── profiler_agent.py
+│   │   ├── quality_agent.py
+│   │   ├── mdm_agent.py
+│   │   ├── metadata_agent.py
+│   │   ├── rag_agent.py
+│   │   ├── recommendation_agent.py
+│   │   └── report_agent.py
+│   │
+│   ├── graph/
+│   │   ├── state.py
+│   │   ├── nodes.py
+│   │   └── workflow.py
+│   │
+│   ├── services/
+│   │   ├── data_loader.py
+│   │   ├── profiler.py
+│   │   ├── quality_rules.py
+│   │   ├── mdm.py
+│   │   ├── vector_store.py
+│   │   ├── embeddings.py
+│   │   ├── llm.py
+│   │   └── report_generator.py
+│   │
+│   ├── schemas/
+│   │   ├── data_schema.py
+│   │   ├── quality_schema.py
+│   │   └── report_schema.py
+│   │
+│   └── utils/
+│       ├── text_cleaning.py
+│       ├── file_utils.py
+│       └── logging.py
+│
+├── ui/
+│   └── streamlit_app.py
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   ├── synthetic/
+│   └── documents/
+│
+├── notebooks/
+│   ├── 01_generate_synthetic_data.ipynb
+│   └── 02_test_quality_rules.ipynb
+│
+├── tests/
+│   ├── test_profiler.py
+│   ├── test_quality.py
+│   ├── test_mdm.py
+│   └── test_rag.py
+│
+└── docs/
+    ├── architecture.md
+    ├── project_plan.md
+    ├── data_dictionary.md
+    ├── prompts.md
+    └── demo_script.md
+```
+
+---
+
+## 18. Instalación local
+
+---
+
+## Paso 1: Crear entorno
+
+```bash
+python -m venv .venv
+```
+
+```bash
+.venv\Scripts\activate
+```
+
+---
+
+## Paso 2: Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Paso 3: Instalar Ollama
+
+Descargar e instalar Ollama.
+
+Luego ejecutar:
+
+```bash
+ollama pull llama3.1:8b
+```
+
+```bash
+ollama pull nomic-embed-text
+```
+
+---
+
+## Paso 4: Probar Ollama
+
+```bash
+ollama run llama3.1:8b
+```
+
+---
+
+## Paso 5: Levantar backend
+
+```bash
+uvicorn app.main:app --reload
+```
+
+---
+
+## Paso 6: Levantar interfaz
+
+```bash
+streamlit run ui/streamlit_app.py
+```
+
+---
+
+## 19. Dependencias iniciales
+
+```text
+langchain
+langchain-community
+langchain-ollama
+langgraph
+pymilvus[milvus-lite]
+pandas
+numpy
+openpyxl
+python-dotenv
+fastapi
+uvicorn
+streamlit
+pydantic
+scikit-learn
+rapidfuzz
+faker
+plotly
+pytest
+ruff
+black
+pypdf
+python-docx
+```
+
+---
+
+## 20. Cronograma sugerido
+
+---
+
+# Semana 1: Base del proyecto
+
+## Objetivo
+
+Crear la estructura, datos sintéticos y primer análisis de calidad.
+
+## Actividades
+
+* Crear repositorio GitHub.
+* Crear estructura de carpetas.
+* Configurar entorno Python.
+* Instalar Ollama.
+* Instalar dependencias.
+* Crear datasets sintéticos.
+* Crear primer notebook de generación de datos.
+* Implementar carga de CSV.
+* Implementar perfilamiento básico.
+
+## Entregable
+
+* Repo inicial.
+* Dataset sintético.
+* Perfilamiento de clientes, productos y ventas.
+
+---
+
+# Semana 2: Calidad de datos y MDM
+
+## Objetivo
+
+Detectar problemas reales en datasets simulados.
+
+## Actividades
+
+* Implementar reglas de calidad.
+* Detectar nulos.
+* Detectar duplicados.
+* Detectar formatos inválidos.
+* Detectar integridad referencial.
+* Implementar MDM básico.
+* Implementar golden record sugerido.
+* Crear pruebas unitarias.
+
+## Entregable
+
+* Módulo Data Quality.
+* Módulo MDM.
+* Reporte JSON de hallazgos.
+
+---
+
+# Semana 3: RAG con Milvus
+
+## Objetivo
+
+Permitir consulta documental con RAG.
+
+## Actividades
+
+* Crear documentos sintéticos de gobierno de datos.
+* Implementar carga de PDF/TXT.
+* Implementar chunking.
+* Generar embeddings.
+* Guardar embeddings en Milvus Lite.
+* Crear retriever.
+* Crear prompt RAG.
+* Responder preguntas con contexto.
+
+## Entregable
+
+* RAG funcional.
+* Consulta de políticas de gobierno de datos.
+
+---
+
+# Semana 4: LangGraph y agentes
+
+## Objetivo
+
+Orquestar el sistema con agentes.
+
+## Actividades
+
+* Definir estado global del workflow.
+* Crear nodos de LangGraph.
+* Crear Supervisor Agent.
+* Crear rutas condicionales.
+* Integrar Data Profiler Agent.
+* Integrar Quality Agent.
+* Integrar MDM Agent.
+* Integrar RAG Policy Agent.
+* Integrar Recommendation Agent.
+
+## Entregable
+
+* Flujo agéntico funcional.
+
+---
+
+# Semana 5: API e interfaz
+
+## Objetivo
+
+Construir demo usable.
+
+## Actividades
+
+* Crear endpoints FastAPI.
+* Crear interfaz Streamlit.
+* Pantalla de carga de archivos.
+* Pantalla de perfilamiento.
+* Pantalla de calidad de datos.
+* Pantalla MDM.
+* Pantalla Chat RAG.
+* Pantalla de reporte ejecutivo.
+
+## Entregable
+
+* Demo local completa.
+
+---
+
+# Semana 6: Reportes, documentación y presentación
+
+## Objetivo
+
+Dejar el proyecto listo para entrevista.
+
+## Actividades
+
+* Generar reporte ejecutivo.
+* Crear README profesional.
+* Crear diagrama de arquitectura.
+* Crear capturas de pantalla.
+* Crear video demo.
+* Crear script de presentación.
+* Crear pruebas finales.
+* Crear roadmap futuro.
+
+## Entregable
+
+* Proyecto listo para portafolio.
+* Demo funcional.
+* Documentación técnica.
+* Video demostrativo.
+
+---
+
+## 21. Funcionalidades mínimas para MVP
+
+El MVP debe incluir obligatoriamente:
+
+1. Cargar CSV.
+2. Detectar nulos y duplicados.
+3. Detectar formatos inválidos.
+4. Identificar campos sensibles.
+5. Generar reglas de calidad.
+6. Cargar documentos de política.
+7. Guardar embeddings en Milvus.
+8. Preguntar mediante RAG.
+9. Orquestar al menos 3 agentes con LangGraph.
+10. Generar reporte ejecutivo.
+11. Mostrar todo en Streamlit.
+12. Tener README completo en GitHub.
+
+---
+
+## 22. Funcionalidades avanzadas
+
+Si hay tiempo:
+
+1. Exportar reporte PDF.
+2. Crear dashboard de score de calidad.
+3. Crear comparación entre dos datasets.
+4. Crear simulación de migración a Redshift.
+5. Generar DDL SQL.
+6. Generar diccionario de datos automático.
+7. Crear lineage simple.
+8. Crear evaluación automática del RAG.
+9. Agregar memoria conversacional.
+10. Agregar login local simple.
+
+---
+
+## 23. Métricas de evaluación
+
+## Métricas técnicas
+
+* Tiempo de respuesta del RAG.
+* Número de documentos indexados.
+* Número de chunks generados.
+* Precisión manual de recuperación.
+* Cantidad de reglas generadas.
+* Cantidad de hallazgos detectados.
+* Pruebas unitarias aprobadas.
+
+## Métricas de negocio simuladas
+
+* Score de calidad por tabla.
+* Porcentaje de campos críticos documentados.
+* Porcentaje de reglas de calidad sugeridas.
+* Número de duplicados detectados.
+* Número de riesgos identificados.
+* Nivel de prioridad por dataset.
+
+---
+
+## 24. Ejemplo de score de calidad
+
+```text
+Score inicial = 100
+
+Penalizaciones:
+- Campo crítico con nulos: -15
+- Duplicados en identificador: -20
+- Formato inválido: -10
+- Integridad referencial rota: -20
+- Campo sensible sin clasificación: -15
+- Catálogo incompleto: -10
+```
+
+Ejemplo:
+
+```json
+{
+  "table": "clientes",
+  "quality_score": 62,
+  "risk_level": "alto",
+  "main_issues": [
+    "DNI duplicado",
+    "correo inválido",
+    "datos personales sin clasificación"
+  ]
+}
+```
+
+---
+
+## 25. Demo sugerida para entrevista
+
+## Guion de demo
+
+1. Presentar el problema:
+
+   * “Las empresas tienen datos dispersos, sin reglas claras y con baja calidad.”
+
+2. Mostrar carga de datasets:
+
+   * Clientes, productos, ventas.
+
+3. Ejecutar perfilamiento:
+
+   * Mostrar nulos, duplicados y errores.
+
+4. Ejecutar agente de calidad:
+
+   * Mostrar reglas sugeridas.
+
+5. Ejecutar agente MDM:
+
+   * Mostrar posibles duplicados y golden record.
+
+6. Consultar política con RAG:
+
+   * “¿Qué campos deben clasificarse como datos personales?”
+   * “¿Quién aprueba cambios en datos maestros?”
+
+7. Generar reporte:
+
+   * Diagnóstico.
+   * Riesgos.
+   * Acciones sugeridas.
+   * KPIs.
+
+8. Explicar arquitectura:
+
+   * LangChain.
+   * LangGraph.
+   * Milvus.
+   * Ollama.
+   * FastAPI.
+   * Streamlit.
+
+9. Cerrar con roadmap:
+
+   * Integración futura con AWS S3, Glue, Redshift, catálogo de datos y herramientas empresariales.
+
+---
+
+## 26. Ejemplo de preguntas para probar el RAG
+
+```text
+¿Qué es un dato crítico según la política?
+```
+
+```text
+¿Qué rol debe aprobar cambios en datos maestros?
+```
+
+```text
+¿Qué controles se aplican a datos personales?
+```
+
+```text
+¿Qué reglas deben aplicarse al campo DNI?
+```
+
+```text
+¿Qué debe contener el catálogo de datos?
+```
+
+```text
+¿Cuáles son las responsabilidades del Data Steward?
+```
+
+---
+
+## 27. Ejemplo de preguntas para probar los datos
+
+```text
+Analiza la calidad de la tabla clientes.
+```
+
+```text
+¿Qué campos tienen mayor riesgo?
+```
+
+```text
+Detecta posibles duplicados de clientes.
+```
+
+```text
+Genera reglas de calidad para la tabla ventas.
+```
+
+```text
+Crea un glosario de negocio para productos.
+```
+
+```text
+¿Qué acciones recomiendas priorizar?
+```
+
+---
+
+## 28. Riesgos del proyecto
+
+| Riesgo                              | Mitigación                                      |
+| ----------------------------------- | ----------------------------------------------- |
+| El modelo local responde lento      | Usar modelo 7B/8B cuantizado o reducir contexto |
+| RAG recupera fragmentos incorrectos | Mejorar chunking y metadata                     |
+| Milvus complica instalación         | Usar Milvus Lite                                |
+| El proyecto crece demasiado         | Limitar MVP a 3 tablas y 5 documentos           |
+| Respuestas inventadas               | Usar prompt estricto y validador                |
+| Streamlit se vuelve pesado          | Mantener UI simple                              |
+| Falta de tiempo                     | Priorizar backend + demo mínima                 |
+
+---
+
+## 29. Limitaciones técnicas asumidas
+
+Por la PC disponible:
+
+* No se usarán modelos 30B, 70B o superiores.
+* No se hará fine-tuning.
+* No se procesarán millones de registros.
+* No se usará Kubernetes.
+* No se usará nube pagada.
+* No se usarán APIs comerciales como requisito.
+* No se usará Pinecone porque Milvus cubre el requerimiento sin costo local.
+* Docker será opcional, no obligatorio.
+
+---
+
+## 30. Roadmap futuro
+
+## Fase futura 1: Integración cloud
+
+* AWS S3.
+* AWS Glue.
+* AWS Redshift.
+* AWS Athena.
+* AWS Lake Formation.
+
+## Fase futura 2: Gobierno de datos empresarial
+
+* Catálogo de datos real.
+* Integración con herramientas tipo Collibra, Purview o DataHub.
+* Roles y permisos.
+* Lineage automatizado.
+
+## Fase futura 3: Observabilidad
+
+* Logs de agentes.
+* Trazabilidad de prompts.
+* Evaluación de respuestas.
+* Métricas de latencia.
+* Métricas de recuperación RAG.
+
+## Fase futura 4: Seguridad
+
+* Control de acceso.
+* Enmascaramiento de datos.
+* Clasificación automática de PII.
+* Auditoría de consultas.
+
+---
+
+## 31. Entregables finales
+
+1. Código fuente en GitHub.
+2. README profesional.
+3. Diagrama de arquitectura.
+4. Dataset sintético.
+5. Documentos sintéticos de gobierno de datos.
+6. API FastAPI.
+7. Interfaz Streamlit.
+8. RAG con Milvus.
+9. Agentes con LangGraph.
+10. Reporte ejecutivo generado por IA.
+11. Video demo.
+12. Guion de presentación.
+13. Roadmap futuro.
+
+---
+
+## 32. README esperado
+
+El README debe incluir:
+
+```text
+# DataGov Agent
+
+## Descripción
+Sistema local de IA generativa y agéntica para gobierno, calidad y catalogación de datos.
+
+## Problema
+Las organizaciones tienen datos dispersos, baja calidad y poca trazabilidad.
+
+## Solución
+Agentes especializados analizan datasets, documentos y políticas para generar diagnósticos y recomendaciones.
+
+## Stack
+Python, LangChain, LangGraph, Milvus, Ollama, FastAPI, Streamlit.
+
+## Arquitectura
+Diagrama del flujo.
+
+## Instalación
+Pasos para correr localmente.
+
+## Demo
+Capturas y video.
+
+## Casos de uso
+- Perfilamiento
+- Calidad
+- MDM
+- RAG
+- Reporte ejecutivo
+
+## Limitaciones
+Proyecto local, datos sintéticos, no productivo.
+
+## Roadmap
+Integración futura con AWS.
+```
+
+---
+
+## 33. Argumento para entrevista
+
+“Desarrollé DataGov Agent, un sistema local de IA generativa y agéntica orientado a gobierno y calidad de datos. El objetivo fue simular cómo una consultora de datos puede acelerar diagnósticos iniciales usando agentes especializados. El sistema carga datasets sintéticos, detecta problemas de calidad, identifica datos sensibles, propone reglas, consulta políticas internas mediante RAG y genera un reporte ejecutivo. Todo corre localmente usando Python, LangChain, LangGraph, Milvus y Ollama, sin servicios de pago.”
+
+---
+
+## 34. Valor diferencial
+
+El proyecto no es solo un chatbot.
+
+Es una solución que demuestra:
+
+* Comprensión del negocio de datos.
+* Uso real de RAG.
+* Uso de agentes con LangGraph.
+* Uso de base vectorial.
+* Capacidad de análisis con Python.
+* Generación de valor para gobierno de datos.
+* Buen criterio para trabajar sin datos confidenciales.
+* Capacidad de construir una demo completa en entorno local.
+
+---
+
+## 35. Resultado esperado
+
+Al finalizar, el sistema debe permitir esta experiencia:
+
+1. El usuario carga `clientes.csv`, `productos.csv` y `ventas.csv`.
+2. El agente analiza los datos.
+3. El sistema muestra hallazgos de calidad.
+4. El agente detecta duplicados.
+5. El usuario consulta políticas de gobierno de datos.
+6. El sistema responde con RAG.
+7. El sistema genera un reporte ejecutivo.
+8. El usuario puede defender la arquitectura técnica en entrevista.
+
+---
+
+# Conclusión
+
+DataGov Agent es un proyecto realista, local, sin costo y altamente alineado con una empresa como DWConsulware. Permite demostrar conocimientos de Python, IA generativa, agentes, RAG, bases vectoriales, gobierno de datos, calidad de datos, MDM y analítica.
+
+La versión MVP puede construirse en 4 a 6 semanas y es suficientemente sólida para presentarse como proyecto técnico para el perfil de Analista de IA Generativa y Agéntica Junior.

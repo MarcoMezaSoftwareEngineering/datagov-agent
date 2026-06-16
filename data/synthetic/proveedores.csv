@@ -1,0 +1,21 @@
+proveedor_id,ruc,razon_social,correo,telefono,pais,estado
+PRV001,20786579303,Banca Privada OLMJ S.L.N.E,rocaamilcar@familia.com,+34872 86 37 94,Perú,activo
+PRV002,20249827706,Grupo Rocamora S.Com.,ildefonsonavarro@compania.es,+34987 161 849,Colombia,activo
+PRV003,20249827706,Fernandez & Asociados S.A.,,+34877 41 31 64,Perú,activo
+PRV004,20642621108,Fabiola Patiño Cánovas S.Com.,herminialasa@distribuciones.net,+34 921 03 05 64,Ecuador,inactivo
+PRV005,20336696312,Fábrica TQIU S.L.N.E,qclavero@industrias.es,+34 945 532 871,Peru,activo
+PRV006,20849621470,Familia Coronado S.L.,ybartolome@sole.com,+34828 845 146,Perú,inactivo
+PRV007,22676,Talleres Acero S.L.N.E,angelita28@inversiones.com,+34 921701543,PE,inactivo
+PRV008,70217,Grupo Bermúdez S.A.,wbayon@desarrollo.com,+34 884896383,Chile,activo
+PRV009,20692749116,Servicios Perea y asociados S.L.N.E,pcarrillo@comercializadora.net,+34876 010 310,PE,activo
+PRV010,96673,Belda & Asociados S.C.P,igargallo@tecnologias.es,+34 871 11 65 66,PE,activo
+PRV011,20349957310,Rosario Balaguer Cabello S.A.,nereida13@finanzas.com,+34886 731 781,Chile,inactivo
+PRV012,20274648506,Familia Bueno S.L.N.E,flavioramos@alicia.com,+34941064746,PE,activo
+PRV013,20754049436,Fabián Falcó Martin S.A.T.,barreramariana@barcelo.com,+34807812191,Perú,activo
+PRV014,20596348124,Servicios Españolas S.L.N.E,cristinaarino@soluciones.net,+34 884624751,Ecuador,activo
+PRV015,20835098955,Hnos Cabo S.A.,antonialara@mineria.es,+34887 278 498,Peru,activo
+PRV016,51347,Hermanos Calleja S.L.N.E,juan-luiscarlos@despacho.org,+34 982740164,Peru,activo
+PRV017,20709004943,Familia Múgica S.L.,felix78@agusti.com,+34 800 598 262,Ecuador,inactivo
+PRV018,20524806516,Hermanos Pastor S.L.N.E,pallareshumberto@construccion.es,+34 846 32 26 02,Perú,inactivo
+PRV019,20249926919,Requena & Asociados S.C.P,pineirosalud@hnos.es,+34925433036,PE,inactivo
+PRV020,20726563708,Lopez & Asociados S.L.N.E,pascual86@amoros.org,+34 859 40 19 65,Perú,inactivo
