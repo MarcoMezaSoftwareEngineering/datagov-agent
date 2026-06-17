@@ -4,7 +4,13 @@ from __future__ import annotations
 
 import pytest
 
-from app.agents.rag_agent import NO_SUPPORT, answer_question, chunk_text, ingest_documents
+from app.agents.rag_agent import (
+    NO_SUPPORT,
+    _augment_with_keywords,
+    answer_question,
+    chunk_text,
+    ingest_documents,
+)
 from app.services.embeddings import HashingEmbeddings
 from app.services.vector_store import InMemoryVectorStore, milvus_available
 
@@ -54,6 +60,31 @@ def test_rag_who_approves_master_data(store):
     ans = answer_question(store, "Quien aprueba cambios sobre datos maestros?")
     assert ans.grounded is True
     assert any("procedimiento" in s for s in ans.sources)
+
+
+def test_keyword_boost_recupera_articulo_exacto():
+    """La búsqueda híbrida recupera el 'Artículo 16' aunque el vector no lo priorice."""
+    vs = InMemoryVectorStore(embeddings=HashingEmbeddings(dim=256))
+    ingest_documents(
+        vs,
+        [
+            ("Articulo 1. Objeto. La presente ley regula la educacion universitaria.", "ley.pdf"),
+            ("Articulo 16. Estructura organica de la SUNEDU. La SUNEDU se organiza...", "ley.pdf"),
+            ("Articulo 99. Disposiciones finales y transitorias de la ley.", "ley.pdf"),
+        ],
+    )
+    pregunta = "que dice el articulo 16?"
+    vec = vs.similarity_search(pregunta, k=2)
+    merged = _augment_with_keywords(vs, pregunta, vec, 2)
+    assert any("Articulo 16" in c.text for c in merged)
+
+
+def test_keyword_search_sin_referencia_no_cambia():
+    """Sin referencia tipo 'artículo N', la búsqueda híbrida no altera los chunks."""
+    vs = InMemoryVectorStore(embeddings=HashingEmbeddings(dim=256))
+    ingest_documents(vs, DOCS)
+    vec = vs.similarity_search("datos personales", k=3)
+    assert _augment_with_keywords(vs, "datos personales", vec, 3) == vec
 
 
 def test_rag_no_support_on_empty_store():

@@ -258,6 +258,13 @@ con sucursal inexistente, 68 totales mal calculados, 22 DNI inválidos…). Cód
   recomienda calentar antes.
 - **¿Funciona sin Ollama o sin Milvus?** Sí, degrada: análisis determinista + narrativa de respaldo;
   los tests corren sin ninguno de los dos.
+- **Pregunté por el "artículo 16" de un PDF y dijo que no lo encontraba (pero sí trae el art. 1).
+  ¿El modelo es malo?** No: el modelo hizo lo correcto (no inventó). Es un problema de **recuperación**:
+  la búsqueda semántica no discrimina bien "número de artículo exacto". Por eso el RAG usa **búsqueda
+  híbrida** (vector + filtro léxico para referencias tipo "artículo N"), implementada en
+  `_augment_with_keywords` de [rag_agent.py](../app/agents/rag_agent.py) y `keyword_search` de
+  [vector_store.py](../app/services/vector_store.py). Cambiar de modelo (qwen3 ↔ llama3.1) **no**
+  afecta esto; afecta la redacción, no el retrieval.
 
 ---
 

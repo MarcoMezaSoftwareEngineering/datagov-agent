@@ -35,7 +35,7 @@ class Settings(BaseSettings):
     # ----- RAG -----
     chunk_size: int = 800
     chunk_overlap: int = 120
-    rag_top_k: int = 4
+    rag_top_k: int = 6
 
     # ----- Rutas -----
     # Fuente canónica: el paquete de datos validado `datagov_agent_dataset/`.

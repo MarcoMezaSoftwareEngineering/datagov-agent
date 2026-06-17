@@ -32,6 +32,14 @@ class BaseVectorStore:
     def similarity_search(self, query: str, k: int | None = None) -> list[RetrievedChunk]:
         raise NotImplementedError
 
+    def keyword_search(self, contains: list[str], limit: int = 10) -> list[RetrievedChunk]:
+        """Recuperación léxica: fragmentos cuyo texto contiene alguna de las cadenas dadas.
+
+        Complementa la búsqueda vectorial para referencias exactas (p. ej. 'artículo 16'),
+        donde el embedding semántico no discrimina bien. Opcional por backend.
+        """
+        return []
+
     def count(self) -> int:
         raise NotImplementedError
 
@@ -76,6 +84,24 @@ class InMemoryVectorStore(BaseVectorStore):
             )
             for i in top
         ]
+
+    def keyword_search(self, contains: list[str], limit: int = 10) -> list[RetrievedChunk]:
+        needles = [s.lower() for s in contains if s]
+        out: list[RetrievedChunk] = []
+        for text, meta in zip(self._texts, self._metadatas, strict=False):
+            low = text.lower()
+            if any(n in low for n in needles):
+                out.append(
+                    RetrievedChunk(
+                        text=text,
+                        source=str(meta.get("source", "")),
+                        score=1.0,
+                        metadata=meta,
+                    )
+                )
+                if len(out) >= limit:
+                    break
+        return out
 
     def count(self) -> int:
         return len(self._texts)
@@ -158,6 +184,32 @@ class MilvusVectorStore(BaseVectorStore):
                 )
             )
         return chunks
+
+    def keyword_search(self, contains: list[str], limit: int = 10) -> list[RetrievedChunk]:
+        # Sanea las cadenas (evita romper la expresión) y arma un OR de filtros `like`.
+        safe = [s.replace('"', "").replace("%", "") for s in contains if s]
+        if not safe:
+            return []
+        expr = " or ".join(f'text like "%{s}%"' for s in safe)
+        try:
+            rows = self.client.query(
+                collection_name=self.collection,
+                filter=expr,
+                output_fields=["text", "source"],
+                limit=limit,
+            )
+        except Exception as exc:  # pragma: no cover - dependiente de Milvus
+            logger.warning("keyword_search Milvus falló (%s)", exc)
+            return []
+        return [
+            RetrievedChunk(
+                text=r.get("text", ""),
+                source=r.get("source", ""),
+                score=1.0,
+                metadata=r,
+            )
+            for r in rows
+        ]
 
     def count(self) -> int:
         try:
