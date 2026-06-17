@@ -69,6 +69,9 @@ def answer_question(store: BaseVectorStore, question: str, top_k: int | None = N
     # Búsqueda híbrida: refuerza con fragmentos que mencionan literalmente una
     # referencia exacta de la pregunta (p. ej. "artículo 16"), que el vector no recupera.
     chunks = _augment_with_keywords(store, question, chunks, k)
+    # Expansión de contexto: trae los fragmentos vecinos de los mejores resultados para
+    # reconstruir secciones largas (encabezado + incisos) que el chunking separó.
+    chunks = _expand_context(store, chunks, window=3, top_n=2, max_total=k + 8)
     if not chunks:
         return RagAnswer(question=question, answer=NO_SUPPORT, grounded=False, confidence="baja")
 
@@ -149,7 +152,7 @@ def _augment_with_keywords(
     if not precise:
         return chunks
 
-    # Fusiona: primero los aciertos léxicos, luego los vectoriales, sin duplicar.
+    # Antepone los aciertos léxicos exactos a los vectoriales, sin duplicar.
     merged: list[RetrievedChunk] = []
     seen_texts: set[str] = set()
     for c in precise + chunks:
@@ -158,6 +161,56 @@ def _augment_with_keywords(
             seen_texts.add(key)
             merged.append(c)
     return merged[: k + len(precise)]
+
+
+def _expand_context(
+    store: BaseVectorStore,
+    chunks: list[RetrievedChunk],
+    window: int = 2,
+    top_n: int = 2,
+    max_total: int = 12,
+) -> list[RetrievedChunk]:
+    """Inserta los fragmentos vecinos de los mejores resultados (context-window).
+
+    Reconstruye secciones largas (p. ej. un artículo con sus incisos) que el chunking
+    partió en fragmentos contiguos, manteniendo el orden de lectura.
+    """
+    out: list[RetrievedChunk] = []
+    seen: set = set()
+
+    def _key(c: RetrievedChunk):
+        cid = (c.metadata or {}).get("chunk_id")
+        return (c.source, cid if cid is not None else c.text[:80])
+
+    def _add(c: RetrievedChunk) -> None:
+        key = _key(c)
+        if key not in seen:
+            seen.add(key)
+            out.append(c)
+
+    # Deduplica la entrada (la colección puede tener fragmentos repetidos por re-indexar)
+    # para que los anclas (top_n) sean distintas.
+    deduped: list[RetrievedChunk] = []
+    seen_in: set = set()
+    for c in chunks:
+        if _key(c) not in seen_in:
+            seen_in.add(_key(c))
+            deduped.append(c)
+    chunks = deduped
+
+    for i, c in enumerate(chunks):
+        _add(c)
+        cid = (c.metadata or {}).get("chunk_id")
+        if i < top_n and isinstance(cid, (int, float)) and c.source:
+            neighbors = sorted(
+                store.fetch_adjacent(c.source, int(cid), window=window),
+                key=lambda x: (x.metadata or {}).get("chunk_id", 0),
+            )
+            for nb in neighbors:
+                _add(nb)
+        if len(out) >= max_total:
+            break
+    return out[:max_total]
 
 
 def _unique_sources(chunks: list[RetrievedChunk]) -> list[str]:

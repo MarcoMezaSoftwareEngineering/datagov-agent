@@ -40,6 +40,14 @@ class BaseVectorStore:
         """
         return []
 
+    def fetch_adjacent(self, source: str, chunk_id: int, window: int = 2) -> list[RetrievedChunk]:
+        """Fragmentos vecinos del mismo documento (chunk_id ± window).
+
+        Permite reconstruir secciones largas (p. ej. un artículo con varios incisos)
+        que el chunking partió en fragmentos contiguos. Opcional por backend.
+        """
+        return []
+
     def count(self) -> int:
         raise NotImplementedError
 
@@ -101,6 +109,19 @@ class InMemoryVectorStore(BaseVectorStore):
                 )
                 if len(out) >= limit:
                     break
+        return out
+
+    def fetch_adjacent(self, source: str, chunk_id: int, window: int = 2) -> list[RetrievedChunk]:
+        lo, hi = chunk_id - window, chunk_id + window
+        out: list[RetrievedChunk] = []
+        for text, meta in zip(self._texts, self._metadatas, strict=False):
+            cid = meta.get("chunk_id")
+            if (
+                str(meta.get("source", "")) == str(source)
+                and isinstance(cid, int)
+                and lo <= cid <= hi
+            ):
+                out.append(RetrievedChunk(text=text, source=str(source), score=0.9, metadata=meta))
         return out
 
     def count(self) -> int:
@@ -169,7 +190,7 @@ class MilvusVectorStore(BaseVectorStore):
             collection_name=self.collection,
             data=[q],
             limit=k,
-            output_fields=["text", "source"],
+            output_fields=["text", "source", "chunk_id"],
             search_params={"metric_type": "COSINE"},
         )
         chunks: list[RetrievedChunk] = []
@@ -195,7 +216,7 @@ class MilvusVectorStore(BaseVectorStore):
             rows = self.client.query(
                 collection_name=self.collection,
                 filter=expr,
-                output_fields=["text", "source"],
+                output_fields=["text", "source", "chunk_id"],
                 limit=limit,
             )
         except Exception as exc:  # pragma: no cover - dependiente de Milvus
@@ -207,6 +228,29 @@ class MilvusVectorStore(BaseVectorStore):
                 source=r.get("source", ""),
                 score=1.0,
                 metadata=r,
+            )
+            for r in rows
+        ]
+
+    def fetch_adjacent(self, source: str, chunk_id: int, window: int = 2) -> list[RetrievedChunk]:
+        safe_source = str(source).replace('"', "")
+        expr = (
+            f'source == "{safe_source}" '
+            f"and chunk_id >= {chunk_id - window} and chunk_id <= {chunk_id + window}"
+        )
+        try:
+            rows = self.client.query(
+                collection_name=self.collection,
+                filter=expr,
+                output_fields=["text", "source", "chunk_id"],
+                limit=2 * window + 1,
+            )
+        except Exception as exc:  # pragma: no cover - dependiente de Milvus
+            logger.warning("fetch_adjacent Milvus falló (%s)", exc)
+            return []
+        return [
+            RetrievedChunk(
+                text=r.get("text", ""), source=r.get("source", ""), score=0.9, metadata=r
             )
             for r in rows
         ]
