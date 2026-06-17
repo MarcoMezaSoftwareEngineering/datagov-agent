@@ -5,6 +5,7 @@ from __future__ import annotations
 from app.agents.prompts import METADATA_SYSTEM
 from app.schemas.data_schema import TableProfile
 from app.schemas.quality_schema import CatalogEntry, QualityReport
+from app.services.data_dictionary import get_data_dictionary
 from app.services.llm import get_llm
 from app.utils.text_cleaning import extract_json
 
@@ -41,9 +42,14 @@ SENSITIVE_HINTS = ("dni", "ruc", "correo", "email", "telefono", "direccion", "no
 
 
 def run_metadata(profile: TableProfile, quality: QualityReport | None = None) -> list[CatalogEntry]:
-    """Construye entradas de catálogo para campos sensibles/identificadores/críticos."""
+    """Construye entradas de catálogo para campos sensibles/identificadores/críticos.
+
+    Si existe el diccionario de datos (``diccionario_datos.csv``), usa sus
+    definiciones/clasificación/owners reales; si no, cae a heurísticas.
+    """
     table = profile.table
     owner, steward = OWNERSHIP.get(table, ("Gobierno de Datos", "Data Steward asignado"))
+    dictionary = get_data_dictionary()
 
     # Reglas por campo a partir de los hallazgos de calidad
     rules_by_field: dict[str, list[str]] = {}
@@ -55,19 +61,39 @@ def run_metadata(profile: TableProfile, quality: QualityReport | None = None) ->
     entries: list[CatalogEntry] = []
     for field in target_fields:
         classification, criticality = _classify(field)
+        business_definition = BUSINESS_DEFINITIONS.get(
+            field.lower(), f"Campo {field} de la tabla {table}"
+        )
+        entry_owner, entry_steward = owner, steward
+        quality_rules = sorted(set(rules_by_field.get(field, []))) or _default_rules(field)
+
+        # Sobrescribir con el diccionario de datos cuando esté disponible.
+        dict_entry = dictionary.get((table.lower(), field.lower()))
+        if dict_entry:
+            if dict_entry.business_definition:
+                business_definition = dict_entry.business_definition
+            if dict_entry.classification:
+                classification = dict_entry.classification
+            if dict_entry.criticality:
+                criticality = dict_entry.criticality
+            if dict_entry.data_owner:
+                entry_owner = dict_entry.data_owner
+            if dict_entry.data_steward:
+                entry_steward = dict_entry.data_steward
+            if dict_entry.base_rule and dict_entry.base_rule not in quality_rules:
+                quality_rules = [*quality_rules, dict_entry.base_rule]
+
         entries.append(
             CatalogEntry(
                 table=table,
                 field=field,
-                business_definition=BUSINESS_DEFINITIONS.get(
-                    field.lower(), f"Campo {field} de la tabla {table}"
-                ),
+                business_definition=business_definition,
                 classification=classification,
                 criticality=criticality,
-                data_owner=owner,
-                data_steward=steward,
+                data_owner=entry_owner,
+                data_steward=entry_steward,
                 update_frequency="diaria" if table == "ventas" else "según evento",
-                quality_rules=sorted(set(rules_by_field.get(field, []))) or _default_rules(field),
+                quality_rules=quality_rules,
             )
         )
 

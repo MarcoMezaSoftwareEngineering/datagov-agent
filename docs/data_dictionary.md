@@ -67,7 +67,22 @@ fecha futura, canal vacío.
 
 **Errores inyectados:** RUC duplicado, RUC inválido, proveedor sin correo, país inconsistente.
 
+## Tabla `sucursales`
+| Campo | Tipo | Descripción | Clasificación |
+| ----- | ---- | ----------- | ------------- |
+| sucursal_id | string | Identificador único de la sucursal | dato maestro |
+| nombre_sucursal | string | Nombre de la sucursal | dato operativo |
+| ciudad | string | Ciudad | dato operativo |
+| region | string | Región | dato operativo |
+| estado | string | Estado (activa/inactiva) | dato operativo |
+
 ## Relaciones (integridad referencial)
 - `ventas.cliente_id` → `clientes.cliente_id`
 - `ventas.producto_id` → `productos.producto_id`
+- `ventas.sucursal_id` → `sucursales.sucursal_id`
 - `productos.proveedor_id` → `proveedores.proveedor_id`
+
+> **Nota:** el paquete `datagov_agent_dataset/` es la fuente canónica e incluye la entidad
+> `sucursales` y la FK `ventas.sucursal_id` (no presentes en el generador sintético original).
+> Las columnas FK (`cliente_id`, `producto_id`, `proveedor_id`, `sucursal_id` en sus tablas hijas)
+> se validan por **integridad referencial**, no por unicidad.

@@ -57,8 +57,13 @@ def load_table(path: str | Path) -> LoadedTable:
 
 
 def _read_csv_robust(path: Path) -> pd.DataFrame:
-    """Lee un CSV probando codificaciones y separadores comunes."""
-    for enc in ("utf-8", "utf-8-sig", "latin-1"):
+    """Lee un CSV probando codificaciones y separadores comunes.
+
+    Se usa ``utf-8-sig`` primero porque maneja tanto archivos con BOM
+    (frecuente en exports de Excel/Power BI) como utf-8 plano, evitando que
+    el BOM quede pegado al nombre de la primera columna (``\\ufeffcliente_id``).
+    """
+    for enc in ("utf-8-sig", "latin-1"):
         try:
             return pd.read_csv(path, encoding=enc, sep=None, engine="python")
         except (UnicodeDecodeError, pd.errors.ParserError):
@@ -75,9 +80,9 @@ def load_dataframe_from_bytes(content: bytes, file_name: str) -> LoadedTable:
     buffer = io.BytesIO(content)
     if ext == ".csv":
         try:
-            df = pd.read_csv(buffer, sep=None, engine="python")
+            # utf-8-sig elimina el BOM si está presente y lee utf-8 plano sin problema.
+            df = pd.read_csv(buffer, sep=None, engine="python", encoding="utf-8-sig")
         except (UnicodeDecodeError, pd.errors.ParserError):
-            buffer.seek(0)
             df = pd.read_csv(io.BytesIO(content), encoding="latin-1", sep=None, engine="python")
     elif ext in (".xlsx", ".xls"):
         df = pd.read_excel(buffer)

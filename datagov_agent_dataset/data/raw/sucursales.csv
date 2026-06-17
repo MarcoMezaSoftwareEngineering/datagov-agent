@@ -1,0 +1,11 @@
+﻿sucursal_id,nombre_sucursal,ciudad,region,estado
+SUC001,Lima Centro,Lima,Sur,Inactiva
+SUC002,San Isidro,Lima,Norte,Activa
+SUC003,Miraflores,Lima,Centro,Activa
+SUC004,Ate,Lima,Sur,Activa
+SUC005,Trujillo,Trujillo,Sur,Activa
+SUC006,Arequipa,Arequipa,Sur,Activa
+SUC007,Piura,Piura,Norte,Activa
+SUC008,Cusco,Cusco,Norte,Inactiva
+SUC009,Chiclayo,Chiclayo,Norte,Activa
+SUC010,Ica,Ica,Lima,Inactiva

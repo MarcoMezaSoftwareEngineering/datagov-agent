@@ -1,0 +1,1211 @@
+﻿cliente_id,nombre,apellido,dni,ruc,correo,telefono,direccion,distrito,pais,fecha_registro,estado_cliente,segmento
+CLI00001,Camila,Silva,82828034,,camila.silva1@demoempresa.com,918357162,Av. Demo 311,,PERU,2025-04-11,Activo,Gobierno
+CLI00002,Jorge,Lopez,10791358,,jorge.lopez2@demoempresa.com,950079111,Av. Demo 871,Independencia,,2024-05-08,Bloqueado,
+CLI00003,Patricia,Vargas,75529051,,patricia.vargas3@demoempresa.com,968496914,Av. Demo 597,San Isidro,PERU,2023-11-20,Inactivo,
+CLI00004,Lucía,Díaz,27129912,,luca.daz4@demoempresa.com,981688860,Av. Demo 127,Independencia,Ecuador,2025-03-01,Activo,Retail
+CLI00005,Camila,Torres,71968116,,camila.torres5@demoempresa.com,944917589,Av. Demo 488,Ate,Peru,2024-07-20,Activo,Pyme
+CLI00006,Jorge,Mendoza,66581473,,jorge.mendoza6@demoempresa.com,920993268,Av. Demo 581,San Isidro,Colombia,2025-01-09,Activo,Pyme
+CLI00007,Rosa,Rojas,97477029,20133318206,rosa.rojas7@demoempresa.com,943189803,Av. Demo 304,San Isidro,Ecuador,2022-11-09,Activo,Corporativo
+CLI00008,Elena,Ramírez,85694715,,elena.ramrez8@demoempresa.com,972415804,Av. Demo 816,Comas,,2024-01-26,Activo,Gobierno
+CLI00009,Gabriela,Ramírez,31980274,,gabriela.ramrez9@demoempresa.com,924508768,Av. Demo 692,San Isidro,PE,2025-03-25,Inactivo,Premium
+CLI00010,Pedro,Rojas,89470029,,pedro.rojas10@demoempresa.com,994187049,Av. Demo 348,La Molina,Colombia,2023-09-10,Bloqueado,Retail
+CLI00011,Fernando,García,56600900,,fernando.garca11@demoempresa.com,998787891,Av. Demo 479,Surco,Ecuador,2025-08-19,Activo,Retail
+CLI00012,Camila,Lopez,24165187,,camila.lopez12@demoempresa.com,958612055,Av. Demo 750,S.J.M.,Colombia,2022-11-10,Inactivo,Corporativo
+CLI00013,Raúl,Mendoza,92666356,,ral.mendoza13@demoempresa.com,,Av. Demo 651,Miraflores ,PERU,2024-06-11,Bloqueado,Pyme
+CLI00014,José,Vargas,21631697,,jos.vargas14@demoempresa.com,970505620,Av. Demo 349,S.J.M.,Ecuador,2025-06-03,Inactivo,Pyme
+CLI00015,Juan,Lopez,53622663,,juan.lopez15@demoempresa.com,938470244,Av. Demo 463,Comas,PE,2023-07-27,Bloqueado,
+CLI00016,Miguel,Medina,11362459,,miguel.medina16@demoempresa.com,935643159,Av. Demo 187,Los Olivos,Colombia,2024-04-12,Inactivo,Gobierno
+CLI00017,Rosa,Lopez,96691619,,rosa.lopez17@demoempresa.com,970152969,Av. Demo 911,San Isidro,Perú,2023-08-26,Activo,Premium
+CLI00018,Rosa,Quispe,99115205,,rosa.quispe18@demoempresa.com,973519947,Av. Demo 666,Callao,PERU,2025-02-01,Activo,Pyme
+CLI00019,Diego,Mendoza,51154241,,diego.mendoza19@demoempresa.com,926194158,Av. Demo 838,Jesus Maria,PE,2022-09-02,Bloqueado,
+CLI00020,Lucía,Castillo,39042654,,luca.castillo20@demoempresa.com,947111151,Av. Demo 841,San Juan de Miraflores,Perú,2023-02-02,Activo,Corporativo
+CLI00021,Valeria,Flores,50569669,20673523188,valeria.flores21@demoempresa.com,926989677,Av. Demo 380,Miraflores,Perú,2025-02-07,Activo,
+CLI00022,Luis,Lopez,23769080,,luis.lopez22@demoempresa.com,987049595,Av. Demo 391,Miraflores ,PERU,2024-06-21,Activo,Corporativo
+CLI00023,María,Mendoza,74119726,20170161976,mara.mendoza23@demoempresa.com,963782042,Av. Demo 603,Surco,Ecuador,2025-07-13,Activo,Corporativo
+CLI00024,Luis,Quispe,21432787,,luis.quispe24@demoempresa.com,925898299,Av. Demo 671,,Ecuador,2025-05-05,Bloqueado,Corporativo
+CLI00025,Raúl,Romero,70467027,,ral.romero25@demoempresa.com,949910061,Av. Demo 980,,PE,2025-03-10,Bloqueado,Retail
+CLI00026,Gabriela,Ramírez,37888820,,gabriela.ramrez26@demoempresa.com,,Av. Demo 370,Surco,Peru,2023-05-07,Activo,Gobierno
+CLI00027,Carlos,Flores,10359129,,carlos.flores27@demoempresa.com,989699989,Av. Demo 581,San Juan de Miraflores,Perú,2023-04-20,Activo,
+CLI00028,Sofía,Díaz,19553585,,sofa.daz28@demoempresa.com,945507920,Av. Demo 906,Jesus Maria,PERU,2022-08-24,Bloqueado,Corporativo
+CLI00029,Luis,Mendoza,29090631,20278158234,luis.mendoza29_at_demoempresa.com,951286958,Av. Demo 709,San Juan de Miraflores,PERU,2022-09-12,Inactivo,
+CLI00030,Sofía,Romero,46540265,,sofa.romero30@demoempresa.com,976276072,Av. Demo 548,Surco,Ecuador,2022-03-23,Inactivo,
+CLI00031,José,Mendoza,13471527,20824022357,jos.mendoza31@demoempresa.com,987201917,Av. Demo 701,San Isidro,,2025-10-08,Activo,Gobierno
+CLI00032,María,Flores,73149551,,mara.flores32@demoempresa.com,969355025,Av. Demo 384,Lince,Ecuador,2024-06-11,Inactivo,Retail
+CLI00033,Elena,Chávez,64807553,,elena.chvez33@demoempresa.com,999943797,Av. Demo 207,Lince,PE,2024-04-23,Inactivo,Pyme
+CLI00034,Jorge,Medina,14925405,,jorge.medina34@demoempresa.com,952213778,Av. Demo 358,Ate,Perú,2024-04-07,Bloqueado,Retail
+CLI00035,Patricia,Díaz,65465150,20656670062,patricia.daz35@demoempresa.com,958557203,Av. Demo 737,Miraflores ,Colombia,2024-06-24,Activo,Corporativo
+CLI00036,Miguel,Medina,27584297,,miguel.medina36@demoempresa.com,968802946,Av. Demo 815,Miraflores ,Perú,2022-03-01,Bloqueado,Corporativo
+CLI00037,Lucía,Quispe,83932360,20538076670,luca.quispe37@demoempresa.com,922510327,Av. Demo 330,La Molina,PERU,2022-08-29,Activo,Premium
+CLI00038,Sofía,Herrera,46698468,,sofa.herrera38@demoempresa.com,974759996,Av. Demo 583,Los Olivos,PERU,2025-02-02,Activo,Premium
+CLI00039,Pedro,Herrera,28321839,,pedro.herrera39@demoempresa.com,,Av. Demo 382,,PE,2024-11-05,Activo,Retail
+CLI00040,Sofía,Quispe,46698468,,sofa.quispe40@demoempresa.com,975718414,Av. Demo 986,San Borja,PERU,2025-01-08,Inactivo,Pyme
+CLI00041,José,Medina,82937948,,jos.medina41@demoempresa.com,953188224,Av. Demo 990,Jesus Maria,Colombia,2023-05-05,Bloqueado,Premium
+CLI00042,Rosa,Sánchez,15858241,,rosa.snchez42@demoempresa.com,973481797,Av. Demo 822,Independencia,PERU,2025-09-21,Activo,Premium
+CLI00043,María,Torres,77416376,,mara.torres43@demoempresa.com,954559574,Av. Demo 990,La Molina,,2024-06-20,Activo,Gobierno
+CLI00044,Diego,Pérez,29348212,,diego.prez44@demoempresa.com,997883261,Av. Demo 258,Surco,PERU,2023-06-27,Activo,Gobierno
+CLI00045,Jorge,Rojas,54099326,,jorge.rojas45@demoempresa.com,981621574,Av. Demo 489,Ate,Colombia,2026-01-11,Inactivo,Gobierno
+CLI00046,María,Rojas,41510328,,mara.rojas46@demoempresa.com,948571356,Av. Demo 332,Surco,PERU,2022-07-21,Activo,Premium
+CLI00047,Lucía,Quispe,13885234,20954852540,luca.quispe47@demoempresa.com,917532195,Av. Demo 400,Callao,PE,2024-06-01,Activo,Corporativo
+CLI00048,Raúl,Sánchez,85957578,,ral.snchez48@demoempresa.com,934166826,Av. Demo 274,Lince,Perú,2025-06-02,Inactivo,Gobierno
+CLI00049,Rosa,Lopez,88270025,20595155950,rosa.lopez49@demoempresa.com,995618110,Av. Demo 360,S.J.M.,PE,2025-09-27,Activo,Premium
+CLI00050,Sofía,Medina,31203129,20471048258,sofa.medina50@demoempresa.com,988862539,Av. Demo 406,,Colombia,2023-05-28,Inactivo,Pyme
+CLI00051,Pedro,Romero,74855088,20509486794,pedro.romero51@demoempresa.com,986762164,Av. Demo 467,San Juan de Miraflores,Colombia,2023-08-28,Activo,
+CLI00052,Jorge,Mendoza,11086890,,jorge.mendoza52@demoempresa.com,,Av. Demo 802,Miraflores,Ecuador,2024-10-14,Activo,Corporativo
+CLI00053,Gabriela,Chávez,39394291,,gabriela.chvez53@demoempresa.com,993334601,Av. Demo 356,San Borja,Colombia,2022-07-18,Activo,Pyme
+CLI00054,Diego,García,87789079,,diego.garca54@demoempresa.com,927637794,Av. Demo 192,San Juan de Miraflores,PE,2024-04-30,Activo,Corporativo
+CLI00055,Luis,Medina,59104566,,luis.medina55@demoempresa.com,946578001,Av. Demo 950,Lince,PE,2024-09-13,Activo,
+CLI00056,José,Ramírez,72858374,,jos.ramrez56@demoempresa.com,928892086,Av. Demo 872,Los Olivos,,2025-10-17,Inactivo,Gobierno
+CLI00057,Valeria,Rojas,24594,,valeria.rojas57@demoempresa.com,926587799,Av. Demo 565,Callao,Colombia,2025-10-08,Activo,Gobierno
+CLI00058,Jorge,Chávez,24541967,,jorge.chvez58_at_demoempresa.com,973280554,Av. Demo 125,Ate,Ecuador,2023-03-30,Activo,
+CLI00059,Diego,Quispe,97139443,,diego.quispe59@demoempresa.com,928760553,Av. Demo 146,Miraflores,PE,2024-10-05,Activo,Retail
+CLI00060,Rosa,Medina,28208520,,rosa.medina60@demoempresa.com,959796322,Av. Demo 786,,Ecuador,2026-01-28,Activo,Premium
+CLI00061,Ana,Lopez,92631441,,ana.lopez61@demoempresa.com,947546086,Av. Demo 133,Callao,Peru,2024-06-27,Inactivo,Corporativo
+CLI00062,Valeria,Ramírez,59302863,,valeria.ramrez62@demoempresa.com,996547189,Av. Demo 467,Miraflores,PERU,2023-07-20,Activo,Retail
+CLI00063,Diego,Rojas,98955314,,diego.rojas63@demoempresa.com,995831286,Av. Demo 711,San Isidro,Perú,2023-11-15,Activo,Corporativo
+CLI00064,Fernando,Castillo,19208698,,fernando.castillo64@demoempresa.com,984384510,Av. Demo 312,Jesus Maria,,2023-04-23,Activo,Corporativo
+CLI00065,Gabriela,Pérez,47215199,,gabriela.prez65@demoempresa.com,,Av. Demo 248,San Borja,Ecuador,2023-05-29,Activo,Retail
+CLI00066,Juan,Torres,11994519,,juan.torres66@demoempresa.com,941934639,Av. Demo 702,Ate,Perú,2022-12-23,Activo,Retail
+CLI00067,Luis,Sánchez,80610004,20168244921,luis.snchez67@demoempresa.com,973920651,Av. Demo 559,Callao,Ecuador,2025-04-30,Activo,Premium
+CLI00068,Raúl,Vargas,92558242,20940983577,ral.vargas68@demoempresa.com,998436473,Av. Demo 633,San Juan de Miraflores,PERU,2025-08-10,Activo,Retail
+CLI00069,Elena,Romero,67213476,,elena.romero69@demoempresa.com,975802771,Av. Demo 829,S.J.M.,Perú,2022-06-15,Activo,Gobierno
+CLI00070,Luis,Rojas,26937148,,luis.rojas70@demoempresa.com,994970119,Av. Demo 699,Ate,PERU,2025-05-08,Bloqueado,Pyme
+CLI00071,Diego,Herrera,91259008,,diego.herrera71@demoempresa.com,925356396,Av. Demo 973,Jesus Maria,PERU,2024-07-13,Activo,Premium
+CLI00072,José,Díaz,63516659,,jos.daz72@demoempresa.com,922762205,Av. Demo 420,,PE,2025-09-24,Activo,Pyme
+CLI00073,Luis,Lopez,19010480,20191659287,luis.lopez73@demoempresa.com,922513132,Av. Demo 542,La Molina,Colombia,2024-02-03,Activo,Gobierno
+CLI00074,María,Medina,85387867,,mara.medina74@demoempresa.com,926405605,Av. Demo 520,Callao,,2025-09-24,Inactivo,
+CLI00075,María,Quispe,90585678,,mara.quispe75@demoempresa.com,923905032,Av. Demo 691,Jesus Maria,Peru,2025-09-06,Inactivo,Corporativo
+CLI00076,Ana,Chávez,84660688,,ana.chvez76@demoempresa.com,947388792,Av. Demo 687,Los Olivos,,2024-05-28,Bloqueado,Gobierno
+CLI00077,Gabriela,Medina,13523729,,gabriela.medina77@demoempresa.com,998292612,Av. Demo 949,Comas,Perú,2023-01-05,Activo,
+CLI00078,Sofía,Silva,57113566,20253815116,sofa.silva78@demoempresa.com,,Av. Demo 679,Independencia,Perú,2022-10-18,Activo,Retail
+CLI00079,Raúl,Castillo,60491958,,ral.castillo79@demoempresa.com,955754284,Av. Demo 261,Callao,PE,2026-01-17,Activo,Gobierno
+CLI00080,Gabriela,Rojas,39042654,,gabriela.rojas80@demoempresa.com,992924837,Av. Demo 150,Surco,PE,2024-06-26,Inactivo,Premium
+CLI00081,Gabriela,Díaz,65590800,,gabriela.daz81@demoempresa.com,978765957,Av. Demo 216,Callao,PERU,2022-08-16,Activo,
+CLI00082,Fernando,Lopez,80723898,,fernando.lopez82@demoempresa.com,916095815,Av. Demo 325,Independencia,Ecuador,2022-04-23,Activo,Corporativo
+CLI00083,Sofía,Castillo,28419343,,,948848936,Av. Demo 435,La Molina,Perú,2024-10-15,Inactivo,Corporativo
+CLI00084,Luis,Romero,81481992,,luis.romero84@demoempresa.com,977144075,Av. Demo 672,Callao,Perú,2024-03-24,Activo,Premium
+CLI00085,Juan,Díaz,20450542,,juan.daz85@demoempresa.com,987277086,Av. Demo 539,Independencia,Colombia,2025-08-04,Inactivo,Pyme
+CLI00086,Ana,Romero,12799319,,ana.romero86@demoempresa.com,933068427,Av. Demo 920,S.J.M.,,2025-11-13,Activo,Retail
+CLI00087,Camila,Ramírez,42657384,,camila.ramrez87_at_demoempresa.com,963747464,Av. Demo 636,Surco,PERU,2023-09-28,Activo,Corporativo
+CLI00088,José,Flores,20251466,,jos.flores88@demoempresa.com,925304396,Av. Demo 643,Jesus Maria,,2023-12-17,Activo,
+CLI00089,Luis,Vargas,23798190,20311818984,luis.vargas89@demoempresa.com,933286644,Av. Demo 716,San Borja,,2025-09-04,Activo,Corporativo
+CLI00090,Elena,Díaz,85663295,,elena.daz90@demoempresa.com,970251043,Av. Demo 797,Ate,,2025-07-08,Activo,Corporativo
+CLI00091,Diego,Rojas,72937522,,diego.rojas91@demoempresa.com,,Av. Demo 410,Comas,Ecuador,2022-04-26,Activo,Gobierno
+CLI00092,Carlos,Quispe,71974027,,carlos.quispe92@demoempresa.com,917635653,Av. Demo 477,San Juan de Miraflores,Perú,2025-08-13,Activo,Gobierno
+CLI00093,Gabriela,Herrera,61604364,,gabriela.herrera93@demoempresa.com,984399083,Av. Demo 910,Miraflores,PERU,2025-03-16,Activo,Pyme
+CLI00094,Gabriela,Lopez,77292380,,gabriela.lopez94@demoempresa.com,918304547,Av. Demo 561,La Molina,,2023-12-05,Activo,Gobierno
+CLI00095,Lucía,García,43251599,,luca.garca95@demoempresa.com,968978194,Av. Demo 636,Lince,PE,2024-02-03,Activo,Premium
+CLI00096,Camila,Silva,90246882,20777409303,camila.silva96@demoempresa.com,996879854,Av. Demo 442,Surco,PE,2022-07-13,Bloqueado,
+CLI00097,Jorge,Quispe,43822301,,jorge.quispe97@demoempresa.com,998122539,Av. Demo 717,San Borja,PE,2022-06-16,Bloqueado,
+CLI00098,Luis,Chávez,51638598,,luis.chvez98@demoempresa.com,998870276,Av. Demo 501,San Borja,Ecuador,2025-12-22,Activo,Pyme
+CLI00099,Patricia,Romero,96368203,,patricia.romero99@demoempresa.com,927152188,Av. Demo 786,Surco,Colombia,2025-10-05,Inactivo,Gobierno
+CLI00100,Valeria,Pérez,58667035,,valeria.prez100@demoempresa.com,938748452,Av. Demo 449,Miraflores ,Peru,2023-04-09,Activo,Corporativo
+CLI00101,Carlos,Quispe,23574883,,carlos.quispe101@demoempresa.com,982446804,Av. Demo 955,Miraflores,Colombia,2023-11-21,Bloqueado,Corporativo
+CLI00102,Gabriela,Romero,30703455,,gabriela.romero102@demoempresa.com,993851247,Av. Demo 928,Lince,Colombia,2024-06-15,Activo,Premium
+CLI00103,Valeria,Vargas,69619341,,valeria.vargas103@demoempresa.com,970254091,Av. Demo 339,Los Olivos,PE,2024-08-18,Activo,Pyme
+CLI00104,Fernando,Díaz,71965637,,fernando.daz104@demoempresa.com,,Av. Demo 896,Independencia,Ecuador,2024-12-16,Inactivo,Corporativo
+CLI00105,Pedro,Torres,43554863,20616030284,pedro.torres105@demoempresa.com,959823245,Av. Demo 667,La Molina,Colombia,2024-11-22,Activo,Pyme
+CLI00106,Carlos,Flores,46613428,,carlos.flores106@demoempresa.com,978901038,Av. Demo 250,,Perú,2023-03-31,Inactivo,Pyme
+CLI00107,Juan,Sánchez,17148018,,juan.snchez107@demoempresa.com,960192261,Av. Demo 341,Independencia,Perú,2024-02-07,Activo,Retail
+CLI00108,José,Ramírez,97236246,,jos.ramrez108@demoempresa.com,929602406,Av. Demo 240,Miraflores,PE,2024-08-25,Activo,
+CLI00109,Elena,Díaz,92590645,20185068029,elena.daz109@demoempresa.com,912550658,Av. Demo 362,Jesus Maria,,2022-11-03,Bloqueado,
+CLI00110,Gabriela,Herrera,66808292,20409346714,gabriela.herrera110@demoempresa.com,941895531,Av. Demo 408,La Molina,Perú,2023-05-04,Inactivo,
+CLI00111,Gabriela,Díaz,18429833,20636687537,gabriela.daz111@demoempresa.com,990092958,Av. Demo 648,San Isidro,Colombia,2024-11-21,Bloqueado,Corporativo
+CLI00112,Luis,Quispe,67611469,20478833337,luis.quispe112@demoempresa.com,942287985,Av. Demo 684,,Peru,2025-09-22,Activo,Gobierno
+CLI00113,Valeria,Rojas,80606503,,valeria.rojas113@demoempresa.com,978131950,Av. Demo 667,San Isidro,PERU,2024-08-20,Activo,
+CLI00114,Jorge,Chávez,793618,20946666926,jorge.chvez114@demoempresa.com,919067690,Av. Demo 453,Los Olivos,Colombia,2025-09-07,Activo,Gobierno
+CLI00115,José,Torres,15950635,,jos.torres115@demoempresa.com,955439043,Av. Demo 933,Lince,,2025-11-03,Inactivo,
+CLI00116,Elena,Flores,28099607,20933428091,elena.flores116_at_demoempresa.com,971428713,Av. Demo 137,San Juan de Miraflores,Peru,2022-03-31,Activo,Retail
+CLI00117,José,Quispe,79173614,,jos.quispe117@demoempresa.com,,Av. Demo 934,Miraflores ,PE,2022-03-16,Activo,Pyme
+CLI00118,Valeria,García,98010774,,valeria.garca118@demoempresa.com,926706752,Av. Demo 918,Callao,PERU,2024-03-30,Inactivo,Premium
+CLI00119,José,Flores,76599269,,jos.flores119@demoempresa.com,959304469,Av. Demo 916,Comas,,2022-06-19,Inactivo,Retail
+CLI00120,Camila,Flores,46698468,,camila.flores120@demoempresa.com,920746667,Av. Demo 435,San Juan de Miraflores,PE,2024-07-02,Bloqueado,
+CLI00121,Camila,Flores,69580374,,camila.flores121@demoempresa.com,915684813,Av. Demo 844,Callao,Ecuador,2024-06-09,Activo,
+CLI00122,María,Rojas,95565484,,mara.rojas122@demoempresa.com,978865239,Av. Demo 920,Lince,Perú,2022-10-20,Bloqueado,
+CLI00123,Diego,García,26942307,20935924516,diego.garca123@demoempresa.com,996592295,Av. Demo 475,Callao,PERU,2025-03-07,Activo,Gobierno
+CLI00124,Luis,Díaz,59790013,,luis.daz124@demoempresa.com,920319387,Av. Demo 687,San Borja,Ecuador,2024-01-22,Inactivo,Pyme
+CLI00125,Miguel,Vargas,25226815,20299767568,miguel.vargas125@demoempresa.com,976980546,Av. Demo 630,Independencia,Ecuador,2022-08-30,Activo,Pyme
+CLI00126,Diego,Castillo,92124765,,diego.castillo126@demoempresa.com,975927774,Av. Demo 304,La Molina,Peru,2022-06-01,Inactivo,Corporativo
+CLI00127,Diego,Rojas,52894344,,diego.rojas127@demoempresa.com,918715975,Av. Demo 663,San Juan de Miraflores,PE,2022-11-19,Activo,Pyme
+CLI00128,Raúl,Vargas,26288992,,ral.vargas128@demoempresa.com,928639738,Av. Demo 342,Miraflores ,Perú,2024-01-10,Bloqueado,Gobierno
+CLI00129,Valeria,Díaz,84040798,20192573170,valeria.daz129@demoempresa.com,918824561,Av. Demo 416,Independencia,Colombia,2026-01-12,Inactivo,Gobierno
+CLI00130,Camila,Sánchez,87161840,20440405868,camila.snchez130@demoempresa.com,,Av. Demo 757,Surco,PERU,2024-08-12,Bloqueado,Pyme
+CLI00131,Luis,Medina,95871687,,luis.medina131@demoempresa.com,927318510,Av. Demo 543,Miraflores,,2022-09-12,Bloqueado,Corporativo
+CLI00132,Sofía,Flores,31738837,,sofa.flores132@demoempresa.com,940262109,Av. Demo 454,San Juan de Miraflores,,2022-06-11,Activo,Corporativo
+CLI00133,Patricia,Mendoza,26800072,,patricia.mendoza133@demoempresa.com,992467167,Av. Demo 646,Surco,Ecuador,2025-08-05,Activo,Gobierno
+CLI00134,Fernando,Torres,32978158,,fernando.torres134@demoempresa.com,991220369,Av. Demo 445,Miraflores,,2022-02-28,Activo,Retail
+CLI00135,Fernando,Mendoza,97393186,,fernando.mendoza135@demoempresa.com,986790955,Av. Demo 526,San Isidro,PERU,2025-07-08,Bloqueado,Pyme
+CLI00136,Sofía,Lopez,42866956,,sofa.lopez136@demoempresa.com,964504816,Av. Demo 404,S.J.M.,Perú,2025-11-11,Activo,Corporativo
+CLI00137,Diego,Sánchez,74995086,,diego.snchez137@demoempresa.com,955659873,Av. Demo 721,San Borja,PE,2026-01-11,Activo,
+CLI00138,Valeria,Romero,27551135,,valeria.romero138@demoempresa.com,979119463,Av. Demo 675,La Molina,PE,2023-05-11,Inactivo,Retail
+CLI00139,Miguel,Díaz,43275109,20154337019,miguel.daz139@demoempresa.com,948951595,Av. Demo 493,,Peru,2022-11-24,Activo,Gobierno
+CLI00140,José,Castillo,31386576,,jos.castillo140@demoempresa.com,979085198,Av. Demo 578,Miraflores ,PE,2024-10-15,Activo,Retail
+CLI00141,Jorge,Herrera,71368457,,jorge.herrera141@demoempresa.com,938876195,Av. Demo 697,Callao,Perú,2022-04-14,Activo,Premium
+CLI00142,Gabriela,Lopez,48352498,,gabriela.lopez142@demoempresa.com,924428014,Av. Demo 541,San Borja,PE,2026-01-29,Activo,Premium
+CLI00143,Valeria,García,63765155,20703246271,valeria.garca143@demoempresa.com,,Av. Demo 299,Callao,Ecuador,2023-08-15,Activo,Premium
+CLI00144,Raúl,Díaz,83800569,,ral.daz144@demoempresa.com,993650068,Av. Demo 796,La Molina,Peru,2022-07-18,Inactivo,Pyme
+CLI00145,José,Medina,59070856,,jos.medina145_at_demoempresa.com,936717096,Av. Demo 716,Independencia,Ecuador,2022-03-24,Activo,Retail
+CLI00146,Luis,Silva,73584863,,luis.silva146@demoempresa.com,929990477,Av. Demo 720,San Borja,PE,2025-06-09,Activo,Corporativo
+CLI00147,Jorge,Quispe,89688374,,jorge.quispe147@demoempresa.com,978412668,Av. Demo 645,Miraflores ,Colombia,2025-02-26,Activo,Premium
+CLI00148,Juan,Chávez,54458225,,juan.chvez148@demoempresa.com,965907088,Av. Demo 697,San Juan de Miraflores,,2026-01-25,Activo,Gobierno
+CLI00149,Elena,Mendoza,97991930,,elena.mendoza149@demoempresa.com,987641510,Av. Demo 691,Los Olivos,Colombia,2022-04-16,Bloqueado,Premium
+CLI00150,Lucía,Herrera,94426338,,luca.herrera150@demoempresa.com,961028283,Av. Demo 251,Los Olivos,Perú,2025-03-18,Activo,Corporativo
+CLI00151,Juan,Díaz,52103092,,juan.daz151@demoempresa.com,965426567,Av. Demo 807,Jesus Maria,PERU,2024-10-24,Bloqueado,Premium
+CLI00152,María,Torres,79616482,,mara.torres152@demoempresa.com,953627409,Av. Demo 778,Miraflores ,Ecuador,2024-02-11,Activo,Corporativo
+CLI00153,Diego,Medina,55946354,,diego.medina153@demoempresa.com,996343485,Av. Demo 922,Comas,Ecuador,2024-09-18,Activo,Corporativo
+CLI00154,Miguel,Medina,50063879,,miguel.medina154@demoempresa.com,949945150,Av. Demo 889,San Juan de Miraflores,Colombia,2023-03-01,Inactivo,Pyme
+CLI00155,Elena,Chávez,85227370,,elena.chvez155@demoempresa.com,946702849,Av. Demo 394,La Molina,Ecuador,2025-10-17,Bloqueado,Premium
+CLI00156,Jorge,Chávez,29659692,,jorge.chvez156@demoempresa.com,,Av. Demo 394,Surco,PE,2024-06-24,Activo,
+CLI00157,Elena,Castillo,37121108,,elena.castillo157@demoempresa.com,946390817,Av. Demo 675,Comas,Peru,2022-08-12,Bloqueado,
+CLI00158,Fernando,Vargas,42542167,20670201461,fernando.vargas158@demoempresa.com,940289135,Av. Demo 753,Los Olivos,Perú,2022-07-25,Inactivo,Pyme
+CLI00159,Elena,Ramírez,28450513,20690936560,elena.ramrez159@demoempresa.com,931198492,Av. Demo 516,Miraflores ,PERU,2025-08-25,Activo,Pyme
+CLI00160,José,Quispe,11362459,,jos.quispe160@demoempresa.com,922007214,Av. Demo 767,Los Olivos,Ecuador,2026-01-20,Activo,Corporativo
+CLI00161,Camila,Flores,14877451,,camila.flores161@demoempresa.com,963283709,Av. Demo 906,Miraflores ,Peru,2023-08-16,Activo,Retail
+CLI00162,Sofía,Ramírez,54968591,,sofa.ramrez162@demoempresa.com,996075494,Av. Demo 656,Miraflores ,Peru,2024-10-29,Inactivo,Pyme
+CLI00163,Pedro,Ramírez,54383668,,pedro.ramrez163@demoempresa.com,971594457,Av. Demo 763,Comas,Colombia,2023-01-17,Activo,
+CLI00164,José,Quispe,86206305,,jos.quispe164@demoempresa.com,935925669,Av. Demo 279,Independencia,,2024-05-25,Bloqueado,Pyme
+CLI00165,Carlos,Romero,99826000,20250980852,carlos.romero165@demoempresa.com,974082804,Av. Demo 431,Los Olivos,Perú,2023-06-19,Inactivo,Corporativo
+CLI00166,Diego,Mendoza,54241559,,,986890296,Av. Demo 111,Comas,Colombia,2024-01-07,Activo,Retail
+CLI00167,Ana,Díaz,51178850,,ana.daz167@demoempresa.com,977447155,Av. Demo 820,San Juan de Miraflores,Colombia,2022-08-29,Activo,Pyme
+CLI00168,Gabriela,Vargas,39410942,,gabriela.vargas168@demoempresa.com,974180488,Av. Demo 256,S.J.M.,Colombia,2025-05-25,Activo,Premium
+CLI00169,Patricia,Lopez,82144402,,patricia.lopez169@demoempresa.com,,Av. Demo 945,Jesus Maria,,2023-05-22,Bloqueado,Retail
+CLI00170,Raúl,Díaz,80890196,,ral.daz170@demoempresa.com,920482769,Av. Demo 677,La Molina,Perú,2025-01-26,Bloqueado,Corporativo
+CLI00171,Fernando,Medina,182529,,fernando.medina171@demoempresa.com,979839059,Av. Demo 552,La Molina,Colombia,2023-02-25,Bloqueado,Premium
+CLI00172,Carlos,Herrera,69791674,,carlos.herrera172@demoempresa.com,970858653,Av. Demo 235,,PERU,2025-02-28,Activo,Gobierno
+CLI00173,Diego,Quispe,12921981,,diego.quispe173@demoempresa.com,910404729,Av. Demo 863,Jesus Maria,Ecuador,2022-05-30,Activo,Premium
+CLI00174,Valeria,Rojas,82633735,,valeria.rojas174_at_demoempresa.com,919263592,Av. Demo 583,Miraflores,PE,2024-04-17,Activo,Corporativo
+CLI00175,Camila,Chávez,61335545,,camila.chvez175@demoempresa.com,960666702,Av. Demo 484,Surco,Colombia,2025-09-17,Bloqueado,Corporativo
+CLI00176,Valeria,Ramírez,33954324,,valeria.ramrez176@demoempresa.com,962755436,Av. Demo 641,San Borja,Colombia,2023-04-02,Activo,Retail
+CLI00177,Sofía,Díaz,83074216,,sofa.daz177@demoempresa.com,960905625,Av. Demo 943,Los Olivos,Peru,2024-08-01,Activo,Corporativo
+CLI00178,Miguel,Castillo,25145751,20808881871,miguel.castillo178@demoempresa.com,966269520,Av. Demo 729,San Isidro,Peru,2023-02-27,Activo,Retail
+CLI00179,Gabriela,García,69920305,,gabriela.garca179@demoempresa.com,916533225,Av. Demo 350,Miraflores,PERU,2024-06-17,Activo,Gobierno
+CLI00180,Pedro,García,28808678,,pedro.garca180@demoempresa.com,948824283,Av. Demo 339,Ate,Ecuador,2025-05-09,Activo,Corporativo
+CLI00181,Sofía,Torres,98612211,,sofa.torres181@demoempresa.com,965507111,Av. Demo 407,Comas,Perú,2025-02-14,Bloqueado,
+CLI00182,Lucía,Sánchez,84605013,,luca.snchez182@demoempresa.com,,Av. Demo 452,Independencia,,2024-12-10,Activo,
+CLI00183,Camila,Sánchez,30027648,,camila.snchez183@demoempresa.com,934679818,Av. Demo 872,Miraflores ,Peru,2023-04-07,Activo,
+CLI00184,Luis,Díaz,17734153,,luis.daz184@demoempresa.com,965902739,Av. Demo 670,San Borja,PERU,2023-05-13,Activo,Corporativo
+CLI00185,José,Rojas,70369365,,jos.rojas185@demoempresa.com,922410307,Av. Demo 648,Jesus Maria,Perú,2023-07-04,Inactivo,
+CLI00186,Gabriela,García,19768947,,gabriela.garca186@demoempresa.com,988864147,Av. Demo 841,Jesus Maria,PERU,2023-03-04,Activo,Pyme
+CLI00187,Juan,Castillo,35504548,,juan.castillo187@demoempresa.com,925745913,Av. Demo 864,Miraflores ,Peru,2025-11-25,Bloqueado,
+CLI00188,Pedro,Romero,42122457,,pedro.romero188@demoempresa.com,947991562,Av. Demo 489,S.J.M.,Ecuador,2025-08-21,Activo,Pyme
+CLI00189,Miguel,Chávez,78829070,,miguel.chvez189@demoempresa.com,972546007,Av. Demo 200,Miraflores ,,2023-10-18,Activo,Pyme
+CLI00190,José,Sánchez,16135823,,jos.snchez190@demoempresa.com,939698906,Av. Demo 859,San Borja,Perú,2023-06-19,Bloqueado,Gobierno
+CLI00191,Fernando,Sánchez,49620038,,fernando.snchez191@demoempresa.com,954273769,Av. Demo 335,Independencia,Ecuador,2023-05-19,Inactivo,Gobierno
+CLI00192,José,Mendoza,75581613,,jos.mendoza192@demoempresa.com,996126771,Av. Demo 857,Miraflores ,PERU,2022-12-11,Activo,Corporativo
+CLI00193,Luis,Medina,75540707,,luis.medina193@demoempresa.com,982764376,Av. Demo 757,Miraflores,Ecuador,2022-03-11,Activo,
+CLI00194,María,Pérez,65350347,20777210736,mara.prez194@demoempresa.com,941062464,Av. Demo 169,San Borja,Perú,2023-03-24,Bloqueado,Premium
+CLI00195,Valeria,García,92924441,,valeria.garca195@demoempresa.com,,Av. Demo 731,Miraflores ,Colombia,2024-09-26,Activo,Retail
+CLI00196,Patricia,Medina,65208920,20668457864,patricia.medina196@demoempresa.com,946875077,Av. Demo 648,San Juan de Miraflores,Perú,2024-10-25,Inactivo,Corporativo
+CLI00197,Ana,Ramírez,80381817,20306085476,ana.ramrez197@demoempresa.com,993185576,Av. Demo 639,Comas,,2023-12-27,Activo,Premium
+CLI00198,Carlos,Chávez,64496076,,carlos.chvez198@demoempresa.com,942642810,Av. Demo 813,Los Olivos,PE,2025-11-01,Activo,
+CLI00199,María,Rojas,64395532,,mara.rojas199@demoempresa.com,984182331,Av. Demo 587,Miraflores,Colombia,2022-01-20,Activo,Retail
+CLI00200,Elena,Sánchez,20450542,,elena.snchez200@demoempresa.com,922799248,Av. Demo 640,Miraflores,Peru,2023-03-09,Bloqueado,Premium
+CLI00201,Miguel,García,19978827,,miguel.garca201@demoempresa.com,947631028,Av. Demo 656,Miraflores,Peru,2023-10-07,Activo,Corporativo
+CLI00202,Fernando,Torres,63458386,,fernando.torres202@demoempresa.com,950168264,Av. Demo 266,Los Olivos,Ecuador,2024-03-07,Bloqueado,Pyme
+CLI00203,Jorge,Torres,20526386,,jorge.torres203_at_demoempresa.com,956420476,Av. Demo 154,La Molina,PERU,2023-04-21,Activo,Pyme
+CLI00204,Gabriela,Romero,53805532,20393482659,gabriela.romero204@demoempresa.com,970471823,Av. Demo 602,Los Olivos,PE,2025-02-06,Inactivo,Premium
+CLI00205,Lucía,Romero,21501669,,luca.romero205@demoempresa.com,949645162,Av. Demo 917,Los Olivos,Colombia,2022-05-31,Activo,Pyme
+CLI00206,Luis,Romero,95080736,,luis.romero206@demoempresa.com,962294176,Av. Demo 424,Callao,Perú,2022-07-07,Activo,Pyme
+CLI00207,Diego,Chávez,46207439,20193734690,diego.chvez207@demoempresa.com,935151299,Av. Demo 541,S.J.M.,Ecuador,2025-02-10,Bloqueado,Premium
+CLI00208,Ana,Pérez,22028437,,ana.prez208@demoempresa.com,,Av. Demo 195,Ate,,2024-02-28,Activo,Pyme
+CLI00209,Camila,Romero,21368176,,camila.romero209@demoempresa.com,985099723,Av. Demo 348,Lince,Colombia,2024-02-19,Activo,Corporativo
+CLI00210,Miguel,Quispe,46024950,,miguel.quispe210@demoempresa.com,918491573,Av. Demo 271,,PE,2024-05-12,Activo,Premium
+CLI00211,Carlos,Chávez,43782566,,carlos.chvez211@demoempresa.com,993890601,Av. Demo 607,Jesus Maria,PERU,2022-08-08,Activo,Pyme
+CLI00212,Juan,Romero,54589439,,juan.romero212@demoempresa.com,960987966,Av. Demo 923,Ate,PERU,2023-11-17,Inactivo,
+CLI00213,Gabriela,Torres,50323741,,gabriela.torres213@demoempresa.com,936957830,Av. Demo 590,Ate,Peru,2024-03-26,Activo,Pyme
+CLI00214,Elena,Vargas,53739710,,elena.vargas214@demoempresa.com,962738860,Av. Demo 473,La Molina,Ecuador,2023-02-14,Bloqueado,Gobierno
+CLI00215,Lucía,Medina,13612618,,luca.medina215@demoempresa.com,971957885,Av. Demo 825,Jesus Maria,PERU,2023-08-20,Activo,Premium
+CLI00216,Elena,Torres,95004924,,elena.torres216@demoempresa.com,943914361,Av. Demo 774,San Borja,Colombia,2024-05-16,Inactivo,Retail
+CLI00217,Diego,Lopez,88147469,,diego.lopez217@demoempresa.com,977996397,Av. Demo 990,,Ecuador,2022-03-17,Activo,
+CLI00218,Patricia,Rojas,24679315,,patricia.rojas218@demoempresa.com,998261798,Av. Demo 780,Callao,Peru,2025-08-18,Bloqueado,Retail
+CLI00219,Fernando,Romero,54506155,,fernando.romero219@demoempresa.com,967774765,Av. Demo 208,San Isidro,Perú,2023-06-14,Activo,Gobierno
+CLI00220,Raúl,Medina,87915846,,ral.medina220@demoempresa.com,939666377,Av. Demo 556,Callao,PERU,2024-08-06,Bloqueado,
+CLI00221,Raúl,Torres,56300738,,ral.torres221@demoempresa.com,,Av. Demo 594,La Molina,PE,2024-05-01,Activo,Retail
+CLI00222,Luis,Chávez,51861213,,luis.chvez222@demoempresa.com,937765262,Av. Demo 633,Miraflores ,PE,2024-09-02,Activo,Premium
+CLI00223,Diego,Silva,19015987,,diego.silva223@demoempresa.com,925446483,Av. Demo 123,Ate,Colombia,2022-08-12,Activo,
+CLI00224,Rosa,Herrera,33414716,,rosa.herrera224@demoempresa.com,954424679,Av. Demo 673,,PERU,2023-04-20,Inactivo,
+CLI00225,Lucía,Flores,95963619,,luca.flores225@demoempresa.com,963094168,Av. Demo 129,Jesus Maria,PERU,2025-04-27,Inactivo,Premium
+CLI00226,Juan,Castillo,37619925,,juan.castillo226@demoempresa.com,918397164,Av. Demo 691,La Molina,,2025-01-04,Activo,Pyme
+CLI00227,José,Castillo,71411378,20820160169,jos.castillo227@demoempresa.com,975697427,Av. Demo 640,Ate,Ecuador,2024-03-06,Bloqueado,Premium
+CLI00228,Fernando,Ramírez,379082,,fernando.ramrez228@demoempresa.com,992861016,Av. Demo 276,San Juan de Miraflores,Ecuador,2025-04-23,Activo,
+CLI00229,Luis,Silva,25819123,,luis.silva229@demoempresa.com,925696616,Av. Demo 287,Callao,Colombia,2022-10-17,Bloqueado,Premium
+CLI00230,Camila,Torres,87149161,,camila.torres230@demoempresa.com,934931439,Av. Demo 598,Lince,Ecuador,2022-12-08,Inactivo,Pyme
+CLI00231,Luis,Flores,52222214,,luis.flores231@demoempresa.com,993135800,Av. Demo 154,Callao,Perú,2024-09-19,Activo,Corporativo
+CLI00232,Jorge,Medina,77838742,,jorge.medina232_at_demoempresa.com,964913082,Av. Demo 801,Miraflores ,PERU,2025-12-25,Inactivo,Premium
+CLI00233,Lucía,Rojas,85886408,20917178325,luca.rojas233@demoempresa.com,939598969,Av. Demo 399,Miraflores,PE,2023-04-06,Bloqueado,Pyme
+CLI00234,Lucía,Díaz,85920319,,luca.daz234@demoempresa.com,,Av. Demo 884,Miraflores ,Ecuador,2024-11-12,Activo,Gobierno
+CLI00235,Ana,Mendoza,82894477,,ana.mendoza235@demoempresa.com,959239353,Av. Demo 655,Miraflores,,2026-01-12,Inactivo,Gobierno
+CLI00236,Pedro,Sánchez,23746101,,pedro.snchez236@demoempresa.com,997734330,Av. Demo 869,Los Olivos,PE,2022-03-08,Inactivo,Pyme
+CLI00237,Valeria,Rojas,68930964,,valeria.rojas237@demoempresa.com,925755285,Av. Demo 894,Los Olivos,Peru,2025-04-19,Activo,
+CLI00238,Gabriela,Sánchez,32277675,,gabriela.snchez238@demoempresa.com,937732020,Av. Demo 933,Jesus Maria,,2022-05-02,Bloqueado,Pyme
+CLI00239,Patricia,Mendoza,90108882,,patricia.mendoza239@demoempresa.com,953440052,Av. Demo 820,San Juan de Miraflores,PE,2025-03-18,Activo,Gobierno
+CLI00240,Ana,Torres,23746101,20397773877,ana.torres240@demoempresa.com,998032908,Av. Demo 229,San Borja,Peru,2022-10-27,Activo,Corporativo
+CLI00241,Jorge,Lopez,29081953,,jorge.lopez241@demoempresa.com,946066605,Av. Demo 742,,PERU,2024-07-14,Activo,
+CLI00242,Carlos,Romero,79204468,,carlos.romero242@demoempresa.com,959535894,Av. Demo 565,Miraflores ,PE,2025-04-06,Activo,
+CLI00243,Carlos,Díaz,95206855,,carlos.daz243@demoempresa.com,958079840,Av. Demo 970,Surco,,2024-12-30,Inactivo,Corporativo
+CLI00244,Camila,Castillo,76399516,,camila.castillo244@demoempresa.com,948063218,Av. Demo 445,San Borja,Ecuador,2024-09-20,Activo,
+CLI00245,María,García,23364695,,mara.garca245@demoempresa.com,971684020,Av. Demo 116,La Molina,,2022-11-20,Inactivo,Premium
+CLI00246,Juan,Sánchez,37154689,,juan.snchez246@demoempresa.com,927705074,Av. Demo 765,San Juan de Miraflores,Peru,2023-07-16,Activo,
+CLI00247,Valeria,Mendoza,21062296,,valeria.mendoza247@demoempresa.com,,Av. Demo 764,Lince,Perú,2024-03-22,Activo,
+CLI00248,Rosa,Sánchez,97977738,20202202698,rosa.snchez248@demoempresa.com,910145801,Av. Demo 318,Miraflores ,Perú,2022-09-29,Bloqueado,Corporativo
+CLI00249,Raúl,Díaz,11246473,20468909933,,926185823,Av. Demo 980,,Colombia,2022-09-28,Inactivo,Retail
+CLI00250,Rosa,Romero,21989814,,rosa.romero250@demoempresa.com,923747542,Av. Demo 205,Ate,PE,2023-09-05,Activo,Premium
+CLI00251,Luis,Torres,19182050,,luis.torres251@demoempresa.com,911137460,Av. Demo 724,Lince,PERU,2023-12-21,Activo,
+CLI00252,Luis,Sánchez,92688322,,luis.snchez252@demoempresa.com,939158087,Av. Demo 188,La Molina,Peru,2022-09-10,Bloqueado,
+CLI00253,Jorge,Chávez,67631581,,jorge.chvez253@demoempresa.com,928767690,Av. Demo 353,Comas,Colombia,2022-06-22,Activo,Gobierno
+CLI00254,Gabriela,Quispe,13600310,,gabriela.quispe254@demoempresa.com,998369672,Av. Demo 996,San Juan de Miraflores,Peru,2024-11-26,Bloqueado,Gobierno
+CLI00255,Pedro,Romero,49666982,,pedro.romero255@demoempresa.com,942123815,Av. Demo 606,Independencia,Perú,2023-05-09,Inactivo,
+CLI00256,Gabriela,Rojas,80905413,,gabriela.rojas256@demoempresa.com,911619606,Av. Demo 469,Ate,Peru,2024-03-03,Bloqueado,Premium
+CLI00257,Valeria,Medina,33188838,,valeria.medina257@demoempresa.com,919796799,Av. Demo 117,Surco,Perú,2023-06-21,Activo,Retail
+CLI00258,María,Romero,77996124,,mara.romero258@demoempresa.com,977249653,Av. Demo 885,,PERU,2025-12-08,Inactivo,Retail
+CLI00259,Patricia,Medina,92684436,,patricia.medina259@demoempresa.com,921220209,Av. Demo 417,Surco,Ecuador,2023-02-21,Activo,Gobierno
+CLI00260,José,Romero,88710263,,jos.romero260@demoempresa.com,,Av. Demo 954,Surco,PE,2025-12-01,Inactivo,
+CLI00261,Rosa,García,42813517,20566523205,rosa.garca261_at_demoempresa.com,925567455,Av. Demo 564,Miraflores,PE,2025-09-26,Activo,Retail
+CLI00262,Juan,Torres,11523452,,juan.torres262@demoempresa.com,956533974,Av. Demo 635,Comas,Peru,2024-02-01,Activo,
+CLI00263,Miguel,Ramírez,13940129,,miguel.ramrez263@demoempresa.com,967622968,Av. Demo 378,Surco,PE,2025-12-29,Bloqueado,
+CLI00264,Carlos,Lopez,71095611,,carlos.lopez264@demoempresa.com,917440911,Av. Demo 611,Lince,PE,2022-11-19,Activo,Retail
+CLI00265,Fernando,Ramírez,40655922,,fernando.ramrez265@demoempresa.com,910344739,Av. Demo 145,San Isidro,Peru,2022-04-05,Inactivo,Pyme
+CLI00266,Jorge,Torres,34019729,,jorge.torres266@demoempresa.com,914746418,Av. Demo 666,,Peru,2023-10-22,Activo,Premium
+CLI00267,José,Mendoza,20453825,,jos.mendoza267@demoempresa.com,926025721,Av. Demo 614,Miraflores,Peru,2023-04-03,Bloqueado,Retail
+CLI00268,Jorge,Rojas,72423883,,jorge.rojas268@demoempresa.com,951701149,Av. Demo 435,Surco,Ecuador,2024-07-24,Activo,Pyme
+CLI00269,Pedro,Quispe,85672859,,pedro.quispe269@demoempresa.com,993579731,Av. Demo 348,S.J.M.,PE,2025-04-26,Inactivo,Corporativo
+CLI00270,Patricia,Vargas,30208677,20540272920,patricia.vargas270@demoempresa.com,913209180,Av. Demo 338,Callao,Colombia,2025-11-21,Activo,Pyme
+CLI00271,Juan,Romero,51273379,20668883968,juan.romero271@demoempresa.com,941966313,Av. Demo 529,Miraflores ,Perú,2022-10-19,Activo,Retail
+CLI00272,María,Vargas,79760901,,mara.vargas272@demoempresa.com,959995026,Av. Demo 569,Surco,Ecuador,2022-07-15,Bloqueado,Corporativo
+CLI00273,Jorge,Rojas,89442904,,jorge.rojas273@demoempresa.com,,Av. Demo 545,San Borja,Peru,2023-08-21,Activo,Pyme
+CLI00274,Jorge,Silva,52688984,,jorge.silva274@demoempresa.com,941354768,Av. Demo 176,Jesus Maria,Peru,2025-04-12,Activo,Corporativo
+CLI00275,Ana,Flores,70339827,,ana.flores275@demoempresa.com,964561191,Av. Demo 223,Callao,,2023-03-02,Inactivo,Pyme
+CLI00276,Diego,Mendoza,26094525,20967150570,diego.mendoza276@demoempresa.com,950831043,Av. Demo 946,Miraflores,Peru,2023-11-03,Activo,Retail
+CLI00277,Rosa,Chávez,63183031,,rosa.chvez277@demoempresa.com,950109721,Av. Demo 366,Lince,Perú,2024-04-08,Inactivo,Gobierno
+CLI00278,Patricia,Vargas,22713811,,patricia.vargas278@demoempresa.com,928762704,Av. Demo 224,San Isidro,Perú,2023-04-01,Activo,Corporativo
+CLI00279,Jorge,Chávez,94597104,,jorge.chvez279@demoempresa.com,921279580,Av. Demo 696,Comas,,2022-06-03,Activo,Retail
+CLI00280,Pedro,Díaz,85957578,,pedro.daz280@demoempresa.com,954499873,Av. Demo 225,Miraflores,PERU,2022-04-14,Activo,Gobierno
+CLI00281,Camila,Romero,76588957,20833594284,camila.romero281@demoempresa.com,967265875,Av. Demo 276,Callao,Peru,2023-01-19,Activo,Pyme
+CLI00282,Diego,Torres,14650569,,diego.torres282@demoempresa.com,992809273,Av. Demo 351,San Juan de Miraflores,PERU,2024-04-23,Bloqueado,Premium
+CLI00283,María,Rojas,47550897,,mara.rojas283@demoempresa.com,966268745,Av. Demo 304,Los Olivos,Colombia,2025-01-18,Activo,Premium
+CLI00284,Valeria,Lopez,83083942,,valeria.lopez284@demoempresa.com,956175477,Av. Demo 679,Ate,PERU,2023-07-08,Activo,Retail
+CLI00285,José,Vargas,949277,,jos.vargas285@demoempresa.com,947706144,Av. Demo 159,Miraflores ,Ecuador,2024-01-03,Bloqueado,Corporativo
+CLI00286,Lucía,Ramírez,43266810,,luca.ramrez286@demoempresa.com,,Av. Demo 372,Miraflores,,2023-03-26,Bloqueado,Premium
+CLI00287,Valeria,Flores,33635791,,valeria.flores287@demoempresa.com,952681823,Av. Demo 925,Callao,Ecuador,2022-02-27,Activo,Gobierno
+CLI00288,Fernando,Torres,85579195,,fernando.torres288@demoempresa.com,976065552,Av. Demo 655,San Juan de Miraflores,Peru,2024-10-01,Activo,Retail
+CLI00289,María,Vargas,90753812,,mara.vargas289@demoempresa.com,980658723,Av. Demo 589,San Isidro,PE,2025-06-11,Activo,Corporativo
+CLI00290,José,Flores,53431355,20258604568,jos.flores290_at_demoempresa.com,988733350,Av. Demo 821,San Borja,,2022-08-16,Bloqueado,Pyme
+CLI00291,Carlos,Chávez,98870866,,carlos.chvez291@demoempresa.com,923560308,Av. Demo 444,San Juan de Miraflores,PE,2022-10-07,Activo,
+CLI00292,Camila,Lopez,97131500,,camila.lopez292@demoempresa.com,985427317,Av. Demo 810,Callao,Peru,2025-09-25,Bloqueado,Corporativo
+CLI00293,Jorge,Quispe,49529438,20882576281,jorge.quispe293@demoempresa.com,910241310,Av. Demo 818,Independencia,,2025-03-08,Activo,Corporativo
+CLI00294,Gabriela,Silva,92058189,,gabriela.silva294@demoempresa.com,985906869,Av. Demo 206,Miraflores ,Peru,2023-11-10,Activo,Corporativo
+CLI00295,Valeria,Silva,32533467,,valeria.silva295@demoempresa.com,921908603,Av. Demo 941,Ate,PERU,2022-01-24,Activo,Corporativo
+CLI00296,Rosa,Rojas,57040785,,rosa.rojas296@demoempresa.com,924500158,Av. Demo 837,San Isidro,Perú,2024-03-01,Inactivo,
+CLI00297,Camila,Flores,65568711,,camila.flores297@demoempresa.com,960829941,Av. Demo 459,Independencia,Perú,2024-09-08,Bloqueado,
+CLI00298,Rosa,Flores,70570772,20135876704,rosa.flores298@demoempresa.com,949581964,Av. Demo 120,Ate,PE,2022-08-03,Activo,Pyme
+CLI00299,Lucía,Romero,31596235,,luca.romero299@demoempresa.com,,Av. Demo 660,Surco,PE,2025-05-01,Bloqueado,Premium
+CLI00300,Juan,Sánchez,97729428,,juan.snchez300@demoempresa.com,968277389,Av. Demo 260,Miraflores,Perú,2023-11-10,Activo,Corporativo
+CLI00301,Camila,Medina,82494408,,camila.medina301@demoempresa.com,947785387,Av. Demo 404,Los Olivos,Perú,2022-04-12,Inactivo,Gobierno
+CLI00302,Patricia,Lopez,30614492,20104096941,patricia.lopez302@demoempresa.com,967392300,Av. Demo 189,San Juan de Miraflores,,2025-09-17,Bloqueado,Premium
+CLI00303,Pedro,Ramírez,13454186,,pedro.ramrez303@demoempresa.com,995656500,Av. Demo 398,Surco,PERU,2022-08-25,Activo,Premium
+CLI00304,Elena,Lopez,98723294,,elena.lopez304@demoempresa.com,996149847,Av. Demo 657,Independencia,Peru,2024-01-30,Inactivo,Pyme
+CLI00305,Lucía,Díaz,15988382,,luca.daz305@demoempresa.com,972419022,Av. Demo 369,Los Olivos,,2023-07-05,Bloqueado,Retail
+CLI00306,Luis,Ramírez,21503440,,luis.ramrez306@demoempresa.com,982672055,Av. Demo 523,Los Olivos,Ecuador,2022-05-05,Inactivo,Gobierno
+CLI00307,Camila,Medina,73729850,,camila.medina307@demoempresa.com,941627336,Av. Demo 587,San Juan de Miraflores,Perú,2024-03-19,Activo,Gobierno
+CLI00308,Fernando,Herrera,86703472,,fernando.herrera308@demoempresa.com,993251648,Av. Demo 250,La Molina,,2024-07-08,Activo,Corporativo
+CLI00309,Pedro,Castillo,26936398,20184147554,pedro.castillo309@demoempresa.com,968437492,Av. Demo 306,San Borja,,2025-05-03,Activo,Pyme
+CLI00310,Carlos,Rojas,62089786,,carlos.rojas310@demoempresa.com,984095459,Av. Demo 433,Comas,Ecuador,2024-07-27,Activo,
+CLI00311,Gabriela,Herrera,66316931,20260677223,gabriela.herrera311@demoempresa.com,929891032,Av. Demo 680,La Molina,Perú,2025-02-26,Activo,Pyme
+CLI00312,Patricia,Chávez,65148727,,patricia.chvez312@demoempresa.com,,Av. Demo 770,Miraflores ,Ecuador,2025-06-01,Inactivo,Retail
+CLI00313,Lucía,Mendoza,64086249,20753538609,luca.mendoza313@demoempresa.com,963917932,Av. Demo 139,Independencia,PE,2025-11-15,Activo,Retail
+CLI00314,Elena,Mendoza,59988144,20977661452,elena.mendoza314@demoempresa.com,950675347,Av. Demo 418,Comas,,2024-10-03,Activo,Corporativo
+CLI00315,Luis,Quispe,69473299,,luis.quispe315@demoempresa.com,953066216,Av. Demo 375,,Ecuador,2025-08-15,Activo,Corporativo
+CLI00316,Diego,Castillo,64649480,,diego.castillo316@demoempresa.com,979323646,Av. Demo 988,Callao,,2022-04-26,Bloqueado,Corporativo
+CLI00317,Carlos,Quispe,78020910,,carlos.quispe317@demoempresa.com,980368504,Av. Demo 682,San Isidro,Peru,2023-01-30,Activo,Retail
+CLI00318,Rosa,García,71263503,20486949792,rosa.garca318@demoempresa.com,936724061,Av. Demo 380,Callao,,2024-08-08,Bloqueado,Premium
+CLI00319,Ana,Pérez,42472381,,ana.prez319_at_demoempresa.com,989731181,Av. Demo 556,Lince,,2024-08-29,Bloqueado,Gobierno
+CLI00320,Valeria,Chávez,26800072,,valeria.chvez320@demoempresa.com,922132198,Av. Demo 391,San Isidro,PERU,2022-04-12,Activo,Gobierno
+CLI00321,Pedro,Vargas,96889858,,pedro.vargas321@demoempresa.com,937746963,Av. Demo 375,,Ecuador,2022-02-11,Activo,Premium
+CLI00322,Luis,Flores,90683906,,luis.flores322@demoempresa.com,940033905,Av. Demo 358,San Juan de Miraflores,Colombia,2025-12-23,Activo,Premium
+CLI00323,Jorge,Chávez,71605671,,jorge.chvez323@demoempresa.com,972639147,Av. Demo 409,Independencia,Ecuador,2022-07-29,Activo,Gobierno
+CLI00324,Valeria,Medina,96884788,,valeria.medina324@demoempresa.com,947940248,Av. Demo 405,La Molina,PERU,2022-05-11,Activo,Pyme
+CLI00325,José,Mendoza,45050544,,jos.mendoza325@demoempresa.com,,Av. Demo 767,San Juan de Miraflores,Peru,2022-11-04,Bloqueado,Corporativo
+CLI00326,María,Romero,98654879,,mara.romero326@demoempresa.com,928781020,Av. Demo 838,San Isidro,Colombia,2024-10-15,Activo,Pyme
+CLI00327,Camila,Romero,62113377,,camila.romero327@demoempresa.com,988252116,Av. Demo 825,Jesus Maria,PE,2026-01-27,Activo,
+CLI00328,Patricia,Lopez,58116670,,patricia.lopez328@demoempresa.com,932815223,Av. Demo 960,Lince,PE,2022-07-19,Inactivo,Corporativo
+CLI00329,Miguel,Medina,34571018,,miguel.medina329@demoempresa.com,955047826,Av. Demo 770,Surco,Peru,2023-12-29,Activo,
+CLI00330,Sofía,Sánchez,54468633,,sofa.snchez330@demoempresa.com,988593968,Av. Demo 401,S.J.M.,,2022-08-30,Inactivo,Retail
+CLI00331,Fernando,Rojas,73380252,,fernando.rojas331@demoempresa.com,977172936,Av. Demo 222,Independencia,Ecuador,2023-09-04,Inactivo,Retail
+CLI00332,Luis,Torres,36883353,,,986424055,Av. Demo 568,San Borja,PE,2026-01-05,Activo,Retail
+CLI00333,Elena,Silva,94695784,,elena.silva333@demoempresa.com,952065724,Av. Demo 749,Miraflores,Perú,2024-07-14,Activo,Corporativo
+CLI00334,Lucía,Flores,75709924,,luca.flores334@demoempresa.com,921816709,Av. Demo 232,,Colombia,2024-05-29,Inactivo,Premium
+CLI00335,Elena,Romero,10626681,20314119421,elena.romero335@demoempresa.com,960076822,Av. Demo 114,Ate,,2024-12-23,Activo,Retail
+CLI00336,Juan,Vargas,40368869,,juan.vargas336@demoempresa.com,956217844,Av. Demo 419,San Borja,Perú,2024-02-25,Bloqueado,Gobierno
+CLI00337,Sofía,Flores,18762675,,sofa.flores337@demoempresa.com,950024028,Av. Demo 397,S.J.M.,Colombia,2024-12-01,Bloqueado,Gobierno
+CLI00338,José,Sánchez,27956913,,jos.snchez338@demoempresa.com,,Av. Demo 601,Callao,,2023-01-21,Activo,Premium
+CLI00339,Juan,Vargas,40107903,,juan.vargas339@demoempresa.com,927610141,Av. Demo 316,San Isidro,Ecuador,2024-10-30,Activo,Retail
+CLI00340,Valeria,García,60357475,,valeria.garca340@demoempresa.com,944331441,Av. Demo 889,Miraflores,Ecuador,2022-04-09,Activo,
+CLI00341,Juan,García,25541047,,juan.garca341@demoempresa.com,961036796,Av. Demo 226,Comas,PERU,2025-12-08,Activo,Corporativo
+CLI00342,Juan,Quispe,703805,20658677789,juan.quispe342@demoempresa.com,946235719,Av. Demo 737,San Borja,PERU,2022-08-03,Bloqueado,
+CLI00343,Gabriela,Ramírez,47944260,20214099789,gabriela.ramrez343@demoempresa.com,976805406,Av. Demo 303,Jesus Maria,,2023-06-23,Bloqueado,Corporativo
+CLI00344,Valeria,Sánchez,49641367,,valeria.snchez344@demoempresa.com,983569939,Av. Demo 608,Jesus Maria,Colombia,2024-09-11,Activo,Corporativo
+CLI00345,Juan,Pérez,21945758,,juan.prez345@demoempresa.com,987061479,Av. Demo 785,Miraflores ,Peru,2022-07-04,Bloqueado,Retail
+CLI00346,Ana,Mendoza,96481420,,ana.mendoza346@demoempresa.com,949731424,Av. Demo 370,S.J.M.,Perú,2022-07-24,Activo,Retail
+CLI00347,Sofía,Chávez,51970837,,sofa.chvez347@demoempresa.com,925555976,Av. Demo 197,Miraflores,Perú,2022-10-11,Activo,Pyme
+CLI00348,Valeria,Díaz,93457527,,valeria.daz348_at_demoempresa.com,922475714,Av. Demo 481,Ate,Peru,2022-08-22,Inactivo,Premium
+CLI00349,Diego,Mendoza,61769856,,diego.mendoza349@demoempresa.com,974188958,Av. Demo 919,,Colombia,2022-12-08,Activo,Corporativo
+CLI00350,María,Flores,23920137,,mara.flores350@demoempresa.com,989289163,Av. Demo 594,S.J.M.,Peru,2025-06-05,Inactivo,Pyme
+CLI00351,Gabriela,Pérez,27536261,,gabriela.prez351@demoempresa.com,,Av. Demo 599,La Molina,PERU,2024-06-21,Activo,Retail
+CLI00352,Miguel,Silva,11658959,,miguel.silva352@demoempresa.com,980439867,Av. Demo 885,Los Olivos,Colombia,2023-11-24,Bloqueado,Gobierno
+CLI00353,Gabriela,Ramírez,68095862,,gabriela.ramrez353@demoempresa.com,943363439,Av. Demo 593,Callao,Colombia,2025-10-17,Inactivo,Corporativo
+CLI00354,Patricia,García,11562947,,patricia.garca354@demoempresa.com,931062435,Av. Demo 617,Miraflores ,,2024-10-12,Activo,Retail
+CLI00355,Elena,Silva,42331952,,elena.silva355@demoempresa.com,947333618,Av. Demo 151,Los Olivos,Ecuador,2025-08-10,Inactivo,Premium
+CLI00356,Rosa,Rojas,71618633,,rosa.rojas356@demoempresa.com,986911446,Av. Demo 558,Surco,,2024-10-17,Inactivo,Pyme
+CLI00357,Ana,Lopez,97694240,20533190034,ana.lopez357@demoempresa.com,965343143,Av. Demo 136,San Isidro,,2022-07-06,Bloqueado,Gobierno
+CLI00358,Sofía,Herrera,85475000,,sofa.herrera358@demoempresa.com,971231190,Av. Demo 449,Callao,,2022-04-22,Activo,Premium
+CLI00359,José,Medina,93182506,,jos.medina359@demoempresa.com,998203489,Av. Demo 472,S.J.M.,Perú,2022-07-19,Activo,Retail
+CLI00360,José,Chávez,94426338,,jos.chvez360@demoempresa.com,960182714,Av. Demo 818,La Molina,Perú,2022-12-03,Inactivo,Corporativo
+CLI00361,Camila,Ramírez,44130133,,camila.ramrez361@demoempresa.com,935171649,Av. Demo 223,Independencia,Peru,2024-07-25,Activo,
+CLI00362,José,Ramírez,65629268,20779936769,jos.ramrez362@demoempresa.com,989028889,Av. Demo 226,S.J.M.,PERU,2025-09-10,Bloqueado,Gobierno
+CLI00363,Luis,Lopez,10582186,,luis.lopez363@demoempresa.com,916519170,Av. Demo 666,,,2025-04-13,Inactivo,Gobierno
+CLI00364,Lucía,Flores,27231111,20806008664,luca.flores364@demoempresa.com,,Av. Demo 714,Ate,Ecuador,2024-02-27,Inactivo,Gobierno
+CLI00365,Rosa,Mendoza,63401206,,rosa.mendoza365@demoempresa.com,949483304,Av. Demo 563,San Borja,Peru,2024-04-25,Bloqueado,
+CLI00366,Raúl,Quispe,83525272,,ral.quispe366@demoempresa.com,984300459,Av. Demo 747,Jesus Maria,Peru,2023-03-06,Bloqueado,
+CLI00367,Sofía,Chávez,27806897,,sofa.chvez367@demoempresa.com,997253117,Av. Demo 282,Ate,Colombia,2022-08-25,Activo,Gobierno
+CLI00368,Elena,Sánchez,81659221,,elena.snchez368@demoempresa.com,966691738,Av. Demo 927,San Isidro,Ecuador,2022-08-07,Activo,Premium
+CLI00369,Luis,García,99959993,20386665729,luis.garca369@demoempresa.com,931600382,Av. Demo 393,Comas,Peru,2022-05-08,Activo,Corporativo
+CLI00370,Patricia,García,58141541,,patricia.garca370@demoempresa.com,923754633,Av. Demo 730,Los Olivos,Colombia,2025-08-18,Bloqueado,Premium
+CLI00371,Rosa,Herrera,48606206,,rosa.herrera371@demoempresa.com,916305532,Av. Demo 490,Independencia,PERU,2025-11-04,Activo,Gobierno
+CLI00372,María,Pérez,43734435,,mara.prez372@demoempresa.com,969467023,Av. Demo 949,Los Olivos,Colombia,2025-12-14,Activo,Gobierno
+CLI00373,Patricia,Castillo,35970823,,patricia.castillo373@demoempresa.com,933813700,Av. Demo 799,Surco,Peru,2022-12-22,Bloqueado,Retail
+CLI00374,Jorge,García,67513345,,jorge.garca374@demoempresa.com,945465638,Av. Demo 233,Lince,Ecuador,2023-06-07,Activo,Pyme
+CLI00375,Diego,Torres,15360735,,diego.torres375@demoempresa.com,953302669,Av. Demo 711,Miraflores,,2025-07-04,Bloqueado,
+CLI00376,Sofía,Lopez,86863404,,sofa.lopez376@demoempresa.com,919781894,Av. Demo 902,Ate,Ecuador,2023-03-27,Activo,Gobierno
+CLI00377,Carlos,Herrera,31390345,,carlos.herrera377_at_demoempresa.com,,Av. Demo 649,Independencia,Perú,2023-12-17,Activo,Corporativo
+CLI00378,José,Silva,58425464,,jos.silva378@demoempresa.com,992984217,Av. Demo 643,Miraflores ,Ecuador,2025-08-22,Activo,Retail
+CLI00379,Valeria,Díaz,42258945,,valeria.daz379@demoempresa.com,992369566,Av. Demo 736,Los Olivos,Perú,2025-10-29,Activo,Premium
+CLI00380,Ana,Romero,44439001,,ana.romero380@demoempresa.com,947960665,Av. Demo 125,Callao,Ecuador,2024-11-07,Inactivo,Premium
+CLI00381,María,Quispe,97446634,,mara.quispe381@demoempresa.com,978973779,Av. Demo 184,La Molina,Peru,2025-01-06,Bloqueado,Retail
+CLI00382,Carlos,Castillo,99970857,,carlos.castillo382@demoempresa.com,938611881,Av. Demo 985,,,2022-08-01,Activo,Gobierno
+CLI00383,Camila,Rojas,30636590,20869731458,camila.rojas383@demoempresa.com,954522084,Av. Demo 138,Surco,Perú,2022-04-22,Activo,Pyme
+CLI00384,Patricia,Rojas,87170132,,patricia.rojas384@demoempresa.com,944715141,Av. Demo 517,Independencia,PERU,2025-07-14,Inactivo,Premium
+CLI00385,José,Pérez,62278055,,jos.prez385@demoempresa.com,981784254,Av. Demo 106,Surco,,2025-04-14,Activo,
+CLI00386,Carlos,Chávez,77489633,20944918740,carlos.chvez386@demoempresa.com,950446607,Av. Demo 721,Surco,PE,2024-06-15,Inactivo,Premium
+CLI00387,Juan,Lopez,30981381,,juan.lopez387@demoempresa.com,928304809,Av. Demo 864,Independencia,,2025-01-22,Activo,
+CLI00388,Luis,Quispe,96965116,,luis.quispe388@demoempresa.com,911496555,Av. Demo 666,San Borja,Perú,2022-03-27,Activo,Gobierno
+CLI00389,Gabriela,Romero,82095327,,gabriela.romero389@demoempresa.com,921425533,Av. Demo 412,Jesus Maria,Colombia,2026-01-26,Activo,Corporativo
+CLI00390,Camila,Herrera,29120002,,camila.herrera390@demoempresa.com,,Av. Demo 326,Comas,Peru,2022-08-23,Activo,
+CLI00391,Fernando,García,83665549,,fernando.garca391@demoempresa.com,983774735,Av. Demo 174,San Juan de Miraflores,Colombia,2022-05-18,Activo,Retail
+CLI00392,Pedro,Lopez,54406060,,pedro.lopez392@demoempresa.com,997976094,Av. Demo 340,La Molina,PE,2025-06-22,Activo,Corporativo
+CLI00393,José,Lopez,70484679,,jos.lopez393@demoempresa.com,998506156,Av. Demo 413,San Borja,Ecuador,2025-03-06,Activo,Pyme
+CLI00394,Camila,Flores,10648524,,camila.flores394@demoempresa.com,939732676,Av. Demo 829,,PE,2024-01-07,Activo,
+CLI00395,José,Lopez,72122457,,jos.lopez395@demoempresa.com,950999730,Av. Demo 598,La Molina,Peru,2025-08-15,Bloqueado,Retail
+CLI00396,Miguel,Torres,82292089,,miguel.torres396@demoempresa.com,994103363,Av. Demo 178,Surco,Perú,2024-11-04,Activo,Gobierno
+CLI00397,Fernando,Romero,89193333,,fernando.romero397@demoempresa.com,914919926,Av. Demo 664,Comas,Ecuador,2025-01-10,Inactivo,
+CLI00398,Luis,Chávez,62680236,,luis.chvez398@demoempresa.com,989134873,Av. Demo 850,San Juan de Miraflores,Peru,2024-08-09,Bloqueado,Gobierno
+CLI00399,Carlos,Romero,536560,20356496309,carlos.romero399@demoempresa.com,992414513,Av. Demo 800,Lince,,2024-11-18,Activo,Premium
+CLI00400,Lucía,Flores,53431355,,luca.flores400@demoempresa.com,929622504,Av. Demo 853,Miraflores ,PE,2022-03-24,Activo,Premium
+CLI00401,Rosa,Rojas,45481411,,rosa.rojas401@demoempresa.com,915745651,Av. Demo 784,Jesus Maria,Ecuador,2024-01-10,Inactivo,Premium
+CLI00402,Diego,García,15355917,,diego.garca402@demoempresa.com,953496088,Av. Demo 205,Comas,,2023-06-24,Bloqueado,Gobierno
+CLI00403,Fernando,Flores,60554391,,fernando.flores403@demoempresa.com,,Av. Demo 474,Surco,Ecuador,2023-05-31,Inactivo,Corporativo
+CLI00404,Raúl,Romero,57365168,,ral.romero404@demoempresa.com,956309454,Av. Demo 598,Miraflores ,Ecuador,2022-01-14,Bloqueado,Corporativo
+CLI00405,Diego,Flores,40868838,20790928175,diego.flores405@demoempresa.com,947689614,Av. Demo 316,San Borja,Peru,2022-11-19,Activo,Gobierno
+CLI00406,Ana,Vargas,65648506,,ana.vargas406_at_demoempresa.com,925212062,Av. Demo 593,Miraflores ,PERU,2023-03-08,Bloqueado,Corporativo
+CLI00407,Camila,Pérez,42704875,20715776454,camila.prez407@demoempresa.com,989503557,Av. Demo 264,San Borja,Colombia,2024-11-15,Activo,Gobierno
+CLI00408,Luis,García,32325960,,luis.garca408@demoempresa.com,934164229,Av. Demo 629,Independencia,Ecuador,2025-02-28,Activo,
+CLI00409,Sofía,Rojas,39070676,,sofa.rojas409@demoempresa.com,973272042,Av. Demo 988,Miraflores ,Peru,2023-03-26,Inactivo,Gobierno
+CLI00410,Luis,Flores,93646063,,luis.flores410@demoempresa.com,945503367,Av. Demo 271,Ate,PERU,2025-05-06,Bloqueado,Retail
+CLI00411,Rosa,Romero,61735818,20117783990,rosa.romero411@demoempresa.com,937158762,Av. Demo 635,,,2022-11-03,Bloqueado,Retail
+CLI00412,Lucía,Lopez,92510102,,luca.lopez412@demoempresa.com,981327320,Av. Demo 615,La Molina,Perú,2024-09-14,Activo,Gobierno
+CLI00413,Patricia,Pérez,97138408,,patricia.prez413@demoempresa.com,966463253,Av. Demo 479,Miraflores,Colombia,2024-12-21,Inactivo,Corporativo
+CLI00414,Elena,Romero,57045704,,elena.romero414@demoempresa.com,987325627,Av. Demo 200,,Peru,2023-06-06,Inactivo,Corporativo
+CLI00415,Carlos,Quispe,90301439,,,964847632,Av. Demo 363,Jesus Maria,Perú,2025-12-23,Activo,Gobierno
+CLI00416,Raúl,Ramírez,79761254,20802813548,ral.ramrez416@demoempresa.com,,Av. Demo 310,Ate,PERU,2024-01-12,Activo,Corporativo
+CLI00417,Camila,Mendoza,45071480,,camila.mendoza417@demoempresa.com,966849468,Av. Demo 678,Callao,Ecuador,2023-07-19,Inactivo,Corporativo
+CLI00418,Camila,Medina,84834795,,camila.medina418@demoempresa.com,959689143,Av. Demo 672,Miraflores ,PE,2023-09-21,Bloqueado,Pyme
+CLI00419,Jorge,Torres,98487446,20346715058,jorge.torres419@demoempresa.com,969940949,Av. Demo 901,Lince,Perú,2023-03-16,Bloqueado,Premium
+CLI00420,José,Medina,92413089,,jos.medina420@demoempresa.com,916986408,Av. Demo 264,Independencia,Colombia,2022-01-11,Activo,Corporativo
+CLI00421,Elena,Sánchez,21830043,20338123991,elena.snchez421@demoempresa.com,959772648,Av. Demo 181,Miraflores,Colombia,2024-02-27,Inactivo,Gobierno
+CLI00422,Raúl,Quispe,90191410,20930655747,ral.quispe422@demoempresa.com,933524492,Av. Demo 755,Miraflores ,PERU,2022-01-22,Activo,
+CLI00423,Raúl,Quispe,36138432,20743724233,ral.quispe423@demoempresa.com,978524572,Av. Demo 628,Los Olivos,Ecuador,2022-12-14,Activo,Pyme
+CLI00424,Rosa,Pérez,31131878,20396284956,rosa.prez424@demoempresa.com,963611082,Av. Demo 461,Independencia,PERU,2025-04-15,Activo,Gobierno
+CLI00425,Juan,Rojas,22101856,,juan.rojas425@demoempresa.com,985042992,Av. Demo 696,Callao,PE,2023-07-21,Activo,Gobierno
+CLI00426,Pedro,Díaz,64218119,,pedro.daz426@demoempresa.com,945045256,Av. Demo 279,,Ecuador,2022-08-07,Bloqueado,Retail
+CLI00427,Raúl,Quispe,55629449,,ral.quispe427@demoempresa.com,978892172,Av. Demo 363,Comas,Colombia,2024-06-25,Inactivo,Gobierno
+CLI00428,Elena,Vargas,55588495,,elena.vargas428@demoempresa.com,971585593,Av. Demo 797,S.J.M.,Ecuador,2022-02-26,Inactivo,Retail
+CLI00429,Miguel,Rojas,61361533,,miguel.rojas429@demoempresa.com,,Av. Demo 325,Los Olivos,,2023-10-09,Inactivo,Pyme
+CLI00430,Raúl,Medina,11305024,,ral.medina430@demoempresa.com,945346197,Av. Demo 354,San Juan de Miraflores,Perú,2024-03-28,Activo,Retail
+CLI00431,Patricia,Flores,73962190,,patricia.flores431@demoempresa.com,939335449,Av. Demo 687,Comas,Peru,2025-10-31,Activo,Premium
+CLI00432,Pedro,Vargas,42488275,,pedro.vargas432@demoempresa.com,937753358,Av. Demo 334,Jesus Maria,,2023-05-27,Bloqueado,Pyme
+CLI00433,Luis,Ramírez,26089818,,luis.ramrez433@demoempresa.com,999043272,Av. Demo 604,San Isidro,,2025-01-13,Activo,Premium
+CLI00434,Valeria,Silva,76080806,,valeria.silva434@demoempresa.com,987110685,Av. Demo 989,Comas,PERU,2023-01-10,Bloqueado,Pyme
+CLI00435,Jorge,Vargas,87398691,20664504128,jorge.vargas435_at_demoempresa.com,966797703,Av. Demo 589,Miraflores,Ecuador,2023-12-13,Inactivo,
+CLI00436,Lucía,Díaz,26155543,,luca.daz436@demoempresa.com,971749629,Av. Demo 423,San Isidro,Perú,2025-10-12,Activo,Premium
+CLI00437,Fernando,Ramírez,53679307,,fernando.ramrez437@demoempresa.com,944856447,Av. Demo 291,Comas,Peru,2023-07-06,Inactivo,Gobierno
+CLI00438,José,Chávez,34684475,,jos.chvez438@demoempresa.com,938257191,Av. Demo 529,Callao,PE,2024-03-31,Activo,Premium
+CLI00439,Lucía,Torres,87295013,,luca.torres439@demoempresa.com,923404289,Av. Demo 838,Comas,,2023-04-28,Bloqueado,Premium
+CLI00440,Jorge,Castillo,93646063,,jorge.castillo440@demoempresa.com,930072000,Av. Demo 584,San Isidro,Peru,2024-05-13,Inactivo,Corporativo
+CLI00441,Raúl,Medina,52376193,,ral.medina441@demoempresa.com,950269906,Av. Demo 356,Miraflores,PERU,2022-07-22,Activo,Retail
+CLI00442,Pedro,Mendoza,73960038,,pedro.mendoza442@demoempresa.com,,Av. Demo 198,S.J.M.,Colombia,2023-11-17,Activo,Pyme
+CLI00443,Valeria,Medina,84825240,,valeria.medina443@demoempresa.com,944589898,Av. Demo 452,San Isidro,PERU,2022-09-06,Activo,
+CLI00444,Gabriela,Castillo,87424000,,gabriela.castillo444@demoempresa.com,997124881,Av. Demo 651,Lince,,2023-08-06,Activo,Pyme
+CLI00445,Raúl,Lopez,69985944,,ral.lopez445@demoempresa.com,961146483,Av. Demo 728,San Juan de Miraflores,PERU,2025-07-17,Activo,Corporativo
+CLI00446,José,Sánchez,94728082,,jos.snchez446@demoempresa.com,964327674,Av. Demo 969,Surco,Perú,2022-11-28,Activo,Corporativo
+CLI00447,José,Silva,97645934,,jos.silva447@demoempresa.com,945899536,Av. Demo 719,Independencia,PE,2024-06-30,Activo,
+CLI00448,Fernando,Herrera,70436720,,fernando.herrera448@demoempresa.com,934680787,Av. Demo 974,San Isidro,Peru,2026-01-30,Activo,
+CLI00449,Miguel,Rojas,38262427,,miguel.rojas449@demoempresa.com,923825676,Av. Demo 197,Surco,PERU,2025-01-28,Activo,Retail
+CLI00450,Jorge,Herrera,21173787,20763682156,jorge.herrera450@demoempresa.com,930840572,Av. Demo 186,Independencia,PE,2023-04-15,Activo,
+CLI00451,Sofía,Díaz,94084814,20665585273,sofa.daz451@demoempresa.com,932898616,Av. Demo 129,Miraflores,Colombia,2024-01-01,Activo,Premium
+CLI00452,Diego,Medina,46562845,,diego.medina452@demoempresa.com,928134815,Av. Demo 814,Lince,Ecuador,2025-05-08,Inactivo,
+CLI00453,Fernando,Sánchez,80257585,,fernando.snchez453@demoempresa.com,981643293,Av. Demo 417,Callao,PERU,2025-01-10,Activo,Retail
+CLI00454,Diego,Quispe,59094606,,diego.quispe454@demoempresa.com,930900054,Av. Demo 410,San Isidro,Perú,2024-12-07,Activo,Pyme
+CLI00455,Sofía,Lopez,81819757,20628207587,sofa.lopez455@demoempresa.com,,Av. Demo 873,Miraflores ,PE,2022-01-19,Inactivo,Pyme
+CLI00456,Gabriela,Vargas,584842,,gabriela.vargas456@demoempresa.com,965262252,Av. Demo 674,,PERU,2023-05-27,Activo,
+CLI00457,Jorge,Romero,39607414,,jorge.romero457@demoempresa.com,966672010,Av. Demo 740,Los Olivos,Ecuador,2025-06-09,Activo,Pyme
+CLI00458,Patricia,Mendoza,65419020,,patricia.mendoza458@demoempresa.com,919189076,Av. Demo 286,San Borja,PE,2022-08-15,Inactivo,Gobierno
+CLI00459,Diego,Mendoza,93584597,,diego.mendoza459@demoempresa.com,953036072,Av. Demo 119,San Borja,Perú,2024-12-31,Activo,Corporativo
+CLI00460,Ana,Quispe,46130759,20570746273,ana.quispe460@demoempresa.com,911101134,Av. Demo 338,Surco,Peru,2022-01-31,Inactivo,Corporativo
+CLI00461,José,Sánchez,51819114,,jos.snchez461@demoempresa.com,976893545,Av. Demo 480,S.J.M.,Colombia,2022-03-06,Activo,Retail
+CLI00462,Luis,García,45769504,,luis.garca462@demoempresa.com,919581091,Av. Demo 656,Miraflores ,Peru,2023-01-29,Activo,Premium
+CLI00463,Juan,Ramírez,43415162,,juan.ramrez463@demoempresa.com,969453211,Av. Demo 353,Miraflores,Peru,2024-08-01,Activo,Gobierno
+CLI00464,Pedro,Lopez,62227199,,pedro.lopez464_at_demoempresa.com,951890609,Av. Demo 430,Lince,Colombia,2026-01-31,Activo,
+CLI00465,Patricia,Herrera,26393556,,patricia.herrera465@demoempresa.com,995700705,Av. Demo 405,Jesus Maria,PE,2022-04-17,Activo,Retail
+CLI00466,Rosa,Sánchez,53555463,20952970198,rosa.snchez466@demoempresa.com,947057520,Av. Demo 698,La Molina,PERU,2023-05-13,Activo,Retail
+CLI00467,Fernando,Lopez,90022258,,fernando.lopez467@demoempresa.com,922009789,Av. Demo 354,Lince,PERU,2022-07-07,Bloqueado,Pyme
+CLI00468,María,García,57716774,,mara.garca468@demoempresa.com,,Av. Demo 818,La Molina,Peru,2024-09-26,Activo,Pyme
+CLI00469,Patricia,Chávez,68883853,,patricia.chvez469@demoempresa.com,912865928,Av. Demo 805,Independencia,PE,2026-01-23,Activo,Pyme
+CLI00470,María,Lopez,68720256,,mara.lopez470@demoempresa.com,982844534,Av. Demo 813,Miraflores ,Peru,2025-03-06,Activo,Gobierno
+CLI00471,Valeria,Silva,72866875,,valeria.silva471@demoempresa.com,990353461,Av. Demo 981,Lince,Perú,2024-12-23,Activo,Premium
+CLI00472,Sofía,Mendoza,82693120,,sofa.mendoza472@demoempresa.com,910096613,Av. Demo 894,Independencia,Colombia,2023-01-15,Activo,Gobierno
+CLI00473,Valeria,Vargas,53042832,,valeria.vargas473@demoempresa.com,998354109,Av. Demo 651,Independencia,Peru,2024-12-09,Inactivo,Gobierno
+CLI00474,Luis,Quispe,53298644,,luis.quispe474@demoempresa.com,953221337,Av. Demo 213,La Molina,Ecuador,2025-09-11,Activo,Retail
+CLI00475,Luis,Flores,14197492,,luis.flores475@demoempresa.com,975145297,Av. Demo 296,La Molina,Perú,2025-03-15,Inactivo,
+CLI00476,Elena,Herrera,93747900,,elena.herrera476@demoempresa.com,944351488,Av. Demo 150,Callao,Peru,2025-05-25,Activo,Retail
+CLI00477,Pedro,Lopez,20731620,,pedro.lopez477@demoempresa.com,995753950,Av. Demo 162,Callao,Ecuador,2024-05-01,Activo,
+CLI00478,María,Mendoza,81003974,20175578677,mara.mendoza478@demoempresa.com,950789378,Av. Demo 179,Jesus Maria,Ecuador,2022-07-18,Activo,
+CLI00479,Rosa,Medina,61718263,,rosa.medina479@demoempresa.com,980624297,Av. Demo 772,Los Olivos,Ecuador,2025-07-04,Activo,Gobierno
+CLI00480,Patricia,Sánchez,70484679,,patricia.snchez480@demoempresa.com,958045029,Av. Demo 790,S.J.M.,Colombia,2025-09-24,Inactivo,Retail
+CLI00481,Lucía,Flores,83815115,,luca.flores481@demoempresa.com,,Av. Demo 445,Lince,Ecuador,2025-05-13,Inactivo,Pyme
+CLI00482,José,Medina,53574336,,jos.medina482@demoempresa.com,965343779,Av. Demo 882,,,2026-01-26,Activo,Gobierno
+CLI00483,Rosa,Medina,38712948,,rosa.medina483@demoempresa.com,983851788,Av. Demo 862,Comas,PE,2024-07-15,Inactivo,Premium
+CLI00484,Juan,García,48182550,,juan.garca484@demoempresa.com,979472352,Av. Demo 238,San Juan de Miraflores,Perú,2023-09-08,Activo,Corporativo
+CLI00485,José,Pérez,47038339,,jos.prez485@demoempresa.com,978621697,Av. Demo 669,San Borja,Perú,2022-03-19,Inactivo,Pyme
+CLI00486,Luis,Torres,45566111,,luis.torres486@demoempresa.com,988135616,Av. Demo 355,Los Olivos,PE,2023-09-08,Activo,Gobierno
+CLI00487,Jorge,Castillo,20361818,,jorge.castillo487@demoempresa.com,974764506,Av. Demo 277,Miraflores ,,2025-11-13,Bloqueado,Retail
+CLI00488,Gabriela,Quispe,15015930,,gabriela.quispe488@demoempresa.com,987347488,Av. Demo 490,Surco,,2022-04-25,Activo,Pyme
+CLI00489,Camila,Sánchez,26178675,,camila.snchez489@demoempresa.com,940429530,Av. Demo 865,San Isidro,Colombia,2025-07-18,Inactivo,Retail
+CLI00490,Sofía,Herrera,15527388,,sofa.herrera490@demoempresa.com,985821325,Av. Demo 253,Ate,Ecuador,2025-11-30,Activo,Corporativo
+CLI00491,María,Romero,69809598,,mara.romero491@demoempresa.com,987209399,Av. Demo 616,Surco,Peru,2024-06-03,Activo,Premium
+CLI00492,Luis,Torres,55119729,20713579662,luis.torres492@demoempresa.com,916618423,Av. Demo 661,Independencia,PE,2022-06-24,Inactivo,Gobierno
+CLI00493,Camila,Torres,28102047,,camila.torres493_at_demoempresa.com,936589676,Av. Demo 599,Independencia,Colombia,2025-03-16,Activo,Gobierno
+CLI00494,Gabriela,Herrera,43050557,,gabriela.herrera494@demoempresa.com,,Av. Demo 372,,PE,2025-11-03,Bloqueado,Retail
+CLI00495,Ana,Sánchez,66846657,,ana.snchez495@demoempresa.com,935567100,Av. Demo 428,Callao,Ecuador,2025-09-04,Activo,Pyme
+CLI00496,Lucía,Chávez,92707781,,luca.chvez496@demoempresa.com,969352435,Av. Demo 738,San Borja,PERU,2022-04-02,Activo,Corporativo
+CLI00497,Valeria,Torres,21517819,20158559749,valeria.torres497@demoempresa.com,942621391,Av. Demo 735,San Borja,,2023-08-13,Activo,Pyme
+CLI00498,Ana,Quispe,70406241,,,954543739,Av. Demo 314,Jesus Maria,Peru,2025-01-24,Bloqueado,Pyme
+CLI00499,Patricia,Lopez,93623280,,patricia.lopez499@demoempresa.com,928971329,Av. Demo 811,San Isidro,PERU,2025-04-08,Bloqueado,Retail
+CLI00500,Miguel,Flores,18067834,,miguel.flores500@demoempresa.com,992941828,Av. Demo 377,Miraflores,PERU,2025-09-02,Activo,Retail
+CLI00501,Jorge,Mendoza,98983888,,jorge.mendoza501@demoempresa.com,998597172,Av. Demo 468,La Molina,Perú,2023-08-23,Inactivo,Corporativo
+CLI00502,Jorge,Herrera,23368583,,jorge.herrera502@demoempresa.com,975050252,Av. Demo 987,Surco,Peru,2023-02-12,Bloqueado,Premium
+CLI00503,Patricia,Pérez,15335477,,patricia.prez503@demoempresa.com,981056927,Av. Demo 412,Ate,PERU,2024-03-16,Activo,Retail
+CLI00504,Valeria,Chávez,57698045,,valeria.chvez504@demoempresa.com,941702866,Av. Demo 613,Comas,,2022-05-07,Activo,Premium
+CLI00505,Juan,Medina,47606981,,juan.medina505@demoempresa.com,955873760,Av. Demo 502,San Borja,Perú,2026-02-03,Inactivo,Gobierno
+CLI00506,Gabriela,Vargas,66013532,,gabriela.vargas506@demoempresa.com,930501644,Av. Demo 536,San Juan de Miraflores,Ecuador,2023-11-06,Inactivo,Gobierno
+CLI00507,Luis,Castillo,97573396,20681274244,luis.castillo507@demoempresa.com,,Av. Demo 800,Jesus Maria,,2022-10-10,Activo,
+CLI00508,Raúl,Torres,67722252,,ral.torres508@demoempresa.com,929482024,Av. Demo 771,Lince,PE,2022-05-19,Bloqueado,Gobierno
+CLI00509,Ana,Flores,52627226,,ana.flores509@demoempresa.com,929531743,Av. Demo 844,San Isidro,,2023-10-15,Inactivo,Premium
+CLI00510,Sofía,Díaz,95476210,,sofa.daz510@demoempresa.com,946748299,Av. Demo 255,Jesus Maria,Perú,2022-09-27,Activo,Retail
+CLI00511,Gabriela,Mendoza,91282861,,gabriela.mendoza511@demoempresa.com,940992396,Av. Demo 710,Los Olivos,Peru,2025-11-08,Activo,Pyme
+CLI00512,Carlos,Lopez,27996802,,carlos.lopez512@demoempresa.com,991163038,Av. Demo 580,Callao,Peru,2024-03-04,Inactivo,Premium
+CLI00513,Luis,Flores,247264,20920917342,luis.flores513@demoempresa.com,912015179,Av. Demo 376,,Peru,2025-10-06,Activo,Corporativo
+CLI00514,Carlos,Flores,68959861,,carlos.flores514@demoempresa.com,975759022,Av. Demo 804,Ate,,2024-07-26,Activo,Premium
+CLI00515,Jorge,García,91594977,,jorge.garca515@demoempresa.com,961052956,Av. Demo 837,Ate,PERU,2025-06-06,Bloqueado,Gobierno
+CLI00516,Patricia,Herrera,96086421,,patricia.herrera516@demoempresa.com,915168989,Av. Demo 633,La Molina,PERU,2024-07-24,Activo,Corporativo
+CLI00517,Raúl,Medina,63098035,,ral.medina517@demoempresa.com,915268263,Av. Demo 671,Independencia,Ecuador,2025-07-15,Activo,Corporativo
+CLI00518,Sofía,Díaz,63424009,,sofa.daz518@demoempresa.com,948374806,Av. Demo 572,Lince,PERU,2023-08-26,Bloqueado,Retail
+CLI00519,Raúl,Torres,72220513,,ral.torres519@demoempresa.com,970625891,Av. Demo 192,La Molina,Peru,2025-04-13,Bloqueado,Corporativo
+CLI00520,Jorge,Sánchez,45769504,20587135978,jorge.snchez520@demoempresa.com,,Av. Demo 704,Jesus Maria,PERU,2022-07-04,Activo,Pyme
+CLI00521,Lucía,Ramírez,22239481,20582537877,luca.ramrez521@demoempresa.com,995103759,Av. Demo 471,Surco,Ecuador,2025-12-19,Inactivo,
+CLI00522,Raúl,Flores,60825385,,ral.flores522_at_demoempresa.com,915892974,Av. Demo 886,Lince,PE,2025-03-04,Activo,Corporativo
+CLI00523,Luis,Flores,16886777,,luis.flores523@demoempresa.com,951542843,Av. Demo 847,S.J.M.,PE,2025-07-06,Activo,Retail
+CLI00524,Luis,Castillo,10474177,,luis.castillo524@demoempresa.com,943971980,Av. Demo 112,S.J.M.,PERU,2024-10-18,Bloqueado,Retail
+CLI00525,Gabriela,Lopez,41927492,,gabriela.lopez525@demoempresa.com,998512648,Av. Demo 587,S.J.M.,PERU,2024-06-23,Activo,Gobierno
+CLI00526,Gabriela,Pérez,42844845,,gabriela.prez526@demoempresa.com,947327686,Av. Demo 734,Jesus Maria,Perú,2023-01-14,Activo,Retail
+CLI00527,Valeria,García,29511823,,valeria.garca527@demoempresa.com,999522760,Av. Demo 691,San Juan de Miraflores,PE,2022-06-29,Activo,Retail
+CLI00528,Camila,Flores,31654047,,camila.flores528@demoempresa.com,992019078,Av. Demo 776,Lince,PERU,2025-03-31,Activo,Retail
+CLI00529,Carlos,Quispe,53328415,,carlos.quispe529@demoempresa.com,960860378,Av. Demo 939,Surco,,2024-05-25,Bloqueado,Retail
+CLI00530,Sofía,Lopez,28058430,20394654666,sofa.lopez530@demoempresa.com,954185620,Av. Demo 639,,Ecuador,2023-03-06,Activo,Gobierno
+CLI00531,María,Ramírez,86687590,,mara.ramrez531@demoempresa.com,994420078,Av. Demo 641,Surco,PERU,2026-01-22,Bloqueado,
+CLI00532,Sofía,Sánchez,91717739,,sofa.snchez532@demoempresa.com,944850980,Av. Demo 638,Callao,Peru,2025-06-12,Bloqueado,Premium
+CLI00533,Raúl,Lopez,76102828,,ral.lopez533@demoempresa.com,,Av. Demo 724,Los Olivos,Colombia,2023-08-18,Activo,Retail
+CLI00534,Ana,Pérez,72395893,,ana.prez534@demoempresa.com,925827722,Av. Demo 855,Jesus Maria,,2025-06-14,Inactivo,Premium
+CLI00535,María,Silva,56929234,,mara.silva535@demoempresa.com,995564277,Av. Demo 317,San Isidro,Colombia,2023-02-17,Activo,Pyme
+CLI00536,Carlos,Quispe,50303435,,carlos.quispe536@demoempresa.com,953476321,Av. Demo 885,San Isidro,Perú,2025-11-05,Activo,Pyme
+CLI00537,Jorge,Pérez,33572537,,jorge.prez537@demoempresa.com,955357116,Av. Demo 788,Miraflores ,PERU,2022-03-14,Activo,Premium
+CLI00538,Luis,Díaz,82070563,,luis.daz538@demoempresa.com,972071682,Av. Demo 902,,Colombia,2022-04-25,Bloqueado,Pyme
+CLI00539,Fernando,Silva,84514623,,fernando.silva539@demoempresa.com,937952515,Av. Demo 691,Ate,,2023-12-26,Activo,Corporativo
+CLI00540,Miguel,Pérez,55520266,,miguel.prez540@demoempresa.com,994088862,Av. Demo 647,Lince,Ecuador,2025-05-25,Inactivo,Corporativo
+CLI00541,Gabriela,Ramírez,51376831,,gabriela.ramrez541@demoempresa.com,952211394,Av. Demo 826,Miraflores,PE,2024-04-27,Activo,Premium
+CLI00542,Rosa,Chávez,70653840,,rosa.chvez542@demoempresa.com,950618137,Av. Demo 321,San Juan de Miraflores,Peru,2022-08-18,Activo,Retail
+CLI00543,Pedro,Rojas,69562350,,pedro.rojas543@demoempresa.com,974781956,Av. Demo 612,San Borja,Peru,2023-11-28,Inactivo,
+CLI00544,Raúl,Quispe,53934556,20205496809,ral.quispe544@demoempresa.com,979276026,Av. Demo 792,San Borja,Peru,2026-01-23,Activo,Premium
+CLI00545,Jorge,Herrera,25547243,20147276808,jorge.herrera545@demoempresa.com,989763928,Av. Demo 992,Surco,PE,2024-08-14,Activo,Retail
+CLI00546,Raúl,Quispe,13017249,,ral.quispe546@demoempresa.com,,Av. Demo 419,Jesus Maria,PE,2023-02-15,Activo,Pyme
+CLI00547,Miguel,Medina,52835559,,miguel.medina547@demoempresa.com,925790828,Av. Demo 379,San Borja,Peru,2023-07-15,Activo,Retail
+CLI00548,Gabriela,Medina,78996054,20682535775,gabriela.medina548@demoempresa.com,957018904,Av. Demo 662,Ate,PE,2022-10-17,Activo,Gobierno
+CLI00549,Rosa,Flores,19562056,,rosa.flores549@demoempresa.com,955464764,Av. Demo 653,S.J.M.,Perú,2022-09-24,Activo,Premium
+CLI00550,María,Ramírez,61485872,20557914110,mara.ramrez550@demoempresa.com,962602177,Av. Demo 283,S.J.M.,Ecuador,2023-12-30,Activo,Pyme
+CLI00551,Pedro,Medina,20542212,,pedro.medina551_at_demoempresa.com,972504573,Av. Demo 681,San Borja,Perú,2025-12-01,Inactivo,Retail
+CLI00552,Diego,Quispe,96492401,,diego.quispe552@demoempresa.com,972464469,Av. Demo 581,Los Olivos,Peru,2022-10-22,Bloqueado,Pyme
+CLI00553,Valeria,Romero,34609232,,valeria.romero553@demoempresa.com,999279031,Av. Demo 438,Ate,PERU,2024-09-25,Activo,Retail
+CLI00554,Elena,Ramírez,57169588,,elena.ramrez554@demoempresa.com,932924595,Av. Demo 389,Callao,Ecuador,2025-03-22,Activo,Gobierno
+CLI00555,Ana,Romero,24358786,,ana.romero555@demoempresa.com,997167893,Av. Demo 172,San Juan de Miraflores,Ecuador,2024-08-02,Inactivo,Gobierno
+CLI00556,Camila,Vargas,93332410,,camila.vargas556@demoempresa.com,931343341,Av. Demo 593,Independencia,Perú,2023-11-29,Activo,
+CLI00557,Fernando,Sánchez,68432185,,fernando.snchez557@demoempresa.com,955929418,Av. Demo 657,Los Olivos,Peru,2025-09-19,Activo,
+CLI00558,Fernando,Lopez,25344154,,fernando.lopez558@demoempresa.com,972130518,Av. Demo 433,La Molina,,2024-06-30,Activo,Pyme
+CLI00559,Jorge,Rojas,90296988,20974097480,jorge.rojas559@demoempresa.com,,Av. Demo 710,Independencia,PE,2024-10-09,Activo,Retail
+CLI00560,Pedro,Torres,82828034,,pedro.torres560@demoempresa.com,998701999,Av. Demo 252,S.J.M.,Ecuador,2023-08-20,Inactivo,Gobierno
+CLI00561,Fernando,Díaz,36261929,,fernando.daz561@demoempresa.com,952493026,Av. Demo 406,San Juan de Miraflores,PERU,2026-01-10,Activo,Retail
+CLI00562,Fernando,Pérez,92072899,,fernando.prez562@demoempresa.com,964250458,Av. Demo 967,San Borja,,2023-08-26,Activo,Pyme
+CLI00563,Patricia,García,10113187,,patricia.garca563@demoempresa.com,958216998,Av. Demo 212,San Juan de Miraflores,,2022-03-05,Activo,Premium
+CLI00564,Fernando,Romero,93914843,,fernando.romero564@demoempresa.com,961377152,Av. Demo 515,Independencia,PERU,2025-01-21,Activo,
+CLI00565,Lucía,Lopez,28665507,,luca.lopez565@demoempresa.com,961619474,Av. Demo 963,Callao,,2024-05-04,Activo,Pyme
+CLI00566,Luis,Torres,11557295,20116866122,luis.torres566@demoempresa.com,929326800,Av. Demo 838,Miraflores ,Colombia,2024-06-13,Activo,Retail
+CLI00567,Luis,Sánchez,71207129,,luis.snchez567@demoempresa.com,991125155,Av. Demo 535,Lince,PERU,2024-11-09,Inactivo,Gobierno
+CLI00568,Diego,Romero,57688529,,diego.romero568@demoempresa.com,967011913,Av. Demo 719,San Isidro,Ecuador,2024-10-17,Activo,
+CLI00569,Raúl,Mendoza,65141717,,ral.mendoza569@demoempresa.com,987356703,Av. Demo 475,Miraflores,Perú,2025-03-09,Inactivo,
+CLI00570,Valeria,Ramírez,514923,,valeria.ramrez570@demoempresa.com,920745888,Av. Demo 245,Comas,PERU,2024-11-24,Activo,Gobierno
+CLI00571,Gabriela,Rojas,42914388,,gabriela.rojas571@demoempresa.com,999085263,Av. Demo 784,Surco,Colombia,2025-07-21,Bloqueado,Gobierno
+CLI00572,Sofía,García,56109986,,sofa.garca572@demoempresa.com,,Av. Demo 111,Miraflores ,PERU,2024-11-15,Inactivo,Gobierno
+CLI00573,José,Sánchez,57367387,,jos.snchez573@demoempresa.com,949542951,Av. Demo 396,Lince,Perú,2025-11-24,Bloqueado,
+CLI00574,Sofía,Mendoza,18243352,,sofa.mendoza574@demoempresa.com,987596783,Av. Demo 273,Miraflores,Colombia,2023-08-21,Bloqueado,Retail
+CLI00575,Sofía,Lopez,21074327,20182530219,sofa.lopez575@demoempresa.com,947292234,Av. Demo 358,San Borja,Ecuador,2023-07-30,Activo,Pyme
+CLI00576,Juan,Ramírez,91043555,,juan.ramrez576@demoempresa.com,989426041,Av. Demo 856,San Borja,Colombia,2024-07-03,Activo,Corporativo
+CLI00577,Miguel,Vargas,75084661,,miguel.vargas577@demoempresa.com,980784933,Av. Demo 982,Miraflores,PE,2022-06-22,Activo,Gobierno
+CLI00578,Luis,Lopez,65424925,,luis.lopez578@demoempresa.com,941936764,Av. Demo 776,S.J.M.,Colombia,2025-07-29,Activo,Corporativo
+CLI00579,Fernando,Chávez,17291483,,fernando.chvez579@demoempresa.com,925568500,Av. Demo 153,Lince,PERU,2024-03-27,Inactivo,Pyme
+CLI00580,Elena,Medina,41361490,,elena.medina580_at_demoempresa.com,962354374,Av. Demo 585,Comas,Peru,2024-12-22,Inactivo,Retail
+CLI00581,Sofía,Díaz,61271721,,,981169409,Av. Demo 799,Miraflores,Perú,2024-12-24,Activo,Premium
+CLI00582,Gabriela,Mendoza,54958564,,gabriela.mendoza582@demoempresa.com,923190487,Av. Demo 361,Independencia,PERU,2025-10-14,Activo,
+CLI00583,Fernando,Castillo,79786819,,fernando.castillo583@demoempresa.com,934148004,Av. Demo 420,San Isidro,Colombia,2022-01-18,Activo,Retail
+CLI00584,Camila,Ramírez,80499776,20578826794,camila.ramrez584@demoempresa.com,957179735,Av. Demo 324,San Juan de Miraflores,PE,2023-01-31,Activo,Retail
+CLI00585,Gabriela,Rojas,17634560,,gabriela.rojas585@demoempresa.com,,Av. Demo 772,Jesus Maria,Ecuador,2025-07-30,Activo,
+CLI00586,Ana,Rojas,91159552,20804798365,ana.rojas586@demoempresa.com,996960449,Av. Demo 679,Lince,Perú,2025-11-25,Activo,Pyme
+CLI00587,Sofía,Díaz,98647835,,sofa.daz587@demoempresa.com,995735668,Av. Demo 564,Comas,,2024-05-24,Activo,Pyme
+CLI00588,Lucía,Rojas,47216895,,luca.rojas588@demoempresa.com,961378412,Av. Demo 497,Ate,Perú,2023-06-13,Activo,Corporativo
+CLI00589,Diego,Rojas,75997780,,diego.rojas589@demoempresa.com,936933352,Av. Demo 724,Independencia,Peru,2025-08-14,Inactivo,Retail
+CLI00590,Luis,Medina,67881875,,luis.medina590@demoempresa.com,996347387,Av. Demo 208,S.J.M.,Colombia,2023-06-15,Activo,Retail
+CLI00591,Carlos,Rojas,86684568,,carlos.rojas591@demoempresa.com,969845276,Av. Demo 119,Miraflores ,Peru,2025-08-30,Activo,Retail
+CLI00592,Jorge,Mendoza,30348410,,jorge.mendoza592@demoempresa.com,962523472,Av. Demo 688,San Isidro,Ecuador,2025-12-20,Inactivo,Premium
+CLI00593,Camila,Romero,19408620,,camila.romero593@demoempresa.com,910443906,Av. Demo 493,Miraflores ,Perú,2025-03-07,Bloqueado,Pyme
+CLI00594,José,Quispe,63769608,20794790862,jos.quispe594@demoempresa.com,922169115,Av. Demo 474,Ate,Perú,2024-07-30,Activo,
+CLI00595,Pedro,Flores,84420438,20512492602,pedro.flores595@demoempresa.com,998682228,Av. Demo 295,San Juan de Miraflores,Colombia,2024-03-09,Activo,
+CLI00596,Valeria,Lopez,21390049,,valeria.lopez596@demoempresa.com,968785183,Av. Demo 852,Jesus Maria,Peru,2022-03-15,Activo,Retail
+CLI00597,Fernando,Vargas,75663681,,fernando.vargas597@demoempresa.com,982551667,Av. Demo 758,San Juan de Miraflores,PERU,2024-12-29,Inactivo,Retail
+CLI00598,María,Silva,17523501,,mara.silva598@demoempresa.com,,Av. Demo 838,Miraflores,PERU,2022-08-31,Activo,
+CLI00599,Raúl,Díaz,82016051,20722067721,ral.daz599@demoempresa.com,941270805,Av. Demo 173,Miraflores,Colombia,2022-10-17,Inactivo,
+CLI00600,Juan,Lopez,13885234,,juan.lopez600@demoempresa.com,997078639,Av. Demo 233,San Isidro,Peru,2025-07-19,Activo,Pyme
+CLI00601,Ana,Díaz,92037350,,ana.daz601@demoempresa.com,989328380,Av. Demo 165,La Molina,Perú,2024-10-15,Bloqueado,Gobierno
+CLI00602,Rosa,Rojas,37198033,,rosa.rojas602@demoempresa.com,963956682,Av. Demo 432,La Molina,Colombia,2025-03-25,Bloqueado,Corporativo
+CLI00603,José,Castillo,16118522,,jos.castillo603@demoempresa.com,955030548,Av. Demo 164,La Molina,PE,2022-10-17,Inactivo,Corporativo
+CLI00604,Valeria,Medina,32146747,,valeria.medina604@demoempresa.com,988112812,Av. Demo 141,San Borja,Perú,2025-07-18,Bloqueado,Premium
+CLI00605,Lucía,Pérez,75359668,20107756709,luca.prez605@demoempresa.com,934080385,Av. Demo 191,San Juan de Miraflores,PERU,2025-11-21,Inactivo,
+CLI00606,Luis,Castillo,29204927,,luis.castillo606@demoempresa.com,980207530,Av. Demo 561,,Peru,2022-12-24,Bloqueado,
+CLI00607,María,Flores,77093782,,mara.flores607@demoempresa.com,921814004,Av. Demo 742,San Juan de Miraflores,PE,2024-05-07,Activo,Gobierno
+CLI00608,Rosa,Castillo,25771632,,rosa.castillo608@demoempresa.com,922842469,Av. Demo 733,Callao,,2025-01-10,Bloqueado,Corporativo
+CLI00609,Diego,Castillo,47101348,20220988280,diego.castillo609_at_demoempresa.com,930027622,Av. Demo 801,Miraflores ,PERU,2022-12-28,Activo,
+CLI00610,María,García,96551756,,mara.garca610@demoempresa.com,938130660,Av. Demo 545,Comas,PE,2025-06-17,Inactivo,Retail
+CLI00611,Ana,García,82123324,,ana.garca611@demoempresa.com,,Av. Demo 904,San Isidro,PERU,2024-11-20,Activo,Retail
+CLI00612,Rosa,Díaz,89551741,,rosa.daz612@demoempresa.com,966246123,Av. Demo 303,Ate,Peru,2022-08-14,Activo,Corporativo
+CLI00613,Ana,Vargas,65377624,,ana.vargas613@demoempresa.com,960403103,Av. Demo 325,Surco,PERU,2025-04-13,Inactivo,Retail
+CLI00614,Camila,Torres,39013196,,camila.torres614@demoempresa.com,971067841,Av. Demo 282,Independencia,PE,2022-10-07,Inactivo,
+CLI00615,Pedro,Chávez,46197787,,pedro.chvez615@demoempresa.com,927074074,Av. Demo 132,Miraflores,PE,2022-10-07,Activo,Premium
+CLI00616,Diego,Sánchez,32978251,,diego.snchez616@demoempresa.com,939508245,Av. Demo 402,Lince,,2025-07-30,Bloqueado,Corporativo
+CLI00617,Fernando,Medina,40830120,20660244963,fernando.medina617@demoempresa.com,975661110,Av. Demo 982,Jesus Maria,Ecuador,2024-08-27,Inactivo,Pyme
+CLI00618,Juan,Sánchez,43105363,,juan.snchez618@demoempresa.com,968283876,Av. Demo 693,Los Olivos,Ecuador,2022-11-02,Bloqueado,Retail
+CLI00619,Camila,García,15376584,,camila.garca619@demoempresa.com,977674770,Av. Demo 134,,Ecuador,2024-03-18,Inactivo,
+CLI00620,Ana,Díaz,76476033,,ana.daz620@demoempresa.com,984958851,Av. Demo 871,San Isidro,Colombia,2026-02-07,Inactivo,Corporativo
+CLI00621,Luis,Chávez,49700319,,luis.chvez621@demoempresa.com,922177508,Av. Demo 116,Miraflores ,Colombia,2023-09-17,Activo,
+CLI00622,Diego,Pérez,71047698,,diego.prez622@demoempresa.com,928605786,Av. Demo 995,Independencia,Peru,2024-01-29,Inactivo,
+CLI00623,Juan,Rojas,61657620,,juan.rojas623@demoempresa.com,954681905,Av. Demo 643,Miraflores,PE,2024-05-22,Activo,
+CLI00624,Gabriela,Medina,87205978,,gabriela.medina624@demoempresa.com,,Av. Demo 906,Surco,Ecuador,2023-11-19,Activo,Gobierno
+CLI00625,Valeria,García,24893677,,valeria.garca625@demoempresa.com,972458605,Av. Demo 733,Miraflores,PE,2024-01-21,Activo,
+CLI00626,Patricia,Rojas,85263692,,patricia.rojas626@demoempresa.com,937476059,Av. Demo 241,Ate,Peru,2025-01-10,Activo,
+CLI00627,Elena,Castillo,346030,,elena.castillo627@demoempresa.com,945884163,Av. Demo 615,,PE,2022-04-22,Activo,Pyme
+CLI00628,Valeria,Díaz,75260270,,valeria.daz628@demoempresa.com,926469781,Av. Demo 581,San Juan de Miraflores,PERU,2025-06-25,Activo,
+CLI00629,Carlos,Castillo,71454824,20519492143,carlos.castillo629@demoempresa.com,933999716,Av. Demo 395,Surco,Perú,2022-12-04,Activo,Retail
+CLI00630,Luis,Lopez,30199508,,luis.lopez630@demoempresa.com,979885511,Av. Demo 742,San Isidro,PE,2024-05-03,Bloqueado,Corporativo
+CLI00631,Elena,Chávez,66388890,,elena.chvez631@demoempresa.com,996528081,Av. Demo 121,San Juan de Miraflores,Peru,2022-05-09,Activo,Corporativo
+CLI00632,Raúl,Silva,65256328,,ral.silva632@demoempresa.com,998014684,Av. Demo 761,Ate,PERU,2025-04-30,Bloqueado,Gobierno
+CLI00633,Diego,Díaz,50813240,,diego.daz633@demoempresa.com,951137063,Av. Demo 275,Comas,Peru,2024-09-18,Activo,Pyme
+CLI00634,María,Torres,57395084,,mara.torres634@demoempresa.com,932328873,Av. Demo 733,Lince,Colombia,2025-01-01,Activo,Corporativo
+CLI00635,Lucía,Torres,31643241,,luca.torres635@demoempresa.com,915523254,Av. Demo 424,San Borja,PERU,2023-06-18,Activo,Corporativo
+CLI00636,Pedro,Medina,14655890,,pedro.medina636@demoempresa.com,956150365,Av. Demo 251,Callao,PERU,2025-01-10,Activo,Gobierno
+CLI00637,Sofía,Ramírez,13345404,,sofa.ramrez637@demoempresa.com,,Av. Demo 611,San Borja,PERU,2023-10-18,Activo,Retail
+CLI00638,Patricia,Herrera,54463735,,patricia.herrera638_at_demoempresa.com,949668971,Av. Demo 585,San Juan de Miraflores,,2025-03-20,Activo,Gobierno
+CLI00639,Diego,Silva,25074747,,diego.silva639@demoempresa.com,915379569,Av. Demo 242,La Molina,PE,2022-02-20,Inactivo,Gobierno
+CLI00640,Rosa,Díaz,43251599,,rosa.daz640@demoempresa.com,991624673,Av. Demo 756,Jesus Maria,Ecuador,2024-12-14,Activo,Pyme
+CLI00641,Pedro,Pérez,21219199,,pedro.prez641@demoempresa.com,969788371,Av. Demo 793,Surco,Ecuador,2024-03-18,Activo,Premium
+CLI00642,José,Herrera,17522583,,jos.herrera642@demoempresa.com,958461306,Av. Demo 507,San Borja,Colombia,2024-05-25,Activo,Premium
+CLI00643,Valeria,Pérez,48205125,,valeria.prez643@demoempresa.com,951350514,Av. Demo 556,Surco,Peru,2026-01-30,Inactivo,
+CLI00644,Camila,Díaz,48739802,,camila.daz644@demoempresa.com,966885794,Av. Demo 846,,Peru,2025-04-17,Bloqueado,Retail
+CLI00645,Luis,Castillo,50698994,,luis.castillo645@demoempresa.com,980504712,Av. Demo 443,Surco,Ecuador,2024-02-09,Activo,Retail
+CLI00646,Camila,Mendoza,65635129,,camila.mendoza646@demoempresa.com,972024691,Av. Demo 827,San Borja,Peru,2023-01-16,Inactivo,Pyme
+CLI00647,Patricia,Lopez,15668405,,patricia.lopez647@demoempresa.com,950532800,Av. Demo 954,San Juan de Miraflores,PERU,2025-02-19,Inactivo,Corporativo
+CLI00648,Juan,Pérez,30672747,,juan.prez648@demoempresa.com,995973864,Av. Demo 954,Miraflores ,Perú,2025-09-01,Activo,Premium
+CLI00649,Lucía,Lopez,96541691,,luca.lopez649@demoempresa.com,926019511,Av. Demo 883,Comas,PERU,2022-05-17,Bloqueado,
+CLI00650,Valeria,Lopez,85910136,,valeria.lopez650@demoempresa.com,,Av. Demo 364,Miraflores ,Colombia,2022-09-02,Activo,Gobierno
+CLI00651,Fernando,Pérez,44834491,,fernando.prez651@demoempresa.com,917853132,Av. Demo 249,Ate,PERU,2025-11-20,Activo,Pyme
+CLI00652,Lucía,García,46597195,,luca.garca652@demoempresa.com,995395644,Av. Demo 464,Miraflores,PE,2023-08-21,Bloqueado,
+CLI00653,Carlos,Herrera,36013386,,carlos.herrera653@demoempresa.com,934595062,Av. Demo 883,La Molina,Ecuador,2022-12-09,Bloqueado,Pyme
+CLI00654,José,Quispe,46434606,,jos.quispe654@demoempresa.com,958656970,Av. Demo 198,Callao,,2022-10-22,Activo,Corporativo
+CLI00655,Raúl,Quispe,60065117,,ral.quispe655@demoempresa.com,965296966,Av. Demo 448,Lince,Perú,2023-03-23,Activo,Gobierno
+CLI00656,Rosa,Castillo,84981433,,rosa.castillo656@demoempresa.com,980551927,Av. Demo 966,La Molina,PERU,2024-08-01,Activo,Retail
+CLI00657,Luis,Pérez,74359847,,luis.prez657@demoempresa.com,958663129,Av. Demo 242,S.J.M.,Ecuador,2024-12-07,Activo,Corporativo
+CLI00658,Sofía,Pérez,25917805,,sofa.prez658@demoempresa.com,929107146,Av. Demo 804,Los Olivos,PE,2022-09-14,Activo,Corporativo
+CLI00659,Carlos,Sánchez,24995099,20931819535,carlos.snchez659@demoempresa.com,974995591,Av. Demo 875,,Perú,2023-02-07,Activo,Retail
+CLI00660,Raúl,García,72959166,20371670077,ral.garca660@demoempresa.com,915809144,Av. Demo 167,San Juan de Miraflores,Colombia,2022-01-22,Activo,Retail
+CLI00661,Gabriela,Castillo,88866745,,gabriela.castillo661@demoempresa.com,934800996,Av. Demo 786,Callao,Perú,2022-07-05,Activo,
+CLI00662,Miguel,Chávez,57271923,,miguel.chvez662@demoempresa.com,977194013,Av. Demo 899,Los Olivos,Ecuador,2025-03-13,Activo,Retail
+CLI00663,Fernando,Pérez,80979534,,fernando.prez663@demoempresa.com,,Av. Demo 296,San Juan de Miraflores,Peru,2025-01-05,Activo,
+CLI00664,Ana,Castillo,77671943,,,973715236,Av. Demo 475,Lince,PERU,2025-10-11,Activo,Corporativo
+CLI00665,Valeria,Romero,66920644,,valeria.romero665@demoempresa.com,940541809,Av. Demo 517,La Molina,,2023-10-06,Activo,Premium
+CLI00666,Ana,Herrera,28241849,,ana.herrera666@demoempresa.com,958486215,Av. Demo 821,San Juan de Miraflores,Ecuador,2026-01-18,Activo,Retail
+CLI00667,José,Lopez,25532025,,jos.lopez667_at_demoempresa.com,971330222,Av. Demo 714,San Juan de Miraflores,Colombia,2024-06-28,Activo,Gobierno
+CLI00668,Camila,Quispe,67440042,,camila.quispe668@demoempresa.com,919342782,Av. Demo 961,Miraflores ,Colombia,2024-01-23,Activo,Retail
+CLI00669,Elena,Ramírez,63199848,,elena.ramrez669@demoempresa.com,998388851,Av. Demo 792,Surco,Perú,2022-10-21,Inactivo,Premium
+CLI00670,Fernando,Ramírez,32645646,20313767380,fernando.ramrez670@demoempresa.com,955450370,Av. Demo 305,Independencia,Perú,2023-04-22,Inactivo,
+CLI00671,Elena,Mendoza,88103795,,elena.mendoza671@demoempresa.com,996413557,Av. Demo 509,Callao,PERU,2025-09-27,Bloqueado,Premium
+CLI00672,Elena,Herrera,47432067,20588160337,elena.herrera672@demoempresa.com,924500436,Av. Demo 225,Comas,PERU,2024-10-15,Activo,
+CLI00673,Luis,Pérez,23368540,,luis.prez673@demoempresa.com,919157497,Av. Demo 610,San Isidro,Peru,2024-02-23,Bloqueado,
+CLI00674,José,Torres,50634767,,jos.torres674@demoempresa.com,922929680,Av. Demo 878,Surco,Colombia,2024-11-30,Inactivo,Premium
+CLI00675,Pedro,Quispe,98864649,,pedro.quispe675@demoempresa.com,977752405,Av. Demo 367,Ate,,2025-01-12,Bloqueado,Retail
+CLI00676,María,Sánchez,25989909,,mara.snchez676@demoempresa.com,,Av. Demo 422,Independencia,PERU,2024-07-30,Activo,Retail
+CLI00677,Lucía,Medina,98504649,,luca.medina677@demoempresa.com,950673953,Av. Demo 823,Lince,PERU,2024-06-01,Activo,Pyme
+CLI00678,Jorge,Lopez,24681002,,jorge.lopez678@demoempresa.com,975841004,Av. Demo 775,Miraflores ,PERU,2025-02-25,Activo,Gobierno
+CLI00679,María,Romero,45351739,,mara.romero679@demoempresa.com,960707149,Av. Demo 731,Callao,,2023-08-06,Activo,Retail
+CLI00680,Juan,García,86863404,,juan.garca680@demoempresa.com,988378721,Av. Demo 127,Ate,PERU,2022-07-19,Inactivo,Pyme
+CLI00681,Valeria,Sánchez,57146562,20362238769,valeria.snchez681@demoempresa.com,943234179,Av. Demo 340,San Juan de Miraflores,Ecuador,2022-06-23,Activo,Pyme
+CLI00682,Ana,Silva,32787384,20450165292,ana.silva682@demoempresa.com,915016739,Av. Demo 571,,Ecuador,2024-11-20,Inactivo,Pyme
+CLI00683,Juan,Lopez,88918579,20439854673,juan.lopez683@demoempresa.com,960699081,Av. Demo 684,Independencia,PE,2025-03-18,Activo,Premium
+CLI00684,Ana,Castillo,530860,,ana.castillo684@demoempresa.com,999575241,Av. Demo 447,Lince,Ecuador,2023-09-06,Activo,Premium
+CLI00685,Pedro,Lopez,95287876,,pedro.lopez685@demoempresa.com,920109437,Av. Demo 960,Jesus Maria,PE,2023-06-28,Activo,Pyme
+CLI00686,Fernando,Romero,40317902,,fernando.romero686@demoempresa.com,922342371,Av. Demo 834,La Molina,Ecuador,2023-11-21,Activo,Retail
+CLI00687,Fernando,Herrera,73789440,,fernando.herrera687@demoempresa.com,956616029,Av. Demo 914,Surco,Colombia,2023-09-11,Bloqueado,Pyme
+CLI00688,Camila,Medina,52057523,,camila.medina688@demoempresa.com,963995920,Av. Demo 357,S.J.M.,Colombia,2025-01-26,Activo,Retail
+CLI00689,Raúl,Flores,87422596,,ral.flores689@demoempresa.com,,Av. Demo 776,S.J.M.,PE,2025-07-30,Bloqueado,Gobierno
+CLI00690,Camila,García,80097837,,camila.garca690@demoempresa.com,972073912,Av. Demo 251,Los Olivos,Peru,2025-11-04,Activo,Premium
+CLI00691,Camila,Silva,18647316,,camila.silva691@demoempresa.com,965356542,Av. Demo 373,San Juan de Miraflores,Colombia,2022-11-25,Activo,
+CLI00692,Gabriela,Vargas,64474404,,gabriela.vargas692@demoempresa.com,930127592,Av. Demo 296,San Isidro,Peru,2023-09-28,Inactivo,Premium
+CLI00693,Patricia,Sánchez,66642448,,patricia.snchez693@demoempresa.com,914966557,Av. Demo 306,Lince,PE,2022-10-07,Activo,Pyme
+CLI00694,Miguel,Medina,33620336,,miguel.medina694@demoempresa.com,915668332,Av. Demo 839,Miraflores ,,2022-02-10,Activo,Retail
+CLI00695,José,Quispe,18533790,,jos.quispe695@demoempresa.com,964627534,Av. Demo 472,Surco,PERU,2026-01-23,Activo,Corporativo
+CLI00696,Ana,Herrera,26192377,,ana.herrera696_at_demoempresa.com,987902618,Av. Demo 893,Comas,PERU,2022-07-04,Activo,Gobierno
+CLI00697,Ana,Silva,54196006,,ana.silva697@demoempresa.com,962338292,Av. Demo 925,Los Olivos,PERU,2023-03-23,Activo,Retail
+CLI00698,Lucía,Castillo,46849119,,luca.castillo698@demoempresa.com,944132362,Av. Demo 983,Miraflores,PERU,2024-12-28,Activo,
+CLI00699,Ana,Silva,83248658,,ana.silva699@demoempresa.com,943064092,Av. Demo 384,San Borja,PE,2024-08-31,Activo,Pyme
+CLI00700,Juan,García,98882124,,juan.garca700@demoempresa.com,917337997,Av. Demo 807,Los Olivos,PE,2025-02-05,Inactivo,Pyme
+CLI00701,Valeria,Ramírez,81794497,,valeria.ramrez701@demoempresa.com,969378298,Av. Demo 497,San Isidro,PERU,2023-06-08,Activo,Retail
+CLI00702,Rosa,Quispe,38237596,,rosa.quispe702@demoempresa.com,,Av. Demo 264,S.J.M.,Colombia,2023-10-12,Inactivo,Retail
+CLI00703,Miguel,Rojas,75993764,,miguel.rojas703@demoempresa.com,965426729,Av. Demo 961,Ate,Colombia,2024-05-15,Activo,Corporativo
+CLI00704,Miguel,Herrera,18907659,,miguel.herrera704@demoempresa.com,990814633,Av. Demo 846,Ate,PERU,2025-11-24,Activo,Retail
+CLI00705,Lucía,Díaz,96046825,20530207385,luca.daz705@demoempresa.com,936853654,Av. Demo 743,San Juan de Miraflores,PE,2025-03-25,Activo,Retail
+CLI00706,Lucía,Vargas,79305456,,luca.vargas706@demoempresa.com,997131540,Av. Demo 881,San Borja,,2025-05-01,Inactivo,Pyme
+CLI00707,Diego,Lopez,27919382,,diego.lopez707@demoempresa.com,989593852,Av. Demo 946,Ate,,2023-08-01,Activo,Retail
+CLI00708,Camila,Chávez,34412762,,camila.chvez708@demoempresa.com,960643036,Av. Demo 954,Los Olivos,Perú,2022-02-17,Bloqueado,
+CLI00709,Gabriela,Vargas,21942232,,gabriela.vargas709@demoempresa.com,936610839,Av. Demo 368,Lince,Perú,2024-04-01,Bloqueado,Premium
+CLI00710,Gabriela,Mendoza,30032157,20495051256,gabriela.mendoza710@demoempresa.com,932833506,Av. Demo 680,La Molina,Perú,2026-01-11,Bloqueado,Premium
+CLI00711,Diego,Lopez,25906458,,diego.lopez711@demoempresa.com,937265709,Av. Demo 295,Comas,PE,2024-10-09,Inactivo,Corporativo
+CLI00712,Camila,Castillo,90541748,,camila.castillo712@demoempresa.com,947979220,Av. Demo 844,Jesus Maria,PERU,2023-01-05,Inactivo,Corporativo
+CLI00713,Juan,Quispe,45138129,,juan.quispe713@demoempresa.com,970529066,Av. Demo 354,Callao,Ecuador,2025-11-02,Inactivo,Retail
+CLI00714,Juan,Lopez,27878463,,juan.lopez714@demoempresa.com,963358890,Av. Demo 803,Jesus Maria,Colombia,2024-02-25,Inactivo,
+CLI00715,Gabriela,Mendoza,19805359,20163084820,gabriela.mendoza715@demoempresa.com,,Av. Demo 153,Ate,Peru,2024-08-22,Activo,Gobierno
+CLI00716,Gabriela,García,10719539,,gabriela.garca716@demoempresa.com,993169072,Av. Demo 490,San Juan de Miraflores,PERU,2025-10-06,Activo,Corporativo
+CLI00717,Patricia,García,87911634,,patricia.garca717@demoempresa.com,932799095,Av. Demo 615,Miraflores ,PE,2024-08-16,Activo,Retail
+CLI00718,José,Herrera,68106835,20225458204,jos.herrera718@demoempresa.com,952046335,Av. Demo 145,San Borja,PERU,2023-07-30,Activo,Premium
+CLI00719,Sofía,Mendoza,92266282,,sofa.mendoza719@demoempresa.com,945400991,Av. Demo 629,Ate,PERU,2022-12-04,Activo,
+CLI00720,Elena,Torres,50634767,,elena.torres720@demoempresa.com,969054404,Av. Demo 154,Jesus Maria,Peru,2022-04-22,Activo,Corporativo
+CLI00721,María,Lopez,44926669,,mara.lopez721@demoempresa.com,972697508,Av. Demo 546,La Molina,PERU,2022-03-25,Inactivo,Pyme
+CLI00722,Patricia,Lopez,71439467,,patricia.lopez722@demoempresa.com,929871432,Av. Demo 226,Callao,Perú,2023-02-22,Activo,Corporativo
+CLI00723,Lucía,Herrera,46613462,,luca.herrera723@demoempresa.com,999004832,Av. Demo 699,Jesus Maria,Ecuador,2022-01-09,Bloqueado,Gobierno
+CLI00724,Lucía,Sánchez,20312681,,luca.snchez724@demoempresa.com,976855296,Av. Demo 793,La Molina,PE,2022-02-23,Activo,
+CLI00725,Ana,Romero,60138147,,ana.romero725_at_demoempresa.com,924236463,Av. Demo 957,Ate,Peru,2022-03-01,Activo,Premium
+CLI00726,Elena,Díaz,94336613,,elena.daz726@demoempresa.com,989752745,Av. Demo 773,San Isidro,PE,2022-03-31,Bloqueado,Premium
+CLI00727,José,Torres,38369179,,jos.torres727@demoempresa.com,996388439,Av. Demo 389,Ate,,2022-04-24,Activo,Gobierno
+CLI00728,Gabriela,Romero,22421986,,gabriela.romero728@demoempresa.com,,Av. Demo 282,Los Olivos,,2024-03-27,Activo,Retail
+CLI00729,Pedro,Flores,62143976,,pedro.flores729@demoempresa.com,948243447,Av. Demo 762,San Borja,Perú,2023-09-04,Inactivo,Premium
+CLI00730,Sofía,Torres,58190104,,sofa.torres730@demoempresa.com,959319220,Av. Demo 624,Jesus Maria,PERU,2024-07-01,Inactivo,Premium
+CLI00731,Miguel,Sánchez,22109438,,miguel.snchez731@demoempresa.com,959423803,Av. Demo 728,Lince,PERU,2025-07-15,Inactivo,Retail
+CLI00732,María,Herrera,55868216,,mara.herrera732@demoempresa.com,940095669,Av. Demo 763,San Borja,PERU,2024-12-15,Bloqueado,Retail
+CLI00733,Sofía,Díaz,68700864,20960652062,sofa.daz733@demoempresa.com,974103912,Av. Demo 407,San Borja,Peru,2025-11-02,Activo,Corporativo
+CLI00734,Raúl,Sánchez,49658873,,ral.snchez734@demoempresa.com,983953207,Av. Demo 178,Miraflores,Ecuador,2022-08-09,Bloqueado,Premium
+CLI00735,Camila,Ramírez,72365138,,camila.ramrez735@demoempresa.com,986299853,Av. Demo 932,Comas,PE,2023-06-06,Bloqueado,Retail
+CLI00736,Raúl,Pérez,25292162,,ral.prez736@demoempresa.com,972126560,Av. Demo 283,Lince,,2024-03-15,Activo,Retail
+CLI00737,Camila,Quispe,52137166,,camila.quispe737@demoempresa.com,971068817,Av. Demo 875,S.J.M.,Ecuador,2023-06-27,Activo,Corporativo
+CLI00738,Pedro,Flores,20498581,,pedro.flores738@demoempresa.com,991074604,Av. Demo 365,La Molina,PERU,2024-12-30,Activo,Retail
+CLI00739,Jorge,Ramírez,11785713,,jorge.ramrez739@demoempresa.com,974037945,Av. Demo 571,Independencia,,2025-09-09,Bloqueado,
+CLI00740,Elena,Quispe,93013580,,elena.quispe740@demoempresa.com,992778089,Av. Demo 469,Independencia,,2023-09-12,Activo,Corporativo
+CLI00741,Luis,Pérez,127348,,luis.prez741@demoempresa.com,,Av. Demo 812,Jesus Maria,,2022-02-24,Activo,Premium
+CLI00742,Luis,Vargas,68490538,,luis.vargas742@demoempresa.com,982287324,Av. Demo 295,Surco,PE,2024-08-07,Activo,Premium
+CLI00743,Camila,Pérez,25630838,,camila.prez743@demoempresa.com,930457766,Av. Demo 856,S.J.M.,PERU,2024-08-23,Activo,Premium
+CLI00744,Fernando,Vargas,37023185,,fernando.vargas744@demoempresa.com,962577566,Av. Demo 152,Ate,Perú,2022-07-30,Inactivo,Premium
+CLI00745,Elena,Medina,49027097,20529153534,elena.medina745@demoempresa.com,975243366,Av. Demo 625,Miraflores ,Peru,2026-01-02,Activo,Gobierno
+CLI00746,Juan,Sánchez,87363548,,juan.snchez746@demoempresa.com,918524244,Av. Demo 374,,PERU,2022-08-28,Inactivo,Gobierno
+CLI00747,Valeria,Díaz,68549800,20409249220,,935796821,Av. Demo 580,Callao,PERU,2023-04-21,Bloqueado,Corporativo
+CLI00748,Fernando,Silva,90812511,,fernando.silva748@demoempresa.com,998175428,Av. Demo 579,San Borja,PE,2026-01-20,Inactivo,Premium
+CLI00749,Valeria,Lopez,31746728,,valeria.lopez749@demoempresa.com,947910765,Av. Demo 807,Surco,Colombia,2024-09-15,Activo,Corporativo
+CLI00750,Pedro,Flores,91302255,,pedro.flores750@demoempresa.com,965832475,Av. Demo 605,San Juan de Miraflores,Peru,2023-03-05,Bloqueado,Retail
+CLI00751,Juan,Chávez,45005058,,juan.chvez751@demoempresa.com,931287665,Av. Demo 278,Miraflores,,2022-05-11,Activo,Premium
+CLI00752,Ana,Vargas,26198473,,ana.vargas752@demoempresa.com,975278845,Av. Demo 364,Ate,,2023-12-29,Activo,Gobierno
+CLI00753,Miguel,Torres,79174131,,miguel.torres753@demoempresa.com,923977705,Av. Demo 823,Miraflores,PERU,2024-07-25,Activo,Retail
+CLI00754,Gabriela,Ramírez,85493830,20213184291,gabriela.ramrez754_at_demoempresa.com,,Av. Demo 271,La Molina,,2023-02-25,Activo,Corporativo
+CLI00755,Sofía,Díaz,77900294,,sofa.daz755@demoempresa.com,923327047,Av. Demo 257,Callao,PE,2022-10-10,Activo,Corporativo
+CLI00756,Diego,Sánchez,10884169,,diego.snchez756@demoempresa.com,973574016,Av. Demo 449,San Juan de Miraflores,Ecuador,2022-12-17,Activo,Pyme
+CLI00757,Valeria,Sánchez,58404738,,valeria.snchez757@demoempresa.com,942943913,Av. Demo 255,,,2023-04-13,Activo,Premium
+CLI00758,Camila,Sánchez,71572793,,camila.snchez758@demoempresa.com,979277190,Av. Demo 913,Callao,Perú,2024-06-25,Activo,Retail
+CLI00759,Raúl,Rojas,21378739,,ral.rojas759@demoempresa.com,963908666,Av. Demo 890,Lince,PERU,2022-05-06,Inactivo,Retail
+CLI00760,Luis,García,22109438,,luis.garca760@demoempresa.com,979763470,Av. Demo 402,,PERU,2025-10-26,Bloqueado,Pyme
+CLI00761,José,Chávez,11060619,,jos.chvez761@demoempresa.com,980839007,Av. Demo 725,San Borja,Colombia,2024-04-07,Inactivo,
+CLI00762,Pedro,Medina,93800137,,pedro.medina762@demoempresa.com,997514936,Av. Demo 552,Callao,,2025-08-21,Inactivo,Corporativo
+CLI00763,Sofía,Rojas,14962052,,sofa.rojas763@demoempresa.com,962344046,Av. Demo 842,San Borja,Ecuador,2025-01-12,Activo,Corporativo
+CLI00764,Carlos,Herrera,84059443,,carlos.herrera764@demoempresa.com,955729171,Av. Demo 875,Lince,Perú,2022-02-27,Bloqueado,Gobierno
+CLI00765,Miguel,Vargas,50794416,,miguel.vargas765@demoempresa.com,977816807,Av. Demo 213,Miraflores,,2024-02-03,Activo,
+CLI00766,Raúl,Chávez,26617902,20798965570,ral.chvez766@demoempresa.com,926743635,Av. Demo 559,San Juan de Miraflores,Ecuador,2022-01-11,Inactivo,Pyme
+CLI00767,Rosa,Medina,89933222,,rosa.medina767@demoempresa.com,,Av. Demo 406,San Juan de Miraflores,Colombia,2026-01-04,Bloqueado,
+CLI00768,Luis,Romero,79748476,,luis.romero768@demoempresa.com,924123318,Av. Demo 435,Jesus Maria,,2024-01-10,Inactivo,Retail
+CLI00769,Luis,Sánchez,65304811,20166779947,luis.snchez769@demoempresa.com,967027331,Av. Demo 233,Miraflores ,Peru,2024-07-02,Activo,Pyme
+CLI00770,Raúl,Romero,88952163,,ral.romero770@demoempresa.com,962986806,Av. Demo 992,Comas,Ecuador,2024-10-18,Inactivo,Premium
+CLI00771,Elena,Sánchez,31856387,20236498330,elena.snchez771@demoempresa.com,975063976,Av. Demo 828,S.J.M.,Peru,2025-12-13,Bloqueado,Gobierno
+CLI00772,Ana,Castillo,71127098,,ana.castillo772@demoempresa.com,931050667,Av. Demo 672,Callao,Perú,2025-05-17,Inactivo,Retail
+CLI00773,Ana,Chávez,86740966,,ana.chvez773@demoempresa.com,980166008,Av. Demo 256,La Molina,PE,2023-09-17,Activo,Pyme
+CLI00774,Sofía,Lopez,13755114,,sofa.lopez774@demoempresa.com,929077681,Av. Demo 902,,Perú,2023-09-17,Activo,Corporativo
+CLI00775,Lucía,Lopez,10279945,20474358952,luca.lopez775@demoempresa.com,919068358,Av. Demo 991,Miraflores,PERU,2024-09-12,Bloqueado,Pyme
+CLI00776,Fernando,Díaz,55341868,,fernando.daz776@demoempresa.com,973783961,Av. Demo 954,San Borja,,2022-10-11,Bloqueado,
+CLI00777,Diego,Díaz,99552852,,diego.daz777@demoempresa.com,953649791,Av. Demo 191,,PERU,2023-04-22,Inactivo,Pyme
+CLI00778,Patricia,García,99985448,,patricia.garca778@demoempresa.com,947228655,Av. Demo 761,Surco,,2022-12-06,Activo,Gobierno
+CLI00779,Sofía,Medina,96591866,20700600523,sofa.medina779@demoempresa.com,921428912,Av. Demo 297,Miraflores,Ecuador,2024-12-04,Activo,Premium
+CLI00780,Raúl,Pérez,26144134,,ral.prez780@demoempresa.com,,Av. Demo 644,Lince,Perú,2023-07-18,Activo,Corporativo
+CLI00781,Fernando,Díaz,21361254,,fernando.daz781@demoempresa.com,991450675,Av. Demo 428,Independencia,Ecuador,2022-04-03,Inactivo,Retail
+CLI00782,José,Sánchez,34227374,,jos.snchez782@demoempresa.com,980853774,Av. Demo 424,Independencia,PE,2022-07-06,Activo,Retail
+CLI00783,Patricia,Flores,48299260,20374399576,patricia.flores783_at_demoempresa.com,922029742,Av. Demo 257,San Juan de Miraflores,PERU,2025-10-21,Activo,Retail
+CLI00784,Gabriela,Silva,34354859,20162815808,gabriela.silva784@demoempresa.com,950000149,Av. Demo 499,La Molina,PE,2022-10-19,Inactivo,Pyme
+CLI00785,Miguel,Romero,26235817,20357293193,miguel.romero785@demoempresa.com,990128603,Av. Demo 700,Los Olivos,PERU,2024-11-07,Bloqueado,Premium
+CLI00786,Ana,Mendoza,18137886,,ana.mendoza786@demoempresa.com,984238655,Av. Demo 516,Surco,PERU,2022-03-01,Inactivo,
+CLI00787,Rosa,Pérez,46126008,,rosa.prez787@demoempresa.com,988674767,Av. Demo 791,La Molina,Peru,2025-02-10,Activo,Pyme
+CLI00788,Fernando,Sánchez,69858725,20782683973,fernando.snchez788@demoempresa.com,977166896,Av. Demo 308,San Borja,PE,2025-01-11,Activo,Corporativo
+CLI00789,Patricia,Sánchez,84511273,,patricia.snchez789@demoempresa.com,910134359,Av. Demo 932,S.J.M.,,2025-06-25,Activo,
+CLI00790,Lucía,Pérez,18076555,,luca.prez790@demoempresa.com,974717944,Av. Demo 379,Comas,,2025-10-24,Inactivo,Pyme
+CLI00791,Pedro,Herrera,47756962,20893691642,pedro.herrera791@demoempresa.com,981684250,Av. Demo 676,Surco,PE,2022-07-03,Inactivo,
+CLI00792,Ana,Torres,84689357,,ana.torres792@demoempresa.com,967977016,Av. Demo 315,Ate,Colombia,2023-12-03,Activo,
+CLI00793,Diego,Mendoza,43007935,,diego.mendoza793@demoempresa.com,,Av. Demo 429,Ate,Peru,2024-07-30,Bloqueado,Pyme
+CLI00794,Juan,Torres,96764149,,juan.torres794@demoempresa.com,991709974,Av. Demo 587,San Isidro,Perú,2025-10-09,Activo,Premium
+CLI00795,Patricia,Lopez,62719526,,patricia.lopez795@demoempresa.com,997120361,Av. Demo 766,Surco,Ecuador,2022-03-05,Inactivo,
+CLI00796,Ana,Chávez,60516391,,ana.chvez796@demoempresa.com,958045348,Av. Demo 496,Lince,,2025-11-28,Activo,Retail
+CLI00797,Diego,Chávez,35902794,,diego.chvez797@demoempresa.com,939732013,Av. Demo 860,San Isidro,,2023-07-30,Activo,Corporativo
+CLI00798,Carlos,Quispe,255637,,carlos.quispe798@demoempresa.com,958720925,Av. Demo 137,Comas,PERU,2025-12-12,Bloqueado,Corporativo
+CLI00799,Juan,Castillo,95689443,,juan.castillo799@demoempresa.com,947224958,Av. Demo 682,Miraflores ,Peru,2025-02-04,Activo,
+CLI00800,Fernando,Flores,16118522,20169846182,fernando.flores800@demoempresa.com,927103487,Av. Demo 365,Los Olivos,Ecuador,2026-02-01,Activo,Corporativo
+CLI00801,Juan,Medina,92470962,,juan.medina801@demoempresa.com,985177493,Av. Demo 564,San Isidro,PERU,2025-08-05,Activo,Pyme
+CLI00802,Camila,Sánchez,46780435,20656515311,camila.snchez802@demoempresa.com,972624210,Av. Demo 607,Callao,Ecuador,2022-03-31,Activo,Retail
+CLI00803,Miguel,Sánchez,81458898,,miguel.snchez803@demoempresa.com,910692467,Av. Demo 501,Jesus Maria,PE,2022-06-17,Bloqueado,Retail
+CLI00804,Rosa,Sánchez,19991216,,rosa.snchez804@demoempresa.com,936424359,Av. Demo 268,Ate,PE,2022-05-09,Activo,Retail
+CLI00805,Elena,Sánchez,13224383,,elena.snchez805@demoempresa.com,994060174,Av. Demo 442,Comas,Peru,2022-08-09,Inactivo,Corporativo
+CLI00806,José,García,54773484,,jos.garca806@demoempresa.com,,Av. Demo 342,Surco,,2025-05-13,Bloqueado,Premium
+CLI00807,Ana,Díaz,87703269,20165162109,ana.daz807@demoempresa.com,914475312,Av. Demo 486,Ate,,2025-11-21,Activo,Corporativo
+CLI00808,María,Díaz,17353632,,mara.daz808@demoempresa.com,994045156,Av. Demo 542,Surco,Perú,2025-10-19,Activo,Gobierno
+CLI00809,María,Quispe,61198088,,mara.quispe809@demoempresa.com,992852868,Av. Demo 870,,Peru,2025-05-12,Bloqueado,Retail
+CLI00810,Diego,Romero,72305089,,diego.romero810@demoempresa.com,993243271,Av. Demo 734,La Molina,PE,2025-08-26,Activo,Premium
+CLI00811,Raúl,Silva,88894973,,ral.silva811@demoempresa.com,923782772,Av. Demo 112,Surco,Ecuador,2023-02-01,Bloqueado,Corporativo
+CLI00812,Raúl,Mendoza,57699801,,ral.mendoza812_at_demoempresa.com,993329195,Av. Demo 555,Lince,Peru,2022-10-09,Activo,Retail
+CLI00813,Luis,Quispe,88453254,,luis.quispe813@demoempresa.com,997470361,Av. Demo 872,Callao,PE,2025-04-10,Bloqueado,Corporativo
+CLI00814,Luis,Lopez,51429578,,luis.lopez814@demoempresa.com,949065941,Av. Demo 477,San Isidro,Ecuador,2025-04-16,Activo,Retail
+CLI00815,Rosa,Herrera,85088096,,rosa.herrera815@demoempresa.com,966648087,Av. Demo 452,Jesus Maria,Peru,2025-08-04,Activo,Retail
+CLI00816,José,Castillo,99638670,,jos.castillo816@demoempresa.com,972733686,Av. Demo 714,Ate,,2025-03-30,Bloqueado,Pyme
+CLI00817,Gabriela,Quispe,66196330,,gabriela.quispe817@demoempresa.com,924072446,Av. Demo 565,Miraflores,PERU,2023-03-26,Activo,
+CLI00818,Rosa,Vargas,72617503,,rosa.vargas818@demoempresa.com,942080592,Av. Demo 592,Ate,,2024-02-09,Activo,Premium
+CLI00819,Lucía,Pérez,58696493,20484277885,luca.prez819@demoempresa.com,,Av. Demo 130,La Molina,Peru,2023-08-19,Inactivo,Corporativo
+CLI00820,Fernando,Chávez,15892805,,fernando.chvez820@demoempresa.com,936725819,Av. Demo 302,San Juan de Miraflores,Peru,2023-03-25,Activo,
+CLI00821,Lucía,Silva,84424395,,luca.silva821@demoempresa.com,936305005,Av. Demo 122,Lince,,2023-06-21,Activo,Retail
+CLI00822,Luis,Romero,97895055,,luis.romero822@demoempresa.com,924894008,Av. Demo 446,Jesus Maria,PE,2024-07-23,Activo,Pyme
+CLI00823,Valeria,Flores,80722909,,valeria.flores823@demoempresa.com,993644995,Av. Demo 544,Surco,Perú,2022-10-23,Activo,Corporativo
+CLI00824,Pedro,Medina,60760544,,pedro.medina824@demoempresa.com,952674742,Av. Demo 713,,Colombia,2023-05-16,Activo,Gobierno
+CLI00825,Fernando,Castillo,81869344,,fernando.castillo825@demoempresa.com,929940314,Av. Demo 435,Los Olivos,Perú,2025-07-13,Activo,Corporativo
+CLI00826,Raúl,Lopez,38083391,,ral.lopez826@demoempresa.com,973171894,Av. Demo 909,Surco,Peru,2024-11-07,Inactivo,
+CLI00827,Raúl,Chávez,76919318,,ral.chvez827@demoempresa.com,934024774,Av. Demo 429,Callao,Ecuador,2025-11-23,Inactivo,
+CLI00828,Elena,Lopez,46015375,,elena.lopez828@demoempresa.com,995645083,Av. Demo 909,Miraflores,Peru,2023-03-26,Activo,Premium
+CLI00829,Rosa,Romero,39339153,,rosa.romero829@demoempresa.com,960611218,Av. Demo 685,Lince,,2024-02-06,Activo,Gobierno
+CLI00830,Carlos,Torres,21278067,,,979634938,Av. Demo 460,Los Olivos,Ecuador,2022-03-26,Inactivo,Gobierno
+CLI00831,Gabriela,Silva,67190488,,gabriela.silva831@demoempresa.com,968049927,Av. Demo 518,Callao,,2024-10-15,Activo,Pyme
+CLI00832,Jorge,Pérez,34100904,,jorge.prez832@demoempresa.com,,Av. Demo 371,Surco,PE,2022-06-18,Activo,Gobierno
+CLI00833,Raúl,Medina,96389831,20396809027,ral.medina833@demoempresa.com,940566959,Av. Demo 200,La Molina,Perú,2024-01-08,Activo,Gobierno
+CLI00834,Pedro,Silva,36393422,,pedro.silva834@demoempresa.com,943557605,Av. Demo 409,Comas,Peru,2025-12-16,Bloqueado,Corporativo
+CLI00835,Patricia,Mendoza,11145397,,patricia.mendoza835@demoempresa.com,947828631,Av. Demo 942,Callao,,2024-04-07,Inactivo,Gobierno
+CLI00836,Juan,Lopez,97790612,,juan.lopez836@demoempresa.com,930036175,Av. Demo 986,Independencia,Peru,2023-04-10,Activo,Premium
+CLI00837,Rosa,Herrera,88786294,,rosa.herrera837@demoempresa.com,972912993,Av. Demo 839,S.J.M.,PE,2022-06-25,Activo,Corporativo
+CLI00838,Camila,Sánchez,38129989,,camila.snchez838@demoempresa.com,984953463,Av. Demo 130,Callao,Peru,2025-03-28,Activo,Pyme
+CLI00839,Juan,Lopez,98429098,,juan.lopez839@demoempresa.com,955610169,Av. Demo 330,,PERU,2025-11-05,Inactivo,
+CLI00840,Patricia,Quispe,37198033,20943271530,patricia.quispe840@demoempresa.com,914323017,Av. Demo 242,San Borja,PE,2025-03-09,Bloqueado,Gobierno
+CLI00841,Fernando,Romero,61179711,,fernando.romero841_at_demoempresa.com,962430296,Av. Demo 165,Independencia,Peru,2024-08-30,Activo,Pyme
+CLI00842,Fernando,Díaz,95765571,,fernando.daz842@demoempresa.com,922514663,Av. Demo 275,La Molina,Colombia,2025-02-06,Activo,Retail
+CLI00843,Gabriela,Lopez,13602203,,gabriela.lopez843@demoempresa.com,919326928,Av. Demo 495,San Juan de Miraflores,Peru,2023-04-23,Activo,
+CLI00844,Raúl,Rojas,71023927,20656769159,ral.rojas844@demoempresa.com,911482715,Av. Demo 275,Ate,,2024-04-21,Inactivo,Corporativo
+CLI00845,Ana,Torres,82001505,,ana.torres845@demoempresa.com,,Av. Demo 860,Surco,PERU,2023-02-27,Activo,Corporativo
+CLI00846,Sofía,Sánchez,99226958,,sofa.snchez846@demoempresa.com,991028510,Av. Demo 688,San Juan de Miraflores,Ecuador,2023-02-20,Bloqueado,
+CLI00847,Diego,Mendoza,37072082,20253214356,diego.mendoza847@demoempresa.com,969825080,Av. Demo 165,Independencia,Ecuador,2023-05-21,Bloqueado,Pyme
+CLI00848,Fernando,Lopez,71767610,,fernando.lopez848@demoempresa.com,915245871,Av. Demo 854,Surco,PE,2025-08-16,Inactivo,Pyme
+CLI00849,Sofía,Romero,92279159,,sofa.romero849@demoempresa.com,933505052,Av. Demo 525,Los Olivos,Peru,2025-06-19,Inactivo,Premium
+CLI00850,Jorge,Flores,86318249,20850164093,jorge.flores850@demoempresa.com,915860545,Av. Demo 345,Lince,PE,2025-07-10,Bloqueado,Pyme
+CLI00851,Carlos,Castillo,76234781,,carlos.castillo851@demoempresa.com,984198767,Av. Demo 224,Callao,Perú,2022-08-04,Bloqueado,Pyme
+CLI00852,Camila,Díaz,32124330,,camila.daz852@demoempresa.com,977922837,Av. Demo 145,S.J.M.,Perú,2022-05-30,Inactivo,Premium
+CLI00853,José,Romero,36092407,,jos.romero853@demoempresa.com,911441144,Av. Demo 356,La Molina,Colombia,2022-10-07,Activo,
+CLI00854,Diego,Lopez,71922288,20688870662,diego.lopez854@demoempresa.com,998184081,Av. Demo 348,S.J.M.,Peru,2024-08-22,Activo,Corporativo
+CLI00855,Lucía,Pérez,115397,,luca.prez855@demoempresa.com,926663316,Av. Demo 647,Independencia,Peru,2022-06-08,Activo,
+CLI00856,Miguel,Torres,69144114,,miguel.torres856@demoempresa.com,939081281,Av. Demo 831,Miraflores,Colombia,2024-12-26,Activo,Premium
+CLI00857,María,Herrera,96035199,,mara.herrera857@demoempresa.com,998589123,Av. Demo 205,Independencia,Colombia,2023-09-24,Inactivo,Retail
+CLI00858,Gabriela,Pérez,16531664,,gabriela.prez858@demoempresa.com,,Av. Demo 885,Jesus Maria,Peru,2024-02-07,Activo,Corporativo
+CLI00859,Carlos,Pérez,66597298,20115633640,carlos.prez859@demoempresa.com,955247029,Av. Demo 940,Jesus Maria,Colombia,2025-10-02,Activo,Corporativo
+CLI00860,Ana,Flores,32420703,20650292797,ana.flores860@demoempresa.com,924453078,Av. Demo 935,Ate,PE,2025-02-25,Activo,Gobierno
+CLI00861,Pedro,Medina,63024581,,pedro.medina861@demoempresa.com,926214033,Av. Demo 337,Jesus Maria,Perú,2024-01-01,Activo,Corporativo
+CLI00862,Juan,Romero,97777422,,juan.romero862@demoempresa.com,962235749,Av. Demo 317,S.J.M.,Peru,2022-05-16,Activo,
+CLI00863,Gabriela,Chávez,15897385,20334677931,gabriela.chvez863@demoempresa.com,965176483,Av. Demo 408,Miraflores ,Perú,2025-12-30,Bloqueado,Gobierno
+CLI00864,Lucía,Mendoza,22716400,,luca.mendoza864@demoempresa.com,994674464,Av. Demo 813,Independencia,Colombia,2025-11-21,Activo,Pyme
+CLI00865,Lucía,Silva,99438746,,luca.silva865@demoempresa.com,954977061,Av. Demo 118,S.J.M.,PERU,2024-11-12,Activo,Gobierno
+CLI00866,Fernando,Pérez,41219836,20914906726,fernando.prez866@demoempresa.com,926650536,Av. Demo 416,Los Olivos,Colombia,2024-05-27,Activo,Gobierno
+CLI00867,Carlos,García,28462384,,carlos.garca867@demoempresa.com,949810955,Av. Demo 306,San Borja,PERU,2023-02-23,Activo,Corporativo
+CLI00868,Gabriela,Díaz,54116005,20440954543,gabriela.daz868@demoempresa.com,996382807,Av. Demo 905,Miraflores,Ecuador,2024-04-29,Activo,Retail
+CLI00869,Rosa,Silva,56000229,,rosa.silva869@demoempresa.com,982385198,Av. Demo 155,Los Olivos,,2025-11-08,Activo,Gobierno
+CLI00870,Jorge,Herrera,53169386,,jorge.herrera870_at_demoempresa.com,994527978,Av. Demo 106,Surco,,2024-10-03,Activo,Corporativo
+CLI00871,María,Torres,37409946,20286482992,mara.torres871@demoempresa.com,,Av. Demo 706,Jesus Maria,Peru,2024-11-05,Activo,Premium
+CLI00872,Diego,Quispe,32033022,,diego.quispe872@demoempresa.com,942873271,Av. Demo 534,Lince,Ecuador,2023-05-25,Activo,Pyme
+CLI00873,Fernando,Díaz,95309294,,fernando.daz873@demoempresa.com,974581639,Av. Demo 181,Callao,PERU,2024-02-13,Activo,Premium
+CLI00874,Diego,Sánchez,77819218,,diego.snchez874@demoempresa.com,968174055,Av. Demo 878,San Borja,,2024-09-14,Activo,Premium
+CLI00875,Camila,Rojas,50296396,,camila.rojas875@demoempresa.com,930508295,Av. Demo 666,Lince,PE,2024-02-19,Inactivo,Pyme
+CLI00876,Diego,Quispe,60351362,,diego.quispe876@demoempresa.com,974537834,Av. Demo 173,Ate,Peru,2026-01-04,Inactivo,Corporativo
+CLI00877,Luis,Castillo,10561104,20637622321,luis.castillo877@demoempresa.com,960232033,Av. Demo 603,Independencia,PERU,2024-03-19,Activo,Premium
+CLI00878,Elena,Quispe,96040102,,elena.quispe878@demoempresa.com,919560913,Av. Demo 518,Miraflores,Perú,2024-02-28,Bloqueado,Corporativo
+CLI00879,Pedro,Sánchez,44260204,,pedro.snchez879@demoempresa.com,956785439,Av. Demo 621,Miraflores ,Colombia,2025-11-11,Activo,
+CLI00880,María,Romero,85493830,,mara.romero880@demoempresa.com,974119239,Av. Demo 135,Callao,Colombia,2025-12-18,Activo,
+CLI00881,Luis,Mendoza,91260195,,luis.mendoza881@demoempresa.com,929779316,Av. Demo 360,Los Olivos,Ecuador,2025-03-30,Activo,Retail
+CLI00882,Ana,Rojas,96489553,,ana.rojas882@demoempresa.com,961586279,Av. Demo 507,Surco,Ecuador,2023-01-22,Inactivo,Corporativo
+CLI00883,Camila,Mendoza,50563223,,camila.mendoza883@demoempresa.com,981565068,Av. Demo 774,Independencia,Ecuador,2023-09-23,Inactivo,
+CLI00884,Carlos,Ramírez,95386667,,carlos.ramrez884@demoempresa.com,,Av. Demo 916,Callao,,2022-10-20,Activo,
+CLI00885,Pedro,Romero,51352528,20280816719,pedro.romero885@demoempresa.com,975997979,Av. Demo 101,La Molina,Perú,2025-11-27,Inactivo,Gobierno
+CLI00886,Camila,Quispe,67841075,,camila.quispe886@demoempresa.com,960284858,Av. Demo 290,San Borja,Peru,2024-09-23,Activo,Gobierno
+CLI00887,Ana,Díaz,86113817,,ana.daz887@demoempresa.com,934915916,Av. Demo 305,Miraflores,Colombia,2023-01-10,Activo,Pyme
+CLI00888,Camila,Díaz,94132688,,camila.daz888@demoempresa.com,924655964,Av. Demo 989,Lince,Perú,2023-08-24,Activo,Premium
+CLI00889,Ana,Mendoza,18625158,,ana.mendoza889@demoempresa.com,988604129,Av. Demo 340,Miraflores ,PERU,2025-10-09,Activo,Retail
+CLI00890,María,Mendoza,10969945,,mara.mendoza890@demoempresa.com,915618266,Av. Demo 199,Jesus Maria,Ecuador,2022-01-15,Inactivo,Gobierno
+CLI00891,Raúl,Mendoza,75219904,,ral.mendoza891@demoempresa.com,955235396,Av. Demo 718,,PE,2024-01-30,Activo,Pyme
+CLI00892,Rosa,Chávez,99265296,,rosa.chvez892@demoempresa.com,991981404,Av. Demo 158,Callao,,2023-11-08,Activo,Retail
+CLI00893,Diego,Romero,28637880,20231957007,diego.romero893@demoempresa.com,981219864,Av. Demo 386,Los Olivos,PE,2024-07-14,Bloqueado,
+CLI00894,Elena,Herrera,65448912,,elena.herrera894@demoempresa.com,910419981,Av. Demo 753,Ate,Perú,2025-07-21,Activo,Retail
+CLI00895,José,Díaz,41347711,,jos.daz895@demoempresa.com,963709262,Av. Demo 856,Surco,PE,2024-05-26,Inactivo,
+CLI00896,Ana,Romero,49441620,,ana.romero896@demoempresa.com,929214803,Av. Demo 990,Miraflores,Peru,2024-10-16,Activo,Pyme
+CLI00897,Patricia,Díaz,32555671,,patricia.daz897@demoempresa.com,,Av. Demo 218,Miraflores ,Colombia,2025-01-12,Activo,Corporativo
+CLI00898,Pedro,Flores,98549488,,pedro.flores898@demoempresa.com,924155900,Av. Demo 545,San Isidro,Peru,2023-10-31,Inactivo,Pyme
+CLI00899,Rosa,Mendoza,99379971,,rosa.mendoza899_at_demoempresa.com,926521948,Av. Demo 781,San Borja,Ecuador,2025-07-21,Inactivo,Retail
+CLI00900,José,Vargas,87305664,,jos.vargas900@demoempresa.com,990621827,Av. Demo 166,Ate,PERU,2026-01-09,Inactivo,
+CLI00901,Patricia,Sánchez,41322048,,patricia.snchez901@demoempresa.com,925527644,Av. Demo 397,Surco,Perú,2022-07-02,Activo,
+CLI00902,Fernando,Castillo,25583513,,fernando.castillo902@demoempresa.com,927101682,Av. Demo 973,Ate,PERU,2025-03-27,Activo,Pyme
+CLI00903,María,Medina,35482265,,mara.medina903@demoempresa.com,966867849,Av. Demo 427,Callao,,2025-10-23,Activo,Gobierno
+CLI00904,Gabriela,Vargas,24305720,,gabriela.vargas904@demoempresa.com,982248455,Av. Demo 972,S.J.M.,PE,2022-10-24,Activo,Corporativo
+CLI00905,Elena,Díaz,29787096,,elena.daz905@demoempresa.com,929578433,Av. Demo 864,Miraflores,Ecuador,2023-10-18,Activo,Gobierno
+CLI00906,Ana,Mendoza,87037211,,ana.mendoza906@demoempresa.com,938951443,Av. Demo 606,San Juan de Miraflores,Colombia,2024-02-11,Activo,Pyme
+CLI00907,Luis,Castillo,40208616,,luis.castillo907@demoempresa.com,917055329,Av. Demo 986,Lince,,2024-09-25,Inactivo,Pyme
+CLI00908,Lucía,Pérez,83543652,,luca.prez908@demoempresa.com,966698597,Av. Demo 794,Miraflores ,PE,2024-03-12,Inactivo,Retail
+CLI00909,Raúl,Quispe,47898265,,ral.quispe909@demoempresa.com,936184828,Av. Demo 817,Independencia,Perú,2022-09-26,Activo,Gobierno
+CLI00910,María,Quispe,71408972,,mara.quispe910@demoempresa.com,,Av. Demo 691,San Borja,PERU,2025-11-26,Inactivo,Pyme
+CLI00911,Luis,Castillo,39277781,,luis.castillo911@demoempresa.com,936260378,Av. Demo 852,San Isidro,PE,2026-01-26,Bloqueado,Retail
+CLI00912,Luis,Romero,722449,,luis.romero912@demoempresa.com,917560687,Av. Demo 198,Callao,PERU,2023-01-03,Activo,Retail
+CLI00913,Raúl,Silva,89643778,,,929940502,Av. Demo 742,Independencia,Peru,2022-03-11,Activo,Corporativo
+CLI00914,Jorge,Lopez,50626311,,jorge.lopez914@demoempresa.com,933150813,Av. Demo 768,Independencia,,2025-11-17,Activo,Premium
+CLI00915,Jorge,Mendoza,94870367,,jorge.mendoza915@demoempresa.com,959301266,Av. Demo 111,La Molina,Perú,2022-06-19,Activo,Premium
+CLI00916,Raúl,Vargas,13090599,,ral.vargas916@demoempresa.com,986857173,Av. Demo 591,Comas,Colombia,2022-07-13,Bloqueado,Corporativo
+CLI00917,Jorge,Lopez,96516297,,jorge.lopez917@demoempresa.com,950045650,Av. Demo 685,San Borja,Perú,2023-10-29,Activo,
+CLI00918,Patricia,Flores,64402540,,patricia.flores918@demoempresa.com,912650315,Av. Demo 503,Miraflores ,Perú,2024-11-28,Bloqueado,Gobierno
+CLI00919,Ana,Castillo,98393430,,ana.castillo919@demoempresa.com,934248334,Av. Demo 982,Lince,Perú,2025-02-10,Inactivo,Pyme
+CLI00920,Ana,García,75997780,,ana.garca920@demoempresa.com,931637275,Av. Demo 189,Comas,,2022-03-13,Activo,Retail
+CLI00921,Raúl,Quispe,58796148,,ral.quispe921@demoempresa.com,933032191,Av. Demo 533,San Isidro,Peru,2023-09-08,Activo,Gobierno
+CLI00922,Sofía,Medina,69716190,20626608970,sofa.medina922@demoempresa.com,952001565,Av. Demo 635,Callao,Ecuador,2025-01-07,Bloqueado,Corporativo
+CLI00923,Ana,García,41823071,20252114137,ana.garca923@demoempresa.com,,Av. Demo 406,Jesus Maria,Peru,2025-05-18,Bloqueado,Corporativo
+CLI00924,Fernando,Chávez,47231423,20768203221,fernando.chvez924@demoempresa.com,966641896,Av. Demo 176,Comas,PE,2024-02-21,Activo,Premium
+CLI00925,Diego,Rojas,44115380,,diego.rojas925@demoempresa.com,929225877,Av. Demo 648,Jesus Maria,Perú,2025-07-13,Activo,
+CLI00926,Pedro,Chávez,85650769,,pedro.chvez926@demoempresa.com,978642629,Av. Demo 719,Lince,PERU,2022-11-11,Activo,Premium
+CLI00927,Jorge,Pérez,91014793,,jorge.prez927@demoempresa.com,946255595,Av. Demo 227,La Molina,Colombia,2025-01-28,Inactivo,Retail
+CLI00928,José,Rojas,58696806,,jos.rojas928_at_demoempresa.com,946675397,Av. Demo 249,Los Olivos,PE,2022-01-21,Activo,Premium
+CLI00929,Rosa,Romero,24093227,,rosa.romero929@demoempresa.com,926576358,Av. Demo 279,San Juan de Miraflores,Ecuador,2024-09-29,Activo,Gobierno
+CLI00930,Valeria,Quispe,84026745,,valeria.quispe930@demoempresa.com,923296433,Av. Demo 149,Lince,PE,2024-03-08,Activo,Pyme
+CLI00931,Patricia,Medina,89808139,,patricia.medina931@demoempresa.com,964042937,Av. Demo 588,San Borja,PE,2022-01-20,Bloqueado,
+CLI00932,Luis,Torres,29148862,,luis.torres932@demoempresa.com,945885781,Av. Demo 154,Callao,Colombia,2023-05-26,Bloqueado,Premium
+CLI00933,Diego,Flores,68916214,,diego.flores933@demoempresa.com,972903261,Av. Demo 614,San Juan de Miraflores,PE,2024-05-26,Bloqueado,
+CLI00934,Rosa,Quispe,95313518,,rosa.quispe934@demoempresa.com,951025192,Av. Demo 516,Ate,,2022-07-04,Activo,Retail
+CLI00935,Rosa,Rojas,32161108,,rosa.rojas935@demoempresa.com,921352822,Av. Demo 861,San Juan de Miraflores,Ecuador,2024-10-06,Activo,Premium
+CLI00936,Raúl,Torres,74378331,,ral.torres936@demoempresa.com,,Av. Demo 801,La Molina,PERU,2022-01-29,Bloqueado,Corporativo
+CLI00937,Juan,Sánchez,81715863,,juan.snchez937@demoempresa.com,942779491,Av. Demo 856,Miraflores,Ecuador,2024-07-07,Activo,
+CLI00938,Raúl,Vargas,33463164,20243149972,ral.vargas938@demoempresa.com,978945564,Av. Demo 461,Miraflores,PERU,2024-10-11,Inactivo,Corporativo
+CLI00939,Valeria,Ramírez,55360034,,valeria.ramrez939@demoempresa.com,943522920,Av. Demo 951,La Molina,PE,2023-09-05,Inactivo,Pyme
+CLI00940,Miguel,Castillo,10299883,,miguel.castillo940@demoempresa.com,986348673,Av. Demo 503,Jesus Maria,PE,2025-08-09,Bloqueado,Retail
+CLI00941,Diego,Lopez,17717080,,diego.lopez941@demoempresa.com,992615071,Av. Demo 571,Ate,PE,2023-12-26,Activo,Retail
+CLI00942,Valeria,Flores,63964665,,valeria.flores942@demoempresa.com,923601326,Av. Demo 541,Miraflores ,Peru,2022-06-23,Bloqueado,Gobierno
+CLI00943,Luis,Sánchez,26621878,,luis.snchez943@demoempresa.com,910927505,Av. Demo 259,Comas,Peru,2024-08-21,Inactivo,Pyme
+CLI00944,Sofía,Chávez,67491018,,sofa.chvez944@demoempresa.com,981998064,Av. Demo 931,Comas,Perú,2024-06-17,Inactivo,Corporativo
+CLI00945,Luis,Chávez,68245146,20861518573,luis.chvez945@demoempresa.com,936637470,Av. Demo 213,Jesus Maria,PE,2022-03-24,Activo,Premium
+CLI00946,Camila,Silva,14242158,,camila.silva946@demoempresa.com,936708243,Av. Demo 590,Comas,Perú,2024-05-12,Inactivo,Gobierno
+CLI00947,Elena,Torres,53605688,,elena.torres947@demoempresa.com,963670451,Av. Demo 613,Independencia,Peru,2022-08-13,Activo,Retail
+CLI00948,Luis,Torres,56187078,,luis.torres948@demoempresa.com,941743155,Av. Demo 153,Ate,PERU,2025-05-07,Activo,Premium
+CLI00949,Elena,Quispe,47879379,,elena.quispe949@demoempresa.com,,Av. Demo 879,,Peru,2025-06-18,Activo,
+CLI00950,Raúl,Flores,43482865,,ral.flores950@demoempresa.com,925437721,Av. Demo 984,Comas,Colombia,2023-05-22,Inactivo,Corporativo
+CLI00951,Elena,Ramírez,77422120,,elena.ramrez951@demoempresa.com,935322723,Av. Demo 975,San Borja,Peru,2022-09-04,Activo,Premium
+CLI00952,María,Mendoza,35793612,,mara.mendoza952@demoempresa.com,967217417,Av. Demo 118,Jesus Maria,Perú,2022-04-15,Inactivo,Premium
+CLI00953,Raúl,Quispe,95001425,,ral.quispe953@demoempresa.com,939766168,Av. Demo 444,,PERU,2022-05-06,Bloqueado,Premium
+CLI00954,María,Quispe,24771325,,mara.quispe954@demoempresa.com,947655580,Av. Demo 459,,Peru,2023-10-18,Activo,Corporativo
+CLI00955,María,Pérez,16996855,,mara.prez955@demoempresa.com,953169737,Av. Demo 317,San Juan de Miraflores,PERU,2023-07-28,Bloqueado,Retail
+CLI00956,Camila,Flores,43858172,,camila.flores956@demoempresa.com,958799048,Av. Demo 442,San Juan de Miraflores,Perú,2022-07-18,Activo,
+CLI00957,Patricia,Torres,54454486,,patricia.torres957_at_demoempresa.com,958504268,Av. Demo 860,Callao,Peru,2025-08-24,Activo,Corporativo
+CLI00958,Fernando,Romero,21707969,,fernando.romero958@demoempresa.com,927513454,Av. Demo 744,La Molina,Perú,2025-04-16,Activo,Corporativo
+CLI00959,Diego,Ramírez,20050169,,diego.ramrez959@demoempresa.com,993082165,Av. Demo 451,San Juan de Miraflores,Colombia,2024-08-29,Activo,Gobierno
+CLI00960,Luis,García,80381817,,luis.garca960@demoempresa.com,943893399,Av. Demo 998,Callao,PE,2024-07-07,Activo,Premium
+CLI00961,Carlos,Lopez,66237786,,carlos.lopez961@demoempresa.com,977628209,Av. Demo 909,San Isidro,Peru,2025-05-12,Activo,
+CLI00962,Luis,Quispe,16099554,,luis.quispe962@demoempresa.com,,Av. Demo 162,Jesus Maria,Colombia,2024-03-25,Inactivo,
+CLI00963,Patricia,Herrera,20064387,,patricia.herrera963@demoempresa.com,978354185,Av. Demo 493,Independencia,PERU,2025-05-28,Activo,Corporativo
+CLI00964,Lucía,Pérez,31475246,,luca.prez964@demoempresa.com,989472028,Av. Demo 813,San Isidro,,2024-11-16,Inactivo,Gobierno
+CLI00965,Raúl,Mendoza,50723023,,ral.mendoza965@demoempresa.com,949777260,Av. Demo 825,Comas,Ecuador,2022-09-01,Activo,Corporativo
+CLI00966,María,Medina,41972914,,mara.medina966@demoempresa.com,995847718,Av. Demo 251,Comas,Peru,2023-07-08,Activo,
+CLI00967,Rosa,Castillo,81752116,20796477802,rosa.castillo967@demoempresa.com,956635546,Av. Demo 747,Callao,PE,2022-06-20,Bloqueado,Pyme
+CLI00968,Luis,Sánchez,92071729,,luis.snchez968@demoempresa.com,917685767,Av. Demo 740,San Isidro,,2023-12-30,Activo,
+CLI00969,Miguel,Flores,26398,,miguel.flores969@demoempresa.com,988283995,Av. Demo 208,Independencia,Colombia,2023-06-12,Bloqueado,Gobierno
+CLI00970,Pedro,Díaz,39613670,,pedro.daz970@demoempresa.com,937369495,Av. Demo 695,Independencia,Peru,2024-07-02,Activo,
+CLI00971,Camila,Chávez,29909077,,camila.chvez971@demoempresa.com,922575001,Av. Demo 607,Lince,PERU,2023-01-14,Activo,Corporativo
+CLI00972,Fernando,Lopez,34213769,,fernando.lopez972@demoempresa.com,912824921,Av. Demo 417,Lince,Peru,2024-03-18,Bloqueado,Corporativo
+CLI00973,Carlos,Torres,19670211,,carlos.torres973@demoempresa.com,971072308,Av. Demo 760,Independencia,Perú,2026-01-23,Bloqueado,Corporativo
+CLI00974,Juan,Ramírez,60717541,,juan.ramrez974@demoempresa.com,924768716,Av. Demo 946,San Isidro,,2025-08-12,Activo,Corporativo
+CLI00975,Rosa,Rojas,45924244,20773648841,rosa.rojas975@demoempresa.com,,Av. Demo 714,San Isidro,,2022-01-20,Activo,Gobierno
+CLI00976,José,Rojas,37155151,20915691332,jos.rojas976@demoempresa.com,985544613,Av. Demo 554,Lince,PE,2023-11-11,Inactivo,Corporativo
+CLI00977,Rosa,García,82950883,,rosa.garca977@demoempresa.com,994219725,Av. Demo 656,La Molina,Perú,2022-04-02,Activo,Gobierno
+CLI00978,Sofía,Ramírez,78658060,,sofa.ramrez978@demoempresa.com,965738565,Av. Demo 245,San Isidro,Peru,2022-02-19,Activo,Premium
+CLI00979,Jorge,Torres,57420453,,jorge.torres979@demoempresa.com,940317689,Av. Demo 800,Independencia,Colombia,2026-01-04,Activo,Premium
+CLI00980,Lucía,Ramírez,40134894,20402595772,luca.ramrez980@demoempresa.com,957957055,Av. Demo 178,Ate,Perú,2024-01-09,Activo,Retail
+CLI00981,Gabriela,Torres,33899852,,gabriela.torres981@demoempresa.com,954942009,Av. Demo 714,Lince,Colombia,2024-05-20,Activo,
+CLI00982,Sofía,Quispe,56759534,,sofa.quispe982@demoempresa.com,946385523,Av. Demo 611,Callao,PE,2025-12-27,Activo,Retail
+CLI00983,Luis,Torres,52984033,20579635523,luis.torres983@demoempresa.com,974214057,Av. Demo 934,Surco,Perú,2025-03-29,Inactivo,
+CLI00984,Miguel,Torres,22139593,,miguel.torres984@demoempresa.com,927117558,Av. Demo 286,Independencia,PE,2023-10-16,Inactivo,Premium
+CLI00985,Elena,Sánchez,90764593,,elena.snchez985@demoempresa.com,954756934,Av. Demo 241,Los Olivos,PERU,2024-05-07,Bloqueado,Premium
+CLI00986,Patricia,Medina,76115841,,patricia.medina986_at_demoempresa.com,940885447,Av. Demo 493,Surco,Ecuador,2026-01-04,Inactivo,Gobierno
+CLI00987,Fernando,Vargas,21710526,,fernando.vargas987@demoempresa.com,910384682,Av. Demo 308,San Isidro,PE,2025-02-17,Inactivo,Corporativo
+CLI00988,Ana,García,56888632,,ana.garca988@demoempresa.com,,Av. Demo 969,San Borja,PE,2024-07-31,Activo,Gobierno
+CLI00989,Camila,Vargas,38284690,,camila.vargas989@demoempresa.com,917498162,Av. Demo 864,San Borja,Perú,2025-11-25,Activo,Premium
+CLI00990,Juan,Sánchez,59886613,20213827188,juan.snchez990@demoempresa.com,998952439,Av. Demo 695,Surco,PERU,2025-05-01,Activo,Retail
+CLI00991,Luis,Chávez,28961944,20182748233,luis.chvez991@demoempresa.com,911674728,Av. Demo 682,,Peru,2023-01-09,Inactivo,
+CLI00992,Luis,Herrera,50199242,,luis.herrera992@demoempresa.com,955276604,Av. Demo 554,San Isidro,PE,2022-08-16,Activo,Retail
+CLI00993,María,Flores,77551168,,mara.flores993@demoempresa.com,963202657,Av. Demo 952,,Colombia,2024-07-19,Bloqueado,
+CLI00994,Miguel,Herrera,51075182,,miguel.herrera994@demoempresa.com,966864059,Av. Demo 260,Comas,Perú,2024-12-04,Inactivo,Corporativo
+CLI00995,Pedro,Romero,93086647,20521219212,pedro.romero995@demoempresa.com,934654960,Av. Demo 942,Surco,,2025-11-19,Inactivo,Premium
+CLI00996,José,Romero,61065827,,,959858951,Av. Demo 762,,Peru,2023-07-07,Activo,Retail
+CLI00997,Carlos,Chávez,90958813,,carlos.chvez997@demoempresa.com,955026244,Av. Demo 128,Los Olivos,PE,2022-11-30,Bloqueado,Retail
+CLI00998,Carlos,Castillo,90142849,20431915198,carlos.castillo998@demoempresa.com,935198547,Av. Demo 664,Jesus Maria,Colombia,2022-03-08,Activo,Pyme
+CLI00999,Carlos,García,85663810,,carlos.garca999@demoempresa.com,974935475,Av. Demo 146,Miraflores,PE,2022-07-10,Activo,Retail
+CLI01000,Valeria,Quispe,247264,,valeria.quispe1000@demoempresa.com,962430988,Av. Demo 843,Callao,Peru,2025-12-10,Activo,Pyme
+CLI01001,Camila,Herrera,23556377,,camila.herrera1001@demoempresa.com,,Av. Demo 893,San Borja,Perú,2025-04-17,Inactivo,Premium
+CLI01002,Fernando,García,48939164,,fernando.garca1002@demoempresa.com,972157065,Av. Demo 180,Surco,Colombia,2023-04-20,Activo,
+CLI01003,Luis,Flores,77326285,,luis.flores1003@demoempresa.com,991703555,Av. Demo 767,Ate,PERU,2022-09-26,Activo,Pyme
+CLI01004,Valeria,Sánchez,15370440,,valeria.snchez1004@demoempresa.com,962027391,Av. Demo 344,Jesus Maria,Ecuador,2025-05-27,Activo,Corporativo
+CLI01005,Fernando,Lopez,23073617,,fernando.lopez1005@demoempresa.com,929142470,Av. Demo 884,San Juan de Miraflores,Ecuador,2022-06-28,Inactivo,Retail
+CLI01006,Diego,Silva,32779115,,diego.silva1006@demoempresa.com,931672470,Av. Demo 169,Comas,Ecuador,2024-01-15,Activo,Retail
+CLI01007,Carlos,Flores,71839630,,carlos.flores1007@demoempresa.com,973520009,Av. Demo 362,S.J.M.,Colombia,2022-10-15,Activo,Gobierno
+CLI01008,Elena,García,58784400,,elena.garca1008@demoempresa.com,963813150,Av. Demo 518,San Borja,PERU,2024-01-22,Bloqueado,Gobierno
+CLI01009,José,Chávez,21205911,,jos.chvez1009@demoempresa.com,977906443,Av. Demo 560,Comas,Colombia,2022-03-29,Bloqueado,
+CLI01010,María,Vargas,85269356,20213062876,mara.vargas1010@demoempresa.com,949011805,Av. Demo 484,Lince,Ecuador,2024-03-28,Activo,Corporativo
+CLI01011,Jorge,Díaz,99811868,20600232257,jorge.daz1011@demoempresa.com,972879488,Av. Demo 757,S.J.M.,Perú,2022-06-25,Activo,
+CLI01012,Ana,Romero,68131630,,ana.romero1012@demoempresa.com,954120137,Av. Demo 166,Ate,PE,2025-05-22,Inactivo,Corporativo
+CLI01013,Elena,Ramírez,47362868,,elena.ramrez1013@demoempresa.com,983159563,Av. Demo 259,Miraflores ,Peru,2025-08-04,Activo,Pyme
+CLI01014,Fernando,García,90675244,,fernando.garca1014@demoempresa.com,,Av. Demo 163,Callao,,2024-05-30,Inactivo,Corporativo
+CLI01015,María,Castillo,13079321,,mara.castillo1015_at_demoempresa.com,966763408,Av. Demo 376,Comas,Colombia,2022-12-27,Activo,Corporativo
+CLI01016,Carlos,Mendoza,64367371,20864726126,carlos.mendoza1016@demoempresa.com,970588691,Av. Demo 992,,Ecuador,2023-03-15,Activo,Corporativo
+CLI01017,María,Rojas,67516899,,mara.rojas1017@demoempresa.com,949849912,Av. Demo 268,Jesus Maria,PE,2024-05-08,Inactivo,Premium
+CLI01018,Patricia,Flores,68624154,,patricia.flores1018@demoempresa.com,986546634,Av. Demo 498,San Isidro,Ecuador,2025-05-07,Activo,Retail
+CLI01019,Fernando,Torres,53450650,,fernando.torres1019@demoempresa.com,952481963,Av. Demo 114,San Borja,PERU,2022-10-30,Inactivo,Pyme
+CLI01020,Ana,Sánchez,45272780,,ana.snchez1020@demoempresa.com,910493503,Av. Demo 561,San Borja,Colombia,2024-07-09,Bloqueado,Retail
+CLI01021,María,Castillo,35186888,,mara.castillo1021@demoempresa.com,983294452,Av. Demo 892,Lince,Ecuador,2024-02-13,Activo,Pyme
+CLI01022,Pedro,Castillo,87421674,,pedro.castillo1022@demoempresa.com,959694974,Av. Demo 933,Callao,Perú,2023-09-11,Activo,Gobierno
+CLI01023,Ana,Lopez,97095450,,ana.lopez1023@demoempresa.com,965573350,Av. Demo 520,Callao,PE,2025-01-15,Inactivo,Gobierno
+CLI01024,José,Ramírez,33597329,,jos.ramrez1024@demoempresa.com,960079518,Av. Demo 281,Lince,Ecuador,2024-06-11,Inactivo,Pyme
+CLI01025,Camila,Quispe,93265522,,camila.quispe1025@demoempresa.com,923317762,Av. Demo 189,La Molina,Perú,2025-08-23,Activo,Gobierno
+CLI01026,Camila,Ramírez,796372,,camila.ramrez1026@demoempresa.com,983112925,Av. Demo 202,S.J.M.,Ecuador,2025-04-05,Activo,
+CLI01027,Sofía,Sánchez,38436861,,sofa.snchez1027@demoempresa.com,,Av. Demo 565,Independencia,Perú,2023-02-05,Inactivo,Retail
+CLI01028,Valeria,Díaz,65423162,,valeria.daz1028@demoempresa.com,996551565,Av. Demo 820,Independencia,Perú,2024-02-07,Activo,Gobierno
+CLI01029,Sofía,Mendoza,98406780,,sofa.mendoza1029@demoempresa.com,965662309,Av. Demo 789,Los Olivos,Perú,2024-04-29,Activo,Retail
+CLI01030,Juan,Torres,60251887,,juan.torres1030@demoempresa.com,979654067,Av. Demo 939,Ate,PE,2022-12-16,Bloqueado,Premium
+CLI01031,Rosa,Medina,62527771,,rosa.medina1031@demoempresa.com,996494515,Av. Demo 502,Miraflores,,2025-03-29,Inactivo,Corporativo
+CLI01032,Jorge,Flores,64105718,,jorge.flores1032@demoempresa.com,979427754,Av. Demo 262,,Peru,2022-07-23,Activo,Gobierno
+CLI01033,Ana,Romero,94197247,,ana.romero1033@demoempresa.com,984209721,Av. Demo 262,Ate,Peru,2022-07-10,Activo,Retail
+CLI01034,Camila,Pérez,94408740,,camila.prez1034@demoempresa.com,930541837,Av. Demo 128,Surco,Ecuador,2024-02-23,Activo,
+CLI01035,Luis,Díaz,95156202,,luis.daz1035@demoempresa.com,958066234,Av. Demo 291,Los Olivos,Colombia,2023-03-31,Activo,Corporativo
+CLI01036,Patricia,Vargas,60748656,,patricia.vargas1036@demoempresa.com,998484070,Av. Demo 152,Comas,Perú,2022-10-22,Activo,
+CLI01037,Fernando,Ramírez,24888976,,fernando.ramrez1037@demoempresa.com,989979598,Av. Demo 225,La Molina,Peru,2023-08-02,Activo,Corporativo
+CLI01038,Carlos,Rojas,76336447,,carlos.rojas1038@demoempresa.com,937913590,Av. Demo 500,La Molina,PERU,2022-02-14,Inactivo,Retail
+CLI01039,Elena,Rojas,38225447,,elena.rojas1039@demoempresa.com,960365788,Av. Demo 421,S.J.M.,,2022-11-26,Activo,Pyme
+CLI01040,Juan,Flores,47215199,20468089919,juan.flores1040@demoempresa.com,,Av. Demo 455,Miraflores ,Ecuador,2025-05-13,Bloqueado,Retail
+CLI01041,Lucía,Herrera,44158548,,luca.herrera1041@demoempresa.com,935883252,Av. Demo 720,San Isidro,Ecuador,2022-02-17,Bloqueado,Gobierno
+CLI01042,Luis,Castillo,58974793,20332956649,luis.castillo1042@demoempresa.com,913959103,Av. Demo 435,San Borja,Peru,2022-06-20,Activo,Pyme
+CLI01043,Miguel,Lopez,36741208,,miguel.lopez1043@demoempresa.com,956782042,Av. Demo 825,San Juan de Miraflores,PERU,2024-10-12,Inactivo,Gobierno
+CLI01044,Jorge,Castillo,43566934,,jorge.castillo1044_at_demoempresa.com,947726289,Av. Demo 502,La Molina,Ecuador,2025-04-18,Activo,Corporativo
+CLI01045,Pedro,Lopez,68179582,,pedro.lopez1045@demoempresa.com,966873060,Av. Demo 710,Comas,,2023-10-15,Bloqueado,Retail
+CLI01046,Gabriela,Romero,67621412,,gabriela.romero1046@demoempresa.com,957367517,Av. Demo 482,Surco,PERU,2022-12-09,Activo,Gobierno
+CLI01047,Miguel,Sánchez,49389352,,miguel.snchez1047@demoempresa.com,996583583,Av. Demo 643,Callao,PERU,2022-03-03,Activo,Corporativo
+CLI01048,José,Sánchez,34953074,,jos.snchez1048@demoempresa.com,919749620,Av. Demo 320,Callao,PE,2022-10-25,Activo,Retail
+CLI01049,Juan,Silva,11463110,,juan.silva1049@demoempresa.com,938692049,Av. Demo 576,Ate,Peru,2025-02-24,Activo,Premium
+CLI01050,Sofía,Castillo,80767956,,sofa.castillo1050@demoempresa.com,985290602,Av. Demo 384,Surco,Ecuador,2025-08-16,Inactivo,
+CLI01051,Camila,Silva,52965968,,camila.silva1051@demoempresa.com,916665217,Av. Demo 921,Miraflores ,PERU,2022-04-06,Activo,Premium
+CLI01052,Ana,Ramírez,70771788,,ana.ramrez1052@demoempresa.com,953872387,Av. Demo 705,Independencia,Peru,2025-03-26,Activo,Pyme
+CLI01053,Juan,Pérez,71977968,,juan.prez1053@demoempresa.com,,Av. Demo 961,Independencia,Perú,2024-12-28,Bloqueado,Retail
+CLI01054,José,Pérez,19321973,,jos.prez1054@demoempresa.com,965710942,Av. Demo 840,San Juan de Miraflores,PE,2023-10-12,Activo,Premium
+CLI01055,Carlos,Medina,52033591,,carlos.medina1055@demoempresa.com,916318000,Av. Demo 502,San Juan de Miraflores,Colombia,2024-07-19,Inactivo,
+CLI01056,Ana,Chávez,92943469,20340533586,ana.chvez1056@demoempresa.com,916420202,Av. Demo 945,San Isidro,Peru,2022-08-04,Activo,
+CLI01057,Camila,Vargas,32842710,20877504949,camila.vargas1057@demoempresa.com,959510172,Av. Demo 935,San Isidro,Colombia,2022-04-18,Activo,Retail
+CLI01058,Ana,García,50841125,20453614288,ana.garca1058@demoempresa.com,992241997,Av. Demo 910,Independencia,PE,2025-12-01,Activo,Corporativo
+CLI01059,Fernando,Díaz,26092896,20258915379,fernando.daz1059@demoempresa.com,988400641,Av. Demo 970,,Colombia,2024-07-04,Activo,Gobierno
+CLI01060,Raúl,Vargas,87562374,,ral.vargas1060@demoempresa.com,975780623,Av. Demo 387,Ate,,2026-02-05,Inactivo,Corporativo
+CLI01061,Carlos,Mendoza,49759879,,carlos.mendoza1061@demoempresa.com,957380159,Av. Demo 671,Los Olivos,Colombia,2025-08-18,Activo,
+CLI01062,Carlos,Rojas,76384860,20114096192,carlos.rojas1062@demoempresa.com,999992846,Av. Demo 321,S.J.M.,,2024-02-28,Activo,Premium
+CLI01063,Ana,Silva,38006066,,ana.silva1063@demoempresa.com,980819264,Av. Demo 626,Ate,,2023-10-01,Inactivo,
+CLI01064,Luis,Herrera,24181508,,luis.herrera1064@demoempresa.com,939364802,Av. Demo 472,Independencia,PERU,2025-06-24,Bloqueado,Corporativo
+CLI01065,Jorge,Castillo,19212612,,jorge.castillo1065@demoempresa.com,932038057,Av. Demo 802,San Juan de Miraflores,,2025-03-28,Activo,Corporativo
+CLI01066,Diego,Ramírez,24790683,,diego.ramrez1066@demoempresa.com,,Av. Demo 571,Lince,PE,2022-02-28,Inactivo,
+CLI01067,Raúl,Díaz,57238845,,ral.daz1067@demoempresa.com,983860588,Av. Demo 186,Callao,PERU,2023-03-11,Activo,Premium
+CLI01068,Raúl,Sánchez,78172784,,ral.snchez1068@demoempresa.com,969235732,Av. Demo 379,Callao,Perú,2022-04-11,Inactivo,
+CLI01069,Camila,Castillo,49460803,,camila.castillo1069@demoempresa.com,933708904,Av. Demo 708,Comas,Ecuador,2025-05-29,Inactivo,Gobierno
+CLI01070,Camila,Ramírez,16693632,,camila.ramrez1070@demoempresa.com,924909280,Av. Demo 324,La Molina,Perú,2022-03-15,Bloqueado,Pyme
+CLI01071,Rosa,Rojas,81421511,20343164953,rosa.rojas1071@demoempresa.com,993244618,Av. Demo 816,Independencia,PERU,2024-03-15,Activo,Corporativo
+CLI01072,Miguel,Lopez,37609308,,miguel.lopez1072@demoempresa.com,937323438,Av. Demo 455,San Juan de Miraflores,Colombia,2025-05-06,Activo,
+CLI01073,Juan,Ramírez,34840859,,juan.ramrez1073_at_demoempresa.com,993499311,Av. Demo 588,San Juan de Miraflores,,2025-11-09,Activo,Corporativo
+CLI01074,José,Rojas,32366774,,jos.rojas1074@demoempresa.com,971098100,Av. Demo 245,San Isidro,Colombia,2024-08-29,Inactivo,Pyme
+CLI01075,Juan,Flores,45410956,,juan.flores1075@demoempresa.com,932914336,Av. Demo 795,San Isidro,Ecuador,2023-12-23,Inactivo,Gobierno
+CLI01076,Juan,Lopez,43220287,,juan.lopez1076@demoempresa.com,916063489,Av. Demo 938,San Isidro,Ecuador,2025-10-24,Activo,Corporativo
+CLI01077,Raúl,Herrera,32455261,,ral.herrera1077@demoempresa.com,922604400,Av. Demo 202,San Juan de Miraflores,,2023-11-19,Inactivo,Premium
+CLI01078,Valeria,Medina,44539524,,valeria.medina1078@demoempresa.com,944029139,Av. Demo 473,S.J.M.,Perú,2023-12-24,Activo,
+CLI01079,José,Herrera,99112118,,,,Av. Demo 963,Miraflores ,Perú,2023-07-07,Bloqueado,
+CLI01080,Juan,Torres,46562845,,juan.torres1080@demoempresa.com,929009676,Av. Demo 465,Miraflores ,Perú,2023-05-16,Bloqueado,
+CLI01081,Camila,Chávez,37690126,,camila.chvez1081@demoempresa.com,936017047,Av. Demo 486,La Molina,PE,2025-07-07,Bloqueado,Premium
+CLI01082,Raúl,Flores,45609215,,ral.flores1082@demoempresa.com,956821190,Av. Demo 439,Independencia,Ecuador,2024-05-04,Activo,Pyme
+CLI01083,Pedro,García,555341,,pedro.garca1083@demoempresa.com,992190565,Av. Demo 225,,,2024-07-20,Bloqueado,Pyme
+CLI01084,Sofía,Ramírez,11118688,,sofa.ramrez1084@demoempresa.com,929747600,Av. Demo 577,San Borja,Ecuador,2023-08-17,Bloqueado,Gobierno
+CLI01085,Lucía,Quispe,75340518,,luca.quispe1085@demoempresa.com,949557552,Av. Demo 115,S.J.M.,Perú,2023-03-22,Activo,Gobierno
+CLI01086,Ana,García,75547434,,ana.garca1086@demoempresa.com,967756952,Av. Demo 460,San Isidro,Perú,2023-05-30,Activo,Pyme
+CLI01087,Sofía,Herrera,99298543,,sofa.herrera1087@demoempresa.com,985262472,Av. Demo 258,Surco,Colombia,2023-07-09,Activo,
+CLI01088,Pedro,Sánchez,88547547,,pedro.snchez1088@demoempresa.com,949030787,Av. Demo 324,Miraflores,PERU,2023-12-28,Activo,
+CLI01089,Jorge,Sánchez,63568120,,jorge.snchez1089@demoempresa.com,923171952,Av. Demo 367,San Juan de Miraflores,Ecuador,2023-09-29,Activo,Gobierno
+CLI01090,Camila,Silva,87600317,20924269032,camila.silva1090@demoempresa.com,936777331,Av. Demo 356,San Borja,PERU,2025-02-09,Activo,Pyme
+CLI01091,Sofía,Rojas,49907513,,sofa.rojas1091@demoempresa.com,994331525,Av. Demo 572,Lince,PERU,2024-06-13,Activo,Corporativo
+CLI01092,Raúl,Díaz,52045107,,ral.daz1092@demoempresa.com,,Av. Demo 801,Callao,PERU,2023-12-27,Inactivo,Premium
+CLI01093,Camila,Sánchez,71912488,20700124081,camila.snchez1093@demoempresa.com,913546316,Av. Demo 885,,Perú,2022-10-15,Bloqueado,Pyme
+CLI01094,Rosa,Herrera,60078131,20683331234,rosa.herrera1094@demoempresa.com,985910137,Av. Demo 998,San Juan de Miraflores,Perú,2024-03-15,Activo,Premium
+CLI01095,Juan,Díaz,79525894,,juan.daz1095@demoempresa.com,917294228,Av. Demo 186,Miraflores,PE,2025-08-23,Activo,Pyme
+CLI01096,Gabriela,Ramírez,49000574,,gabriela.ramrez1096@demoempresa.com,954467352,Av. Demo 985,Miraflores,Perú,2025-04-12,Bloqueado,
+CLI01097,María,Castillo,79291785,20895024339,mara.castillo1097@demoempresa.com,976478665,Av. Demo 239,Los Olivos,Colombia,2025-08-03,Activo,Pyme
+CLI01098,Sofía,Pérez,75089577,,sofa.prez1098@demoempresa.com,936937481,Av. Demo 217,Surco,Perú,2022-11-10,Bloqueado,Retail
+CLI01099,Raúl,Ramírez,43179439,,ral.ramrez1099@demoempresa.com,973584629,Av. Demo 125,S.J.M.,PERU,2022-04-24,Activo,Pyme
+CLI01100,Jorge,Lopez,34701959,,jorge.lopez1100@demoempresa.com,983379415,Av. Demo 366,S.J.M.,,2025-09-09,Bloqueado,Retail
+CLI01101,Camila,Torres,95388938,20252134379,camila.torres1101@demoempresa.com,998243507,Av. Demo 346,Lince,Ecuador,2025-12-03,Bloqueado,Corporativo
+CLI01102,Elena,Lopez,48927998,,elena.lopez1102_at_demoempresa.com,923424414,Av. Demo 702,Miraflores ,PE,2025-09-29,Activo,Premium
+CLI01103,Jorge,Ramírez,72272153,,jorge.ramrez1103@demoempresa.com,967020114,Av. Demo 251,San Isidro,PE,2024-07-25,Activo,Gobierno
+CLI01104,Jorge,Pérez,87918501,,jorge.prez1104@demoempresa.com,996585062,Av. Demo 766,S.J.M.,Perú,2023-12-28,Activo,Premium
+CLI01105,Diego,Mendoza,11224073,,diego.mendoza1105@demoempresa.com,,Av. Demo 466,Jesus Maria,PE,2025-12-17,Bloqueado,Premium
+CLI01106,Raúl,Rojas,33420574,,ral.rojas1106@demoempresa.com,957226789,Av. Demo 771,Ate,PERU,2026-01-04,Activo,Pyme
+CLI01107,Sofía,Romero,19155005,,sofa.romero1107@demoempresa.com,996588420,Av. Demo 595,Independencia,PERU,2025-05-25,Activo,Gobierno
+CLI01108,Raúl,Herrera,44792727,20447974614,ral.herrera1108@demoempresa.com,989034390,Av. Demo 694,Callao,Ecuador,2025-06-18,Inactivo,Retail
+CLI01109,María,Pérez,31364734,,mara.prez1109@demoempresa.com,999289816,Av. Demo 208,Miraflores ,Colombia,2024-09-02,Activo,Corporativo
+CLI01110,Rosa,Ramírez,33353610,,rosa.ramrez1110@demoempresa.com,961550809,Av. Demo 873,,Perú,2022-05-07,Bloqueado,Pyme
+CLI01111,Ana,García,19782015,,ana.garca1111@demoempresa.com,960240663,Av. Demo 721,San Isidro,Peru,2023-10-20,Activo,
+CLI01112,Diego,Romero,27880034,,diego.romero1112@demoempresa.com,987011402,Av. Demo 669,Jesus Maria,Peru,2023-06-02,Inactivo,Premium
+CLI01113,Sofía,Vargas,37003632,,sofa.vargas1113@demoempresa.com,968258950,Av. Demo 933,Jesus Maria,Perú,2025-04-07,Activo,
+CLI01114,Ana,Castillo,14461288,,ana.castillo1114@demoempresa.com,910702802,Av. Demo 468,,Ecuador,2025-01-24,Activo,Pyme
+CLI01115,Lucía,Herrera,76595544,,luca.herrera1115@demoempresa.com,937846793,Av. Demo 684,Miraflores ,Ecuador,2023-12-23,Activo,Gobierno
+CLI01116,Patricia,Torres,19013348,,patricia.torres1116@demoempresa.com,993949256,Av. Demo 485,Surco,Ecuador,2022-06-10,Activo,Gobierno
+CLI01117,Sofía,Ramírez,25827960,,sofa.ramrez1117@demoempresa.com,916909395,Av. Demo 715,Ate,Perú,2023-04-04,Activo,Pyme
+CLI01118,Jorge,Chávez,19120472,,jorge.chvez1118@demoempresa.com,,Av. Demo 261,San Juan de Miraflores,Perú,2024-12-30,Bloqueado,Corporativo
+CLI01119,Raúl,Herrera,51908052,,ral.herrera1119@demoempresa.com,917603192,Av. Demo 659,La Molina,Ecuador,2024-08-22,Activo,
+CLI01120,Juan,García,22716400,,juan.garca1120@demoempresa.com,954901365,Av. Demo 883,Miraflores,Peru,2023-02-23,Bloqueado,
+CLI01121,José,García,41624005,,jos.garca1121@demoempresa.com,985679497,Av. Demo 724,Miraflores,PE,2022-05-25,Inactivo,Gobierno
+CLI01122,Gabriela,Rojas,84011044,,gabriela.rojas1122@demoempresa.com,927376441,Av. Demo 377,Miraflores,Perú,2022-03-14,Inactivo,Gobierno
+CLI01123,Rosa,Chávez,67917038,,rosa.chvez1123@demoempresa.com,940568777,Av. Demo 121,Miraflores,Perú,2023-02-06,Bloqueado,Gobierno
+CLI01124,Jorge,Pérez,84154752,,jorge.prez1124@demoempresa.com,961959009,Av. Demo 884,Independencia,Colombia,2022-09-14,Inactivo,
+CLI01125,Camila,Medina,28491234,20226693542,camila.medina1125@demoempresa.com,992631573,Av. Demo 476,Callao,Peru,2023-12-04,Inactivo,Retail
+CLI01126,Rosa,Vargas,22346797,,rosa.vargas1126@demoempresa.com,940484320,Av. Demo 522,Miraflores,,2022-01-31,Activo,Retail
+CLI01127,Carlos,García,27007519,,carlos.garca1127@demoempresa.com,947929390,Av. Demo 144,Ate,PE,2025-05-18,Activo,Pyme
+CLI01128,Luis,Romero,74250209,,luis.romero1128@demoempresa.com,998126056,Av. Demo 178,Surco,PE,2025-01-18,Activo,Premium
+CLI01129,Valeria,Vargas,69531177,,valeria.vargas1129@demoempresa.com,959248998,Av. Demo 898,San Juan de Miraflores,,2025-08-31,Activo,Gobierno
+CLI01130,Miguel,Silva,82668051,,miguel.silva1130@demoempresa.com,917247426,Av. Demo 454,,Colombia,2025-06-27,Inactivo,Pyme
+CLI01131,Carlos,Castillo,28405476,,carlos.castillo1131_at_demoempresa.com,,Av. Demo 633,Los Olivos,PE,2025-02-06,Activo,Retail
+CLI01132,Valeria,Torres,14814077,,valeria.torres1132@demoempresa.com,969093033,Av. Demo 765,S.J.M.,Perú,2022-02-13,Inactivo,Retail
+CLI01133,Miguel,Mendoza,88952257,,miguel.mendoza1133@demoempresa.com,921340498,Av. Demo 161,Comas,,2025-06-02,Inactivo,Premium
+CLI01134,Juan,Romero,61628627,,juan.romero1134@demoempresa.com,940124961,Av. Demo 310,Independencia,Peru,2025-09-13,Inactivo,Gobierno
+CLI01135,María,Quispe,14201833,,mara.quispe1135@demoempresa.com,956681534,Av. Demo 126,Ate,,2023-06-22,Bloqueado,Corporativo
+CLI01136,Juan,Silva,93420414,,juan.silva1136@demoempresa.com,967384680,Av. Demo 901,Miraflores,,2022-08-12,Bloqueado,Premium
+CLI01137,Sofía,Medina,72210257,,sofa.medina1137@demoempresa.com,986276344,Av. Demo 887,Comas,Peru,2024-02-20,Inactivo,
+CLI01138,Rosa,Torres,12037883,,rosa.torres1138@demoempresa.com,946828381,Av. Demo 187,Los Olivos,,2025-01-16,Activo,Pyme
+CLI01139,Fernando,Romero,15181637,,fernando.romero1139@demoempresa.com,958545863,Av. Demo 375,Comas,,2025-08-30,Bloqueado,Retail
+CLI01140,Ana,Quispe,702874,,ana.quispe1140@demoempresa.com,945502943,Av. Demo 967,Lince,PERU,2024-08-05,Activo,Premium
+CLI01141,Juan,Díaz,14966560,,juan.daz1141@demoempresa.com,974452414,Av. Demo 753,Jesus Maria,PERU,2022-04-30,Bloqueado,Retail
+CLI01142,Miguel,Medina,52147927,,miguel.medina1142@demoempresa.com,969114791,Av. Demo 284,Comas,,2023-07-20,Activo,Premium
+CLI01143,Luis,Vargas,94602558,,luis.vargas1143@demoempresa.com,992939751,Av. Demo 771,Miraflores,Peru,2022-08-23,Activo,Corporativo
+CLI01144,Raúl,Díaz,87831614,,ral.daz1144@demoempresa.com,,Av. Demo 666,Los Olivos,Perú,2026-01-03,Activo,Pyme
+CLI01145,Juan,Chávez,82536810,,juan.chvez1145@demoempresa.com,990608327,Av. Demo 340,Callao,Perú,2022-06-08,Bloqueado,Premium
+CLI01146,Ana,Herrera,20395193,,ana.herrera1146@demoempresa.com,953726665,Av. Demo 684,Callao,,2025-10-26,Inactivo,Retail
+CLI01147,Camila,Quispe,29203803,20751725570,camila.quispe1147@demoempresa.com,958356895,Av. Demo 443,,Colombia,2024-02-07,Inactivo,Pyme
+CLI01148,Gabriela,Pérez,31516822,,gabriela.prez1148@demoempresa.com,949040263,Av. Demo 253,San Isidro,Perú,2025-06-01,Activo,Pyme
+CLI01149,Raúl,Herrera,88045796,,ral.herrera1149@demoempresa.com,938839191,Av. Demo 487,Miraflores,Colombia,2026-01-27,Activo,Premium
+CLI01150,Carlos,Rojas,40142752,,carlos.rojas1150@demoempresa.com,987099930,Av. Demo 745,,Ecuador,2022-09-06,Bloqueado,Retail
+CLI01151,Gabriela,Lopez,98476025,,gabriela.lopez1151@demoempresa.com,969192355,Av. Demo 424,Comas,Peru,2025-03-24,Activo,Corporativo
+CLI01152,José,Vargas,58582114,,jos.vargas1152@demoempresa.com,952253938,Av. Demo 866,La Molina,Colombia,2023-05-09,Inactivo,
+CLI01153,Camila,Chávez,20695820,,camila.chvez1153@demoempresa.com,977866314,Av. Demo 178,Callao,Colombia,2024-09-18,Bloqueado,Corporativo
+CLI01154,Diego,Sánchez,40838308,,diego.snchez1154@demoempresa.com,926814965,Av. Demo 650,Los Olivos,,2024-04-14,Bloqueado,
+CLI01155,Luis,Mendoza,48505078,,luis.mendoza1155@demoempresa.com,925832863,Av. Demo 183,,PERU,2024-10-31,Activo,Gobierno
+CLI01156,Elena,Castillo,34147877,,elena.castillo1156@demoempresa.com,912082019,Av. Demo 270,La Molina,PERU,2023-06-24,Bloqueado,
+CLI01157,Elena,Ramírez,26964845,,elena.ramrez1157@demoempresa.com,,Av. Demo 953,,Perú,2025-11-14,Activo,Retail
+CLI01158,Luis,Herrera,81042742,,luis.herrera1158@demoempresa.com,966688023,Av. Demo 462,San Borja,PERU,2025-11-28,Bloqueado,Corporativo
+CLI01159,Sofía,Ramírez,55205643,,sofa.ramrez1159@demoempresa.com,955183120,Av. Demo 705,La Molina,Colombia,2022-04-03,Activo,
+CLI01160,Valeria,Díaz,69716190,,valeria.daz1160_at_demoempresa.com,968477341,Av. Demo 396,Miraflores ,Colombia,2022-10-03,Activo,
+CLI01161,Fernando,Herrera,21246035,,fernando.herrera1161@demoempresa.com,911044716,Av. Demo 707,Callao,Colombia,2025-08-22,Inactivo,Premium
+CLI01162,José,Díaz,33719260,,,988930879,Av. Demo 386,La Molina,Peru,2023-09-01,Inactivo,Pyme
+CLI01163,María,Herrera,80490297,,mara.herrera1163@demoempresa.com,967269299,Av. Demo 392,Ate,PERU,2023-10-15,Activo,Corporativo
+CLI01164,María,Castillo,67785785,,mara.castillo1164@demoempresa.com,987193691,Av. Demo 730,Ate,Perú,2023-12-13,Activo,Corporativo
+CLI01165,Ana,Quispe,46755323,,ana.quispe1165@demoempresa.com,940015561,Av. Demo 273,San Juan de Miraflores,PE,2025-05-26,Activo,Corporativo
+CLI01166,Miguel,Torres,22881682,,miguel.torres1166@demoempresa.com,978276312,Av. Demo 872,Lince,Perú,2025-05-10,Activo,Gobierno
+CLI01167,Patricia,Castillo,10894575,,patricia.castillo1167@demoempresa.com,913459771,Av. Demo 478,Jesus Maria,PE,2025-03-15,Inactivo,
+CLI01168,Diego,Herrera,26935418,,diego.herrera1168@demoempresa.com,949586388,Av. Demo 212,La Molina,PERU,2024-06-04,Inactivo,Pyme
+CLI01169,Carlos,Torres,47373355,,carlos.torres1169@demoempresa.com,925631350,Av. Demo 462,Surco,Colombia,2023-04-01,Activo,Pyme
+CLI01170,Lucía,Herrera,55008192,,luca.herrera1170@demoempresa.com,,Av. Demo 745,Surco,Colombia,2025-11-09,Activo,Retail
+CLI01171,Camila,Ramírez,79967272,,camila.ramrez1171@demoempresa.com,984916347,Av. Demo 776,Miraflores,Colombia,2025-07-08,Activo,Corporativo
+CLI01172,Luis,Romero,39556025,,luis.romero1172@demoempresa.com,945606090,Av. Demo 581,San Borja,PERU,2023-01-19,Inactivo,Pyme
+CLI01173,Luis,Castillo,95197752,,luis.castillo1173@demoempresa.com,979297448,Av. Demo 977,Jesus Maria,Perú,2024-06-08,Activo,Premium
+CLI01174,Patricia,Castillo,33906194,20838714681,patricia.castillo1174@demoempresa.com,945309169,Av. Demo 728,Independencia,Colombia,2025-04-10,Activo,
+CLI01175,Valeria,Lopez,81197288,,valeria.lopez1175@demoempresa.com,934167825,Av. Demo 998,San Juan de Miraflores,,2023-04-20,Activo,
+CLI01176,Elena,Lopez,94560859,,elena.lopez1176@demoempresa.com,957932891,Av. Demo 656,Miraflores ,PE,2022-07-17,Activo,Retail
+CLI01177,Sofía,Sánchez,70018532,,sofa.snchez1177@demoempresa.com,998908264,Av. Demo 535,La Molina,Peru,2024-08-09,Activo,
+CLI01178,Ana,Chávez,63430642,,ana.chvez1178@demoempresa.com,974926313,Av. Demo 960,Miraflores ,Ecuador,2024-04-23,Activo,Retail
+CLI01179,Sofía,Mendoza,78113806,,sofa.mendoza1179@demoempresa.com,964895832,Av. Demo 162,Ate,PE,2025-10-14,Activo,Premium
+CLI01180,Jorge,Díaz,67069281,,jorge.daz1180@demoempresa.com,917332766,Av. Demo 374,Miraflores ,Colombia,2023-03-25,Activo,
+CLI01181,María,Quispe,70080733,,mara.quispe1181@demoempresa.com,986840413,Av. Demo 996,Lince,Ecuador,2023-02-27,Activo,Gobierno
+CLI01182,Gabriela,Silva,27342988,,gabriela.silva1182@demoempresa.com,912673605,Av. Demo 839,San Isidro,,2024-02-16,Activo,
+CLI01183,José,Chávez,84208202,20152844427,jos.chvez1183@demoempresa.com,,Av. Demo 631,Jesus Maria,PE,2025-01-01,Activo,Corporativo
+CLI01184,Patricia,Romero,40780751,,patricia.romero1184@demoempresa.com,931663301,Av. Demo 482,Ate,PERU,2023-03-18,Bloqueado,
+CLI01185,Rosa,Pérez,14841900,,rosa.prez1185@demoempresa.com,980673067,Av. Demo 204,Independencia,,2024-09-20,Activo,Corporativo
+CLI01186,Sofía,Quispe,13254023,,sofa.quispe1186@demoempresa.com,943193217,Av. Demo 134,Comas,Colombia,2022-09-11,Inactivo,
+CLI01187,Jorge,Torres,46238606,,jorge.torres1187@demoempresa.com,920271291,Av. Demo 175,,Perú,2022-01-31,Bloqueado,Gobierno
+CLI01188,Luis,Ramírez,88946302,,luis.ramrez1188@demoempresa.com,936076367,Av. Demo 951,San Juan de Miraflores,,2023-10-25,Inactivo,Gobierno
+CLI01189,Juan,Quispe,46782333,,juan.quispe1189_at_demoempresa.com,923378718,Av. Demo 370,Miraflores ,PERU,2023-08-20,Inactivo,Retail
+CLI01190,Rosa,Sánchez,85295643,,rosa.snchez1190@demoempresa.com,948174606,Av. Demo 819,Los Olivos,PERU,2022-02-05,Inactivo,
+CLI01191,Jorge,Chávez,83360915,,jorge.chvez1191@demoempresa.com,970702699,Av. Demo 329,San Isidro,PERU,2023-04-21,Inactivo,Pyme
+CLI01192,Elena,Ramírez,96277647,,elena.ramrez1192@demoempresa.com,929296651,Av. Demo 929,Surco,Perú,2025-02-22,Activo,Corporativo
+CLI01193,Elena,Vargas,21259361,20761949453,elena.vargas1193@demoempresa.com,973554061,Av. Demo 635,Los Olivos,Perú,2024-10-07,Activo,Premium
+CLI01194,Sofía,Silva,30214797,20839805543,sofa.silva1194@demoempresa.com,985874940,Av. Demo 713,,,2022-01-12,Activo,
+CLI01195,Pedro,Medina,75595812,,pedro.medina1195@demoempresa.com,952012319,Av. Demo 767,Los Olivos,PE,2024-08-02,Inactivo,Gobierno
+CLI01196,Patricia,Rojas,24098750,,patricia.rojas1196@demoempresa.com,,Av. Demo 179,Independencia,Peru,2022-01-28,Activo,Gobierno
+CLI01197,Ana,Flores,468858,,ana.flores1197@demoempresa.com,925255803,Av. Demo 139,,PERU,2022-12-16,Bloqueado,Premium
+CLI01198,Luis,Medina,66122786,,luis.medina1198@demoempresa.com,949829248,Av. Demo 220,,PE,2026-01-14,Activo,Gobierno
+CLI01199,José,Chávez,85673348,,jos.chvez1199@demoempresa.com,928994170,Av. Demo 397,Jesus Maria,,2025-06-11,Activo,Gobierno
+CLI01200,Gabriela,Mendoza,56187078,,gabriela.mendoza1200@demoempresa.com,954315629,Av. Demo 864,San Borja,Peru,2024-12-09,Inactivo,Retail
+CLI01201,F.,Pérez,44834491,,fernando.prez651@demoempresa.com,917853132,Calle Alterna 27,Ate,PERU,2025-11-20,Activo,Pyme
+CLI01202,E.,Sánchez,81659221,,elena.snchez368@demoempresa.com,966691738,Calle Alterna 10,San Isidro,Ecuador,2022-08-07,Activo,Premium
+CLI01203,L.,Pérez,31475246,,luca.prez964@demoempresa.com,989472028,Calle Alterna 5,San Isidro,,2024-11-16,Inactivo,Gobierno
+CLI01204,C.,Lopez,24165187,,camila.lopez12@demoempresa.com,958612055,Calle Alterna 20,S.J.M.,Colombia,2022-11-10,Inactivo,Corporativo
+CLI01205,J.,Pérez,62278055,,jos.prez385@demoempresa.com,981784254,Calle Alterna 13,Surco,,2025-04-14,Activo,
+CLI01206,L.,Medina,75540707,,luis.medina193@demoempresa.com,982764376,Calle Alterna 35,Miraflores,Ecuador,2022-03-11,Activo,
+CLI01207,M.,Castillo,10299883,,miguel.castillo940@demoempresa.com,986348673,Calle Alterna 22,Jesus Maria,PE,2025-08-09,Bloqueado,Retail
+CLI01208,M.,Pérez,65350347,20777210736,mara.prez194@demoempresa.com,941062464,Calle Alterna 4,San Borja,Perú,2023-03-24,Bloqueado,Premium
+CLI01209,L.,García,80381817,,luis.garca960@demoempresa.com,943893399,Calle Alterna 39,Callao,PE,2024-07-07,Activo,Premium
+CLI01210,P.,Vargas,96889858,,pedro.vargas321@demoempresa.com,937746963,Calle Alterna 5,,Ecuador,2022-02-11,Activo,Premium

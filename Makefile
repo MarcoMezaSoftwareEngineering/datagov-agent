@@ -1,12 +1,13 @@
 # DataGov Agent - Makefile
 # En Windows sin `make`, usa los comandos equivalentes del README.
 
-.PHONY: help install data test lint format api ui milvus-up milvus-down clean
+.PHONY: help install data validate test lint format api ui milvus-up milvus-down clean
 
 help:
 	@echo "Targets disponibles:"
 	@echo "  install      Instala dependencias en el entorno activo"
 	@echo "  data         Genera los datasets sinteticos"
+	@echo "  validate     Valida detecciones vs known_issues_expected.json"
 	@echo "  test         Ejecuta la suite de pruebas (sin Ollama ni Docker)"
 	@echo "  lint         Ejecuta ruff"
 	@echo "  format       Aplica black + ruff --fix"
@@ -20,6 +21,9 @@ install:
 
 data:
 	python data/synthetic/generate_synthetic_data.py
+
+validate:
+	python scripts/validate_dataset.py
 
 test:
 	pytest

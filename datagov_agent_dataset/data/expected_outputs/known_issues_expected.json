@@ -1,0 +1,41 @@
+{
+  "clientes": {
+    "rows": 1210,
+    "duplicate_dni_records": 78,
+    "invalid_dni_records": 22,
+    "invalid_email_records": 41,
+    "missing_telefono_records": 92,
+    "missing_segmento_records": 213,
+    "possible_sensitive_fields": [
+      "dni",
+      "ruc",
+      "correo",
+      "telefono",
+      "direccion"
+    ]
+  },
+  "productos": {
+    "rows": 350,
+    "duplicate_sku_records": 14,
+    "negative_price_records": 8,
+    "future_fecha_alta_records": 5,
+    "missing_moneda_records": 52,
+    "invalid_proveedor_reference_records": 4
+  },
+  "proveedores": {
+    "rows": 100,
+    "duplicate_ruc_records": 8,
+    "invalid_ruc_records": 3,
+    "missing_correo_records": 5
+  },
+  "ventas": {
+    "rows": 5000,
+    "invalid_cliente_reference_records": 49,
+    "invalid_producto_reference_records": 36,
+    "zero_quantity_records": 56,
+    "future_fecha_venta_records": 23,
+    "total_mismatch_records": 68,
+    "missing_canal_records": 830,
+    "invalid_sucursal_reference_records": 449
+  }
+}

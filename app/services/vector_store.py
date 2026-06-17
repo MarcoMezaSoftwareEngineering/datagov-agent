@@ -128,6 +128,12 @@ class MilvusVectorStore(BaseVectorStore):
             row.update({k: v for k, v in (meta or {}).items() if k != "source"})
             rows.append(row)
         self.client.insert(collection_name=self.collection, data=rows)
+        # Flush para sellar el segmento y que los datos recién insertados sean
+        # inmediatamente buscables (Milvus usa consistencia "bounded" por defecto).
+        try:
+            self.client.flush(self.collection)
+        except Exception:  # pragma: no cover - dependiente de versión de pymilvus
+            pass
         return len(rows)
 
     def similarity_search(self, query: str, k: int | None = None) -> list[RetrievedChunk]:

@@ -1,0 +1,46 @@
+﻿tabla,campo,tipo_dato,descripcion_negocio,clasificacion,es_critico,data_owner_sugerido,data_steward_sugerido,regla_calidad_base,sistema_origen
+clientes,cliente_id,string,Campo cliente_id de la entidad clientes,Interno,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,CRM Demo
+clientes,nombre,string,Campo nombre de la entidad clientes,Personal,No,Gerencia Comercial,Analista de Datos,Completar cuando aplique,CRM Demo
+clientes,apellido,string,Campo apellido de la entidad clientes,Personal,No,Gerencia Comercial,Analista de Datos,Completar cuando aplique,CRM Demo
+clientes,dni,string,Campo dni de la entidad clientes,Personal,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,CRM Demo
+clientes,ruc,string,Campo ruc de la entidad clientes,Empresarial/tributario,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,CRM Demo
+clientes,correo,string,Campo correo de la entidad clientes,Personal,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,CRM Demo
+clientes,telefono,string,Campo telefono de la entidad clientes,Personal,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,CRM Demo
+clientes,direccion,string,Campo direccion de la entidad clientes,Personal,No,Gerencia Comercial,Analista de Datos,Completar cuando aplique,CRM Demo
+clientes,distrito,string,Campo distrito de la entidad clientes,Interno,No,Gerencia Comercial,Analista de Datos,Completar cuando aplique,CRM Demo
+clientes,pais,string,Campo pais de la entidad clientes,Interno,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,CRM Demo
+clientes,fecha_registro,date,Campo fecha_registro de la entidad clientes,Interno,No,Gerencia Comercial,Analista de Datos,Completar cuando aplique,CRM Demo
+clientes,estado_cliente,string,Campo estado_cliente de la entidad clientes,Interno,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,CRM Demo
+clientes,segmento,decimal,Campo segmento de la entidad clientes,Interno,No,Gerencia Comercial,Analista de Datos,Completar cuando aplique,CRM Demo
+productos,producto_id,string,Campo producto_id de la entidad productos,Interno,Sí,Gerencia de Operaciones,Analista de Datos,Obligatorio y válido,ERP Demo
+productos,sku,string,Campo sku de la entidad productos,Interno,Sí,Gerencia de Operaciones,Analista de Datos,Obligatorio y válido,ERP Demo
+productos,nombre_producto,string,Campo nombre_producto de la entidad productos,Interno,No,Gerencia de Operaciones,Analista de Datos,Completar cuando aplique,ERP Demo
+productos,categoria,string,Campo categoria de la entidad productos,Interno,No,Gerencia de Operaciones,Analista de Datos,Completar cuando aplique,ERP Demo
+productos,marca,string,Campo marca de la entidad productos,Interno,No,Gerencia de Operaciones,Analista de Datos,Completar cuando aplique,ERP Demo
+productos,precio,decimal,Campo precio de la entidad productos,Interno,Sí,Gerencia de Operaciones,Analista de Datos,Obligatorio y válido,ERP Demo
+productos,moneda,string,Campo moneda de la entidad productos,Interno,Sí,Gerencia de Operaciones,Analista de Datos,Obligatorio y válido,ERP Demo
+productos,estado_producto,string,Campo estado_producto de la entidad productos,Interno,No,Gerencia de Operaciones,Analista de Datos,Completar cuando aplique,ERP Demo
+productos,fecha_alta,date,Campo fecha_alta de la entidad productos,Interno,No,Gerencia de Operaciones,Analista de Datos,Completar cuando aplique,ERP Demo
+productos,proveedor_id,string,Campo proveedor_id de la entidad productos,Interno,Sí,Gerencia de Operaciones,Analista de Datos,Obligatorio y válido,ERP Demo
+proveedores,proveedor_id,string,Campo proveedor_id de la entidad proveedores,Interno,Sí,Gerencia de Operaciones,Analista de Datos,Obligatorio y válido,ERP Demo
+proveedores,ruc,string,Campo ruc de la entidad proveedores,Empresarial/tributario,Sí,Gerencia de Operaciones,Analista de Datos,Obligatorio y válido,ERP Demo
+proveedores,razon_social,string,Campo razon_social de la entidad proveedores,Interno,No,Gerencia de Operaciones,Analista de Datos,Completar cuando aplique,ERP Demo
+proveedores,correo,string,Campo correo de la entidad proveedores,Personal,Sí,Gerencia de Operaciones,Analista de Datos,Obligatorio y válido,ERP Demo
+proveedores,telefono,string,Campo telefono de la entidad proveedores,Personal,No,Gerencia de Operaciones,Analista de Datos,Completar cuando aplique,ERP Demo
+proveedores,pais,string,Campo pais de la entidad proveedores,Interno,Sí,Gerencia de Operaciones,Analista de Datos,Obligatorio y válido,ERP Demo
+proveedores,estado,string,Campo estado de la entidad proveedores,Interno,No,Gerencia de Operaciones,Analista de Datos,Completar cuando aplique,ERP Demo
+sucursales,sucursal_id,string,Campo sucursal_id de la entidad sucursales,Interno,Sí,Administración,Analista de Datos,Obligatorio y válido,Maestro Sucursales
+sucursales,nombre_sucursal,string,Campo nombre_sucursal de la entidad sucursales,Interno,Sí,Administración,Analista de Datos,Obligatorio y válido,Maestro Sucursales
+sucursales,ciudad,string,Campo ciudad de la entidad sucursales,Interno,No,Administración,Analista de Datos,Completar cuando aplique,Maestro Sucursales
+sucursales,region,string,Campo region de la entidad sucursales,Interno,No,Administración,Analista de Datos,Completar cuando aplique,Maestro Sucursales
+sucursales,estado,string,Campo estado de la entidad sucursales,Interno,Sí,Administración,Analista de Datos,Obligatorio y válido,Maestro Sucursales
+ventas,venta_id,string,Campo venta_id de la entidad ventas,Interno,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,ERP Demo
+ventas,cliente_id,string,Campo cliente_id de la entidad ventas,Interno,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,ERP Demo
+ventas,producto_id,string,Campo producto_id de la entidad ventas,Interno,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,ERP Demo
+ventas,fecha_venta,date,Campo fecha_venta de la entidad ventas,Interno,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,ERP Demo
+ventas,cantidad,decimal,Campo cantidad de la entidad ventas,Interno,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,ERP Demo
+ventas,precio_unitario,decimal,Campo precio_unitario de la entidad ventas,Interno,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,ERP Demo
+ventas,total,decimal,Campo total de la entidad ventas,Interno,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,ERP Demo
+ventas,canal,string,Campo canal de la entidad ventas,Interno,No,Gerencia Comercial,Analista de Datos,Completar cuando aplique,ERP Demo
+ventas,sucursal_id,string,Campo sucursal_id de la entidad ventas,Interno,Sí,Gerencia Comercial,Analista de Datos,Obligatorio y válido,ERP Demo
+ventas,vendedor,string,Campo vendedor de la entidad ventas,Interno,No,Gerencia Comercial,Analista de Datos,Completar cuando aplique,ERP Demo

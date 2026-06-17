@@ -1,0 +1,11 @@
+﻿regla_id,tabla,campo,dimension,regla,severidad
+DQ001,clientes,dni,Validez,Debe tener 8 dígitos numéricos,Alta
+DQ002,clientes,dni,Unicidad,No debe repetirse entre clientes activos,Alta
+DQ003,clientes,correo,Validez,Debe cumplir formato email,Media
+DQ004,clientes,pais,Consistencia,Debe normalizarse a catálogo ISO o nombre estándar,Media
+DQ005,productos,sku,Unicidad,SKU debe ser único,Alta
+DQ006,productos,precio,Validez,Precio debe ser mayor a cero,Alta
+DQ007,ventas,cliente_id,Integridad,Cliente debe existir en tabla clientes,Alta
+DQ008,ventas,producto_id,Integridad,Producto debe existir en tabla productos,Alta
+DQ009,ventas,total,Consistencia,Total debe ser cantidad * precio_unitario,Alta
+DQ010,proveedores,ruc,Validez,RUC debe tener 11 dígitos,Alta

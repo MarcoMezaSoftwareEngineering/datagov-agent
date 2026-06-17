@@ -58,10 +58,13 @@ py -3.11 -m venv .venv
 pip install -r requirements.txt
 ```
 
-### 2. Generar datasets sintéticos
-```bash
-python data/synthetic/generate_synthetic_data.py
-```
+### 2. Datos
+La **fuente canónica** es el paquete validado [`datagov_agent_dataset/`](datagov_agent_dataset/)
+(clientes 1210, productos 350, proveedores 100, sucursales 10, ventas 5000) con su diccionario de
+datos, documentos de gobierno y un **ground truth** de problemas esperados. La config ya apunta ahí.
+
+> El generador `python data/synthetic/generate_synthetic_data.py` sigue disponible como utilidad
+> para crear una muestra pequeña adicional.
 
 ### 3. (Opcional) Ollama para LLM/embeddings reales
 ```bash
@@ -85,12 +88,18 @@ streamlit run ui/streamlit_app.py             # UI en http://localhost:8501
 
 ---
 
-## 🧪 Pruebas
+## 🧪 Pruebas y validación
 ```bash
-pytest
+pytest                                # suite unitaria
+python scripts/validate_dataset.py    # detecciones vs ground truth del dataset
 ```
 La suite corre **sin Ollama ni Docker** (usa embeddings deterministas + vector store en memoria;
 el test de integración de Milvus se omite automáticamente si no está disponible).
+
+El script de validación compara las detecciones del motor de calidad contra
+`datagov_agent_dataset/data/expected_outputs/known_issues_expected.json` (**22/22 métricas exactas**:
+DNI/correos inválidos, faltantes, precios negativos, fechas futuras, integridad referencial de
+clientes/productos/**sucursales**, totales mal calculados, etc.).
 
 ---
 

@@ -34,6 +34,12 @@ ENTITY_CONFIG = {
         "name_fields": ["razon_social"],
         "email": "correo",
     },
+    "sucursal": {
+        "id": "sucursal_id",
+        "exact_key": "sucursal_id",
+        "name_fields": ["nombre_sucursal"],
+        "email": None,
+    },
 }
 
 NAME_SIMILARITY_THRESHOLD = 88  # rapidfuzz token_sort_ratio (0-100)

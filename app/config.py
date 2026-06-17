@@ -38,12 +38,15 @@ class Settings(BaseSettings):
     rag_top_k: int = 4
 
     # ----- Rutas -----
+    # Fuente canónica: el paquete de datos validado `datagov_agent_dataset/`.
     data_dir: str = "data"
-    raw_dir: str = "data/raw"
+    raw_dir: str = "datagov_agent_dataset/data/raw"
     processed_dir: str = "data/processed"
     synthetic_dir: str = "data/synthetic"
-    documents_dir: str = "data/documents"
+    documents_dir: str = "datagov_agent_dataset/data/documents"
     reports_dir: str = "data/processed/reports"
+    data_dictionary: str = "datagov_agent_dataset/data/raw/diccionario_datos.csv"
+    expected_outputs: str = "datagov_agent_dataset/data/expected_outputs/known_issues_expected.json"
 
     # ----- API -----
     api_host: str = "0.0.0.0"
@@ -74,6 +77,14 @@ class Settings(BaseSettings):
     @property
     def reports_path(self) -> Path:
         return self.path(self.reports_dir)
+
+    @property
+    def data_dictionary_path(self) -> Path:
+        return self.path(self.data_dictionary)
+
+    @property
+    def expected_outputs_path(self) -> Path:
+        return self.path(self.expected_outputs)
 
     def ensure_dirs(self) -> None:
         """Crea las carpetas de datos si no existen."""

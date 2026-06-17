@@ -12,6 +12,7 @@ from datetime import datetime
 import pandas as pd
 
 from app.schemas.quality_schema import QualityFinding, QualityReport
+from app.services.entities import FK_RELATIONS, unique_key_fields
 from app.utils.text_cleaning import normalize_country, normalize_text
 
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
@@ -41,13 +42,6 @@ DIMENSION_CAP = {
     "consistencia": 5,
     "conformidad": 6,
     "clasificacion": 8,
-}
-
-# Relaciones FK conocidas: columna -> (tabla_padre, columna_padre)
-FK_RELATIONS = {
-    "cliente_id": ("clientes", "cliente_id"),
-    "producto_id": ("productos", "producto_id"),
-    "proveedor_id": ("proveedores", "proveedor_id"),
 }
 
 
@@ -119,10 +113,9 @@ def _check_completeness(table: str, df: pd.DataFrame) -> list[QualityFinding]:
 
 def _check_uniqueness(table: str, df: pd.DataFrame) -> list[QualityFinding]:
     out = []
-    for col in df.columns:
-        n = col.lower()
-        if not (n.endswith("_id") or n in {"dni", "ruc", "sku"}):
-            continue
+    # Solo la PK de la tabla y las claves de negocio (dni/ruc/sku); NUNCA las FKs,
+    # que se repiten legítimamente y se validan por integridad referencial.
+    for col in unique_key_fields(table, df.columns):
         non_null = df[col][~_empty_mask(df[col])]
         dup = int(non_null.duplicated().sum())
         if dup > 0:

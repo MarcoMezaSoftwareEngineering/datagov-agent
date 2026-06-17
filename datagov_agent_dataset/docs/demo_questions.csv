@@ -1,0 +1,8 @@
+﻿tipo,pregunta
+data_quality,Analiza la calidad de la tabla clientes y prioriza los principales problemas.
+data_quality,¿Qué reglas de calidad recomiendas para ventas?
+mdm,Detecta posibles duplicados de clientes y sugiere golden record.
+metadata,Genera un glosario de negocio para clientes y ventas.
+rag,¿Quién aprueba cambios masivos en datos maestros?
+rag,¿Qué campos se consideran datos personales según la política?
+recommendation,Genera un plan de mejora de 90 días para gobierno de datos.

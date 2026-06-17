@@ -8,6 +8,7 @@ import numpy as np
 import pandas as pd
 
 from app.schemas.data_schema import ColumnProfile, TableProfile
+from app.services.entities import unique_key_fields
 
 # Patrones para detectar datos personales / sensibles
 SENSITIVE_NAME_HINTS = {
@@ -102,14 +103,13 @@ def _jsonable(value):
     return value
 
 
-def _key_candidates(df: pd.DataFrame) -> list[str]:
-    """Columnas candidatas a clave para medir duplicados (ids y campos de negocio típicos)."""
-    candidates = []
-    for col in df.columns:
-        n = col.lower()
-        if n.endswith("_id") or n in {"dni", "ruc", "sku"} or n == "id":
-            candidates.append(col)
-    return candidates
+def _key_candidates(table_name: str, df: pd.DataFrame) -> list[str]:
+    """Columnas clave para medir duplicados: PK de la tabla + claves de negocio.
+
+    Excluye las claves foráneas (que se repiten legítimamente) usando el modelo
+    de datos centralizado en ``app.services.entities``.
+    """
+    return unique_key_fields(table_name, df.columns)
 
 
 def profile_dataframe(table_name: str, df: pd.DataFrame) -> TableProfile:
@@ -121,7 +121,7 @@ def profile_dataframe(table_name: str, df: pd.DataFrame) -> TableProfile:
 
     # Duplicados por columnas clave
     duplicates: dict[str, int] = {}
-    for col in _key_candidates(df):
+    for col in _key_candidates(table_name, df):
         dup = int(df[col].dropna().duplicated().sum())
         if dup > 0:
             duplicates[col] = dup
