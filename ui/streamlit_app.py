@@ -55,6 +55,15 @@ def score_color(score: int) -> str:
     return "🟢" if score >= 80 else ("🟡" if score >= 65 else "🔴")
 
 
+def _fmt_cell(v):
+    """Convierte celdas con listas o tipos mixtos a texto (Streamlit/Arrow-safe)."""
+    if isinstance(v, list):
+        return ", ".join(map(str, v))
+    if v is None or (not isinstance(v, str) and pd.isna(v)):
+        return ""
+    return str(v)
+
+
 # --------------------------------------------------------------------------- sidebar / health
 
 
@@ -138,7 +147,13 @@ elif page == "🔎 Perfilamiento":
                     st.plotly_chart(px.bar(nulls_df, x="campo", y="nulos", color="nulos"), use_container_width=True)
 
                 st.subheader("Perfil por columna")
-                st.dataframe(pd.DataFrame(prof["column_profiles"]), use_container_width=True)
+                cp_df = pd.DataFrame(prof["column_profiles"])
+                # sample_values/min/max contienen valores de tipos mixtos (str y números);
+                # se convierten a texto para que Streamlit/Arrow puedan renderizarlos.
+                for c in ("sample_values", "min", "max"):
+                    if c in cp_df.columns:
+                        cp_df[c] = cp_df[c].apply(_fmt_cell)
+                st.dataframe(cp_df, use_container_width=True)
 
 
 elif page == "✅ Calidad":
