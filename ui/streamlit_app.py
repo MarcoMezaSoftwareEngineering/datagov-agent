@@ -214,12 +214,15 @@ elif page == "💬 Chat RAG":
             f"Milvus: {'✅' if rag_status.get('milvus_available') else '⚠️ no disponible'} · "
             f"Chunks indexados: {rag_status.get('indexed_chunks', 0)}"
         )
+    st.caption("Se indexan los documentos de gobierno del paquete (carpeta DOCUMENTS_DIR del .env).")
     col1, col2 = st.columns([1, 1])
     with col1:
-        if st.button("Indexar documentos de data/documents/"):
+        if st.button("Indexar documentos de gobierno (paquete)"):
             res = api_post("/rag/ingest-default", json={"reset": True})
             if not show_error(res):
-                st.success(f"Indexados {res['ingested_chunks']} chunks de {res['ingested_files']} documentos.")
+                st.success(
+                    f"Indexados {res['ingested_chunks']} chunks de {res['ingested_files']} documentos."
+                )
     with col2:
         docs = st.file_uploader("…o sube documentos", type=["pdf", "txt", "md", "docx"], accept_multiple_files=True)
         if st.button("Indexar subidos") and docs:
