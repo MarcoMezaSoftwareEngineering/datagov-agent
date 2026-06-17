@@ -110,7 +110,8 @@ clientes/productos/**sucursales**, totales mal calculados, etc.).
 - **RAG**: preguntas sobre políticas de gobierno con fuentes y nivel de confianza.
 - **Reporte ejecutivo**: resumen, KPIs, riesgos, recomendaciones y roadmap (MD/HTML/JSON/PDF).
 
-Guion completo en [docs/demo_script.md](docs/demo_script.md).
+**Manuales:** [Despliegue e Implementación](docs/MANUAL_DESPLIEGUE.md) ·
+[Demostración y Casos de Uso](docs/MANUAL_DEMO.md) · [Guion corto](docs/demo_script.md).
 
 ---
 

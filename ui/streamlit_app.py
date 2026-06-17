@@ -14,6 +14,10 @@ import pandas as pd
 import plotly.express as px
 import requests
 import streamlit as st
+from dotenv import load_dotenv
+
+# Carga .env si existe, para que API_BASE_URL (p. ej. puerto alternativo) se respete.
+load_dotenv()
 
 API = os.getenv("API_BASE_URL", "http://localhost:8000")
 TIMEOUT = 180
@@ -59,7 +63,12 @@ st.sidebar.caption("Gobierno, calidad, MDM y catalogación de datos — local")
 
 health = api_get("/health")
 if "_error" in health:
-    st.sidebar.error("API no disponible. Ejecuta:\n`uvicorn app.main:app --reload`")
+    st.sidebar.error(
+        f"API no disponible en {API}\n\n"
+        "Levanta el backend (usa otro puerto si el 8000 está ocupado):\n"
+        "`uvicorn app.main:app --reload --port 8001`\n\n"
+        "y define `API_BASE_URL=http://localhost:8001` en `.env`."
+    )
 else:
     st.sidebar.success("API conectada")
     st.sidebar.write(f"🤖 Ollama: {'✅' if health.get('ollama_available') else '⚠️ no'}")
