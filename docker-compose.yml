@@ -1,6 +1,6 @@
 # Milvus standalone (etcd + minio + milvus) para el RAG de DataGov Agent.
 # Uso:  docker compose up -d
-# Milvus quedará disponible en localhost:19530
+# Milvus quedará disponible en localhost:19533
 # Basado en el docker-compose oficial de Milvus standalone.
 
 services:
@@ -28,8 +28,8 @@ services:
       MINIO_ACCESS_KEY: minioadmin
       MINIO_SECRET_KEY: minioadmin
     ports:
-      - "9001:9001"
-      - "9000:9000"
+      - "9011:9001"
+      - "9010:9000"
     volumes:
       - ./volumes/minio:/minio_data
     command: minio server /minio_data --console-address ":9001"
@@ -57,8 +57,8 @@ services:
       timeout: 20s
       retries: 3
     ports:
-      - "19530:19530"
-      - "9091:9091"
+      - "19533:19530"
+      - "9093:9091"
     depends_on:
       - etcd
       - minio

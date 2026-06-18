@@ -28,7 +28,7 @@ class Settings(BaseSettings):
     llm_timeout: int = 120
 
     # ----- Milvus -----
-    milvus_uri: str = "http://localhost:19530"
+    milvus_uri: str = "http://localhost:19533"
     milvus_collection: str = "datagov_docs"
     embed_dim: int = 768
 
@@ -50,8 +50,8 @@ class Settings(BaseSettings):
 
     # ----- API -----
     api_host: str = "0.0.0.0"
-    api_port: int = 8000
-    api_base_url: str = "http://localhost:8000"
+    api_port: int = 8010
+    api_base_url: str = "http://localhost:8010"
 
     # ---- Helpers de rutas absolutas ----
     def path(self, relative: str) -> Path:

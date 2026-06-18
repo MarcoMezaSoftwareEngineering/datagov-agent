@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 # Carga .env si existe, para que API_BASE_URL (p. ej. puerto alternativo) se respete.
 load_dotenv()
 
-API = os.getenv("API_BASE_URL", "http://localhost:8000")
+API = os.getenv("API_BASE_URL", "http://localhost:8010")
 TIMEOUT = 180
 
 st.set_page_config(page_title="DataGov Agent", page_icon="🧭", layout="wide")
@@ -74,9 +74,9 @@ health = api_get("/health")
 if "_error" in health:
     st.sidebar.error(
         f"API no disponible en {API}\n\n"
-        "Levanta el backend (usa otro puerto si el 8000 está ocupado):\n"
-        "`uvicorn app.main:app --reload --port 8001`\n\n"
-        "y define `API_BASE_URL=http://localhost:8001` en `.env`."
+        "Levanta el backend (puerto dedicado de DataGov):\n"
+        "`uvicorn app.main:app --reload --port 8010`\n\n"
+        "La UI usa `API_BASE_URL=http://localhost:8010` desde `.env`."
     )
 else:
     st.sidebar.success("API conectada")

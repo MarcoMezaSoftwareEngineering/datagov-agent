@@ -63,16 +63,17 @@ Variables clave:
 | `LLM_MODEL` | `llama3.1:8b` | Modelo de chat (Ollama) |
 | `EMBED_MODEL` | `nomic-embed-text` | Embeddings (RAG) |
 | `EMBED_DIM` | `768` | Dim del modelo de embeddings |
-| `MILVUS_URI` | `http://localhost:19530` | Conexión a Milvus |
-| `API_PORT` | `8000` | Puerto del backend |
-| `API_BASE_URL` | `http://localhost:8000` | URL que usa la UI para hablar con la API |
+| `MILVUS_URI` | `http://localhost:19533` | Conexión a Milvus |
+| `API_PORT` | `8010` | Puerto del backend |
+| `API_BASE_URL` | `http://localhost:8010` | URL que usa la UI para hablar con la API |
 | `RAW_DIR` | `datagov_agent_dataset/data/raw` | **Fuente canónica de datos** |
 
 > **Datos:** la fuente canónica es el paquete `datagov_agent_dataset/`. El script
 > `python data/synthetic/generate_synthetic_data.py` es **opcional** (muestra pequeña); no hace falta.
 >
-> **Si el puerto 8000 está ocupado por otro proyecto** (ver sección 8), cambia en `.env`:
-> `API_PORT=8001` y `API_BASE_URL=http://localhost:8001`.
+> **Puertos dedicados:** DataGov usa un bloque propio (**8010** API · **8510** UI · **19533** Milvus)
+> para no chocar con otros proyectos. Ya vienen configurados en `.env.example`. Si aun así algún
+> puerto estuviera ocupado, cámbialo en `.env` y al lanzar la UI/Milvus (ver sección 8).
 
 ## 4. Modelos de Ollama
 
@@ -117,19 +118,19 @@ docker compose up -d
 
 # 3. Backend — Terminal 1
 .\.venv\Scripts\Activate.ps1
-uvicorn app.main:app --reload --port 8001      # usa 8000 si está libre
+uvicorn app.main:app --reload --port 8010
 
 # 4. Interfaz — Terminal 2
 .\.venv\Scripts\Activate.ps1
-streamlit run ui/streamlit_app.py
+streamlit run ui/streamlit_app.py --server.port 8510
 ```
 
 URLs:
-- API: `http://localhost:8001` · Swagger: `http://localhost:8001/docs` · Salud: `/health`
-- UI: `http://localhost:8501`
+- API: `http://localhost:8010` · Swagger: `http://localhost:8010/docs` · Salud: `/health`
+- UI: `http://localhost:8510`
 
-> La UI lee `API_BASE_URL` desde `.env`. Si corres la API en 8001, asegúrate de tener
-> `API_BASE_URL=http://localhost:8001` en `.env` (así la UI apunta al backend correcto).
+> La UI lee `API_BASE_URL` desde `.env`; con el bloque dedicado ya viene
+> `API_BASE_URL=http://localhost:8010` (así la UI apunta al backend correcto).
 
 **Apagar al terminar:**
 ```powershell
@@ -141,36 +142,39 @@ docker compose down                 # detiene Milvus (conserva ./volumes)
 
 ## 8. Puertos y conflictos (IMPORTANTE)
 
-DataGov Agent usa: **8000** (API), **8501** (UI), **19530** (Milvus).
+DataGov Agent usa un **bloque de puertos dedicado** para no chocar con otros proyectos:
 
-Si al abrir la UI ves *"API no disponible"* o un **error 404 con HTML de Django** (`core.urls`,
-`api/v1/...`), significa que **otro proyecto ya ocupa el puerto 8000** (típico: un Django/Docker/WSL).
-Tu FastAPI no llegó a tomar el puerto y la UI está hablando con la app equivocada.
+| Servicio | Puerto |
+| -------- | ------ |
+| API (FastAPI) | **8010** |
+| UI (Streamlit) | **8510** |
+| Milvus (gRPC) | **19533** |
+| Milvus health · MinIO API/consola | 9093 · 9010 / 9011 |
 
-**Diagnóstico:**
+Si al abrir la UI ves **otra aplicación** (por ejemplo, el Streamlit de otro proyecto) o
+*"API no disponible"*, es que **otro proceso ya ocupa ese puerto**. Diagnóstico:
+
 ```powershell
-Get-NetTCPConnection -LocalPort 8000 -State Listen | ForEach-Object {
-  (Get-Process -Id $_.OwningProcess).ProcessName }
+netstat -ano | Select-String ":8510\s"                        # ¿quién usa el puerto de la UI?
+Get-CimInstance Win32_Process -Filter "name='python.exe'" |
+  Select-Object ProcessId, CommandLine                         # ver de qué proyecto es
 ```
 
-**Solución (recomendada): usa otro puerto, no toques el otro proyecto.**
+**Solución (recomendada): usa el bloque dedicado o un puerto libre; no toques el otro proyecto.**
 ```powershell
-# en .env:
-#   API_PORT=8001
-#   API_BASE_URL=http://localhost:8001
-uvicorn app.main:app --reload --port 8001
-streamlit run ui/streamlit_app.py
+uvicorn app.main:app --reload --port 8010
+streamlit run ui/streamlit_app.py --server.port 8510
 ```
 
-> Alternativa rápida sin tocar `.env` (solo esa terminal):
-> `$env:API_BASE_URL="http://localhost:8001"` antes de `streamlit run …`.
+> Para liberar un puerto ocupado por otro servidor de desarrollo:
+> `Stop-Process -Id <PID> -Force` (reversible: se reinicia relanzando ese proyecto).
 
 ---
 
 ## 9. Verificación rápida del sistema
 
 ```powershell
-curl http://localhost:8001/health          # ollama_available / milvus_available
+curl http://localhost:8010/health          # ollama_available / milvus_available
 pytest
 python scripts/validate_dataset.py
 ```
@@ -191,8 +195,8 @@ En Windows sin `make`, usa los comandos equivalentes de las secciones anteriores
 
 | Síntoma | Causa | Solución |
 | ------- | ----- | -------- |
-| UI: "API no disponible" + **HTML 404 de Django** | El 8000 lo ocupa otro proyecto | Corre la API en `--port 8001` y pon `API_BASE_URL=http://localhost:8001` en `.env` (sección 8) |
-| UI: "API no disponible" (sin HTML) | El backend no está arriba | Levanta `uvicorn app.main:app --reload --port 8001` |
+| UI muestra **otra app** (otro Streamlit) | Otro proyecto ocupa el puerto de la UI | Usa la UI en **8510** o cierra el otro servidor (sección 8) |
+| UI: "API no disponible" | El backend no está arriba | Levanta `uvicorn app.main:app --reload --port 8010` |
 | `/health` → `milvus_available: false` o RAG 503 | Milvus no corre | `docker compose up -d` y espera "healthy" |
 | Error al ingestar documentos / embeddings | Falta `nomic-embed-text` | `ollama pull nomic-embed-text` |
 | Narrativa vacía o genérica | LLM no disponible / modelo no descargado | Pulla el modelo o ajusta `LLM_MODEL` en `.env` |
@@ -209,8 +213,6 @@ En Windows sin `make`, usa los comandos equivalentes de las secciones anteriores
 py -3.11 -m venv .venv ; .\.venv\Scripts\Activate.ps1 ; pip install -r requirements.txt
 Copy-Item .env.example .env
 (Get-Content .env) -replace 'LLM_MODEL=.*','LLM_MODEL=qwen3:8b' | Set-Content .env
-(Get-Content .env) -replace 'API_PORT=.*','API_PORT=8001' | Set-Content .env
-(Get-Content .env) -replace 'API_BASE_URL=.*','API_BASE_URL=http://localhost:8001' | Set-Content .env
 ollama pull nomic-embed-text
 ```
 
@@ -218,6 +220,6 @@ ollama pull nomic-embed-text
 ```powershell
 docker compose up -d
 .\.venv\Scripts\Activate.ps1
-uvicorn app.main:app --reload --port 8001     # Terminal 1
-streamlit run ui/streamlit_app.py             # Terminal 2
+uvicorn app.main:app --reload --port 8010              # Terminal 1
+streamlit run ui/streamlit_app.py --server.port 8510   # Terminal 2
 ```

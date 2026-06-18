@@ -36,10 +36,10 @@ format:
 	ruff check --fix app tests
 
 api:
-	uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+	uvicorn app.main:app --reload --host 0.0.0.0 --port 8010
 
 ui:
-	streamlit run ui/streamlit_app.py
+	streamlit run ui/streamlit_app.py --server.port 8510
 
 milvus-up:
 	docker compose up -d

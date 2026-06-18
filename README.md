@@ -74,13 +74,13 @@ ollama pull nomic-embed-text
 
 ### 4. (Para RAG) Milvus vía Docker
 ```bash
-docker compose up -d            # Milvus en localhost:19530
+docker compose up -d            # Milvus en localhost:19533
 ```
 
 ### 5. Backend + Interfaz
 ```bash
-uvicorn app.main:app --reload                 # API en http://localhost:8000/docs
-streamlit run ui/streamlit_app.py             # UI en http://localhost:8501
+uvicorn app.main:app --reload --port 8010              # API en http://localhost:8010/docs
+streamlit run ui/streamlit_app.py --server.port 8510   # UI en http://localhost:8510
 ```
 
 > En Windows sin `make`, usa los comandos de arriba. Con `make`: `make data`, `make api`, `make ui`,

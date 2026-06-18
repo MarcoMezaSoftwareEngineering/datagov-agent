@@ -29,8 +29,8 @@ está disponible, el sistema **degrada** a una salida determinista.
 
 ## 1. Antes de empezar (checklist)
 
-- [ ] API: `http://localhost:8001/docs` muestra "DataGov Agent API".
-- [ ] UI: `http://localhost:8501` con **API conectada**, **Ollama ✅**, **Milvus ✅**.
+- [ ] API: `http://localhost:8010/docs` muestra "DataGov Agent API".
+- [ ] UI: `http://localhost:8510` con **API conectada**, **Ollama ✅**, **Milvus ✅**.
 - [ ] Modelos: `ollama list` muestra tu LLM (`qwen3:8b` o `llama3.1:8b`) y `nomic-embed-text`.
 - [ ] Calentamiento: haz 1 pasada (la primera respuesta del LLM y la 1ª búsqueda RAG son lentas).
 
@@ -278,7 +278,7 @@ con sucursal inexistente, 68 totales mal calculados, 22 DNI inválidos…). Cód
 
 ## 10. Checklist final antes de exponer
 
-- [ ] API `8001` (`/docs`) y UI `8501` en verde (Ollama + Milvus).
+- [ ] API `8010` (`/docs`) y UI `8510` en verde (Ollama + Milvus).
 - [ ] `pytest` → 25 verdes · `python scripts/validate_dataset.py` → 22/22.
 - [ ] 5 tablas cargadas; pasada por las 6 pantallas hecha.
 - [ ] Documentos RAG indexados y 2-3 preguntas probadas (incluida una "sin sustento").
